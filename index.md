@@ -2,11 +2,12 @@
 
 ## LD på 1 minut
 
-Länkade data handlar i huvudsak om tre principer:
+Länkade data handlar om komplettera den existerande webben av dokument med en *webb av data*.
+Följande tre principer är mer konkreta i hur det går till:
 
-* enhetlig informationsmodell - data som påståenden om ting (RDF)
-* addresserbarhet - låt varje ting ha en webbaddress där man kan hämta dess påståenden
-* länka ihop - förbind ting med varandra genom relationer av olika slag
+* enhetlig informationsmodell - data som påståenden om ting (andvänd *RDF*)
+* addresserbarhet - varje ting har en webbaddress där dess påståenden kan hämtas (använd *URI:er* och *HTTP*)
+* länka ihop - förbind ting med varandra genom *relationer* av olika slag
 
 Dessa principer innebär:
 
@@ -20,35 +21,39 @@ Webben av idag har stor spridning och är i många fall det gemensamma kitt som 
 
 * URI - ett enhetligt sätt att addressera olika informationsresurser (ofta webbsidor)
 * HTTP - ett protokoll som används för att hämta och skicka information
-* HTML - ett format för att presentera information och interagera
+* HTML - ett format för att presentera och interagera med information
 * Länkar - ett sätt att binda samman informationsresurser
 
 Webben är trots sina vida användningsområden i huvudsak ett presentationsmedium för människor. Det innebär att webben, och framförallt HTML, oftast inte lämpar sig för att utbyta information mellan system.
 
 För att utbyta information mellan system är istället det snarlika initiativet *Länkade data* ett bättre alternativ. Precis som webben bygger länkade data på användning av URI:er och HTTP, men istället för HTTP används *RDF*. I korthet kan man säga att RDF används för att uttrycka *påståenden* om *ting*, där ting är vad som helst som kan identifieras av en URI. Det är alltså inte bara webbsidor som identifieras av URI:er (webbaddresser) utan även fysiska föremål, historiska händelser, abstrakta begrepp osv. Det vill säga, vi kan ge URI:er även till ting som inte har en given digital representation. Sammanfattningsvis, länkade data innefattar i huvudsak följande tekniska beståndsdelar:
 
-* URI - ett enhetligt sätt att addressera ting
-* HTTP - ett protokoll som används för att hämta påståenden om ting via deras URI:er
+* URI - ett enhetligt sätt att addressera *ting*
+* HTTP - ett protokoll som används för att hämta *påståenden* om ting via deras URI:er
 * RDF - ett språk för att uttrycka påståenden om ting
 * länkar - påståenden om relationer mellan ting
+
+Bilden nedan visar en jämförelse mellan webben och länkade data:
+
+![HTML och Länkade Data jämförelse](bilder/web-vs-ld.png)
 
 ## LD - stjärnmodellen
 
 I samband med öppna data och länkade öppna data använder man ofta en femstjärnig skala för att markera hur tillgänglig datan är:
 
-<span style="visibility:hidden">★★★★</span>★ gör din information tillgänglig på Webben under en öppen licens<br>
+<span style="visibility:hidden">★★★★</span><span style="color: rgb(236, 216, 36)">★</span> gör din information tillgänglig på Webben under en öppen licens<br>
 <span style="visibility:hidden">★★★★★</span> (även svårbearbetade format som skannade dokument är ok)<br>
-<span style="visibility:hidden">★★★</span>★★ gör informationen tillgänglig som strukturerad data<br>
+<span style="visibility:hidden">★★★</span><span style="color: rgb(236, 216, 36)">★★</span> gör informationen tillgänglig som strukturerad data<br>
 <span style="visibility:hidden">★★★★★</span> (t. ex., Excel format istället för en bild av en tabell)<br>
-<span style="visibility:hidden">★★</span>★★★ använd icke-proprietära format<br>
+<span style="visibility:hidden">★★</span><span style="color: rgb(236, 216, 36)">★★★</span> använd icke-proprietära format<br>
 <span style="visibility:hidden">★★★★★</span> (t. ex., CSV istället för Excel)<br>
-<span style="visibility:hidden">★</span>★★★★ använd URI:er för att identifiera ting,<br>
+<span style="visibility:hidden">★</span><span style="color: rgb(236, 216, 36)">★★★★</span> använd URI:er för att identifiera ting,<br>
 <span style="visibility:hidden">★★★★★</span> och RDF för att uttrycka påståenden om dem<br>
-★★★★★ länka dina data till andras data, det ger sammanhang
+<span style="color: rgb(236, 216, 36)">★★★★★</span> länka dina data till andras data, det ger sammanhang
 
 Nedan beskrivs fördelar med stjärnnivåerna, notera att fördelar ackumuleras ju fler stjärnor man når.
 
-### En stjärna - data tillgängligt digitalt
+### <span style="color: rgb(236, 216, 36)">★</span> En stjärna - data tillgängligt digitalt
 Om du lägger ut din data så att den är digitalt tillgänglig och det är tydligt att folk får använda datan
 (i form av en licens) så får du alltid en stjärna.
 Till exempel, om man redan har information tillgänglig på vanliga webbsidor och kompletterar hur informationen
@@ -57,19 +62,19 @@ får vidareanvändas är första stjärnan säkrad.
 Det är ett stort steg att gå från att behöva explicit begära data från en organisation till att informationen
 finns tillgänglig digitalt.
 
-### Två stjärnor - öka datakvalitén
+### <span style="color: rgb(236, 216, 36)">★★</span> Två stjärnor - öka datakvalitén
 Att dela ut ett format där  data är tillgängligt på ett maskinprocessbart sätt utan att man behöver
 använda någon form av riskfylld extraheringsprocess gör att andra kan förlita sig på datan i större utsträckning.
 Insatsen för att använda datan i andra sammanhang har sjunkit betydligt och två stjärnor är säkrade.
 
-### Tre stjärnor - öppna data
+### <span style="color: rgb(236, 216, 36)">★★★</span> Tre stjärnor - öppna data
 Med tre stjärnor minskar man behovet av investeringar i proprietär teknologi hos de som vidareutnyttjar datan.
 Då man förlitar sig på öppna format som antingen är väldigt enkla (t ex CSV formatet) eller väl dokumenterade
 skapar man förutsättningar för mer långsiktig hållbar data.
 Man minskar även risken för felaktig bearbetning av information när proprietära format hanteras av tredje parts
 mjukvara (särskilt när fullständig dokumentation om formatet saknas).
 
-### Fyra stjärnor - enhetligt informationsuttryck och tydlig semantik
+### <span style="color: rgb(236, 216, 36)">★★★★</span> Fyra stjärnor - enhetligt informationsuttryck och tydlig semantik
 Med den fjärde stjärnan uppnås flera saker:
 
 * Genom att man delat upp datan i ting som har globala identifierare, URI:er, möjliggör man för andra att
@@ -84,7 +89,7 @@ vidareutveckling av tidigare informationsmodeller.
 mjukvarubibliotek och tjänster som kan användas för att skapa, validera, lagra, maskinellt bearbeta,
 kombinera, redigera och utforska datan med existerande frågespråk.
 
-### Fem stjärnor - länkade öppna data
+### <span style="color: rgb(236, 216, 36)">★★★★★</span> Fem stjärnor - länkade öppna data
 Den femte stjärnan ger flera ytterligare fördelar:
 
 * Förtydliga din data genom att länka till väletablerade och väl uttänkta termer/begrepp
@@ -100,3 +105,19 @@ längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form a
 
 LD - en global rörelse
 ----------------------
+Länkade Data introducerades av Webbens grundare sir Tim Berners-Lee 2006 i en inflytelserik [linked data design note](http://www.w3.org/DesignIssues/LinkedData.html).
+Ett sätt att mäta i vilken omfattning länkade data används är att se hur många dataset och hur många påståenden som publicerats
+över tiden. Till exempel så ökade antalet publicerade påståenden från 2 miljarder 2007 till 30 miljarder 2011.
+Antalet dataset har också ökat dramatiskt vilket kan ses i de visualiseringar som gjordes av det så kallade [LOD molnet](http://lod-cloud.net/).
+Tyvär har ingen visualisering gjorts sedan 2011, då såg det ut så här:
+
+![LOD cloud 2011, including 295 datasets](http://lod-cloud.net/versions/2011-09-19/lod-cloud_colored.png)
+
+“Linking Open Data cloud diagram, by Richard Cyganiak and Anja Jentzsch. http://lod-cloud.net/”
+
+En indikation på att det fortsatt att växa sedan dess kan man få genom att söka fram alla dataset på [datahub.io](http://datahub.io/dataset?tags=lod),
+vid skrivande stund är de 898 stycken. Detta ska jämföras med de 295 som ingick i visualiseringen 2011. Det är också troligt att
+det finns ett stort mörkertal med dataset som antingen inte registrerats alls eller registrerats i nationella register
+som inte alltid aggregeras i datahub.io.
+
+Innehållsmässigt spänner dataseten över de flesta områden till exempel, myndighetsdata, biomedicin, media, geografisk information osv.

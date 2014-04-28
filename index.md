@@ -15,24 +15,35 @@ Dessa principer innebär:
 * data blir bättre tillgänglig på webben och i sökmotorer
 * tekniker för kunskapshantering blir lättare att använda
 
+## Webben och Länkade data
+Webben av idag har stor spridning och är i många fall det gemensamma kitt som binder samman aktörer över kulturella och språkliga gränser. Webben används ofta till både spridning och inhämtning av information samt till att bygga mer avancerade webbapplikationer. Trots denna vida användning är webben i grunden tämligen enkel och dess tekniska beståndsdelar innefattar i huvudsak:
 
-## LD - ting och länkar mellan ting
+* URI - ett enhetligt sätt att addressera olika informationsresurser (ofta webbsidor)
+* HTTP - ett protokoll som används för att hämta och skicka information
+* HTML - ett format för att presentera information och interagera
+* Länkar - ett sätt att binda samman informationsresurser
 
+Webben är trots sina vida användningsområden i huvudsak ett presentationsmedium för människor. Det innebär att webben, och framförallt HTML, oftast inte lämpar sig för att utbyta information mellan system.
 
-## LD och webben
+För att utbyta information mellan system är istället det snarlika initiativet *Länkade data* ett bättre alternativ. Precis som webben bygger länkade data på användning av URI:er och HTTP, men istället för HTTP används *RDF*. I korthet kan man säga att RDF används för att uttrycka *påståenden* om *ting*, där ting är vad som helst som kan identifieras av en URI. Det är alltså inte bara webbsidor som identifieras av URI:er (webbaddresser) utan även fysiska föremål, historiska händelser, abstrakta begrepp osv. Det vill säga, vi kan ge URI:er även till ting som inte har en given digital representation. Sammanfattningsvis, länkade data innefattar i huvudsak följande tekniska beståndsdelar:
+
+* URI - ett enhetligt sätt att addressera ting
+* HTTP - ett protokoll som används för att hämta påståenden om ting via deras URI:er
+* RDF - ett språk för att uttrycka påståenden om ting
+* länkar - påståenden om relationer mellan ting
 
 ## LD - stjärnmodellen
 
 I samband med öppna data och länkade öppna data använder man ofta en femstjärnig skala för att markera hur tillgänglig datan är:
 
-<span style="visibility:hidden">★★★★</span>★ gör din information tillgänglig på Webben under en öppen licens
-<span style="visibility:hidden">★★★★★</span> (även svårbearbetade format som skannade dokument är ok)
-<span style="visibility:hidden">★★★</span>★★ gör informationen tillgänglig som strukturerad data
-<span style="visibility:hidden">★★★★★</span> (t. ex., Excel format istället för en bild av en tabell)
-<span style="visibility:hidden">★★</span>★★★ använd icke-proprietära format
-<span style="visibility:hidden">★★★★★</span> (t. ex., CSV istället för Excel)
-<span style="visibility:hidden">★</span>★★★★ använd URI:er för att identifiera ting,
-<span style="visibility:hidden">★★★★★</span> och RDF för att uttrycka påståenden om dem
+<span style="visibility:hidden">★★★★</span>★ gör din information tillgänglig på Webben under en öppen licens<br>
+<span style="visibility:hidden">★★★★★</span> (även svårbearbetade format som skannade dokument är ok)<br>
+<span style="visibility:hidden">★★★</span>★★ gör informationen tillgänglig som strukturerad data<br>
+<span style="visibility:hidden">★★★★★</span> (t. ex., Excel format istället för en bild av en tabell)<br>
+<span style="visibility:hidden">★★</span>★★★ använd icke-proprietära format<br>
+<span style="visibility:hidden">★★★★★</span> (t. ex., CSV istället för Excel)<br>
+<span style="visibility:hidden">★</span>★★★★ använd URI:er för att identifiera ting,<br>
+<span style="visibility:hidden">★★★★★</span> och RDF för att uttrycka påståenden om dem<br>
 ★★★★★ länka dina data till andras data, det ger sammanhang
 
 Nedan beskrivs fördelar med stjärnnivåerna, notera att fördelar ackumuleras ju fler stjärnor man når.

@@ -12,20 +12,29 @@ som ansvarar för datan och faktorer som ekonomi, tid, kompetens och förväntad
 
 En naturlig slutsats blir att det finns stor potential i att göra underliggande data tillgänglig för en större krets. Dels skulle det kunna medföra att nya vyer/tjänster skapas som hittils inte prioriterats. Dels kan data kombineras på nya sätt vilket möjliggör helt nya vyer/tjänster som utan öppen data skulle kräva sammordning mellan flera dataägare.
 
-Men hur ska man exponera data? Vilka format ska man använda och vilka principer ska man följa för att göra det så
-enkelt som möjligt för andra att konsumera och skapa nya vyer/tjänster av datan? Nedan går vi igenom några
-av de fördelar man får av att just använda sig av länkade data när man gör sin data tillgänglig till en vidare krets.
-Notera dock att vidare krets inte nödvändigtvis betyder helt publikt.
+Men hur ska man exponera data? Vilka format ska man använda och vilka principer ska man följa? Vi listar här några av de viktigaste fördelarna man får av att just använda sig av länkade data:
+<br>
+<table>
+<tr><td>1. </td><td>Data blir en del av webben</td><td>skicka med data i webbsidor</td></tr>
+<tr><td>2. </td><td>Förbättrad sökbarhet</td><td>sökmaskiner förstår dina data bättre än dina webbsidor</td></tr>
+<tr><td>3. </td><td>Interoperabilitet</td><td>lättare att utbyta och samköra data</td></tr>
+<tr><td>4. </td><td>Återanvändbara datauttryck</td><td>mindre jobb för den egna organisationen</td></tr>
+<tr><td>5. </td><td>Kompetenta datauttryck</td><td>inga fyrkantiga lådor i runda hål</td></tr>
+<tr><td>6. </td><td>Ökad datakvalité via länkar</td><td>positionera dina data och externalisera information</td></tr>
+</table>
 
-Data som en del av webben
--------------------------
-Att valet av länkade data innebär att data blir en del av webben är inte självklart och kräver en förklaring.
+Att dessa fördelar följer från valet av länkade data är inte helt självklart, nedan följer en fördjupning och analys för den intresserade.
 
-Först och främst så kan länkade data skickas med inne i vanliga webbsidor. Med hjälp av W3C rekommendationen *RDFa* kan man ge semantik till olika delar av en webbsida utöver vad som ingår i standarden för HTML. Till exempel så finns det stöd i HTML för att tala om att något är en rubrik, en paragraf osv. Men om man vill uttrycka att ett block av information representerar en person och vad som är förnamn och efternamn så räcker inte HTML. Istället får man använda sig av länkade data i form av en lämplig vokabulär, till exempel Friend Of A Friend (FOAF). Man annoterar då HTML uttrycket med RDFa för att förtydliga att blocket motsvarar en `foaf:Person`, vilka delar som motsvar `foaf:givenName` och `foaf:familyName`. Så här kan det se ut:
+1. Data blir en del av webben - skicka med data i webbsidor
+-----------------------------
+Först och främst så kan länkade data skickas med inne i vanliga webbsidor. Med hjälp av W3C rekommendationen *RDFa* kan man ge semantik till olika delar av en webbsida utöver vad som ingår i standarden för HTML. Till exempel så finns det stöd i HTML för att tala om att något är en rubrik, en paragraf osv. Men om man vill uttrycka att ett block av information representerar en person och vad som är förnamn och efternamn så räcker inte HTML. Istället får man använda sig av länkade data i form av en lämplig vokabulär, till exempel Friend Of A Friend (FOAF). Man annoterar då HTML uttrycket med RDFa för att förtydliga att blocket motsvarar en `foaf:Person`, vilka delar som motsvar `foaf:givenName` och `foaf:familyName`. Så här kan det se ut (foaf = http://xmlns.com/foaf/0.1/):
 
-    <div>En person:
-      <span>John</span> <span>Doe</span>
-    </div>
+    <body vocab="http://xmlns.com/foaf/0.1/">
+      <div typeof="Person">
+        <span property="givenName">John</span>
+        <span property="familyName">Doe</span>
+      </div>
+    </body>
 
 Utöver RDFa bygger länkade data på samma principer som webben, det vill säga användning av URIer, access till data sker direkt via HTTP samt användning av länkar för att binda samman data. Det innebär att de tekniker som ofta används på webben för att ge stöd åt webbsidor och webbapplikationer också kan använda länkade data. Till exempel innnebär det att länkade data går att hämta via javascript anrop (Ajax) samt att det går att välja format som är enkela att hantera i en webbrowser (tex JSON).
 
@@ -34,8 +43,11 @@ Visserligen kan man hävda att även andra sätt att representera data går att 
 En annan viktig princip som delas mellan webben och länkade data är antagandet om den öppna världen. Detta antagande innebär att man måste hantera att länkar bryts, att information saknas, inte kan nås
 eller ändras på ett sätt som man inte har kontroll över. Dessa antaganden har visat sig fundamentala för att storskaliga och de-centraliserade informationssystem ska kunna växa dynamiskt. Det bör noteras att trots att antagandet om den öppna världen låter negativt så är det en styrka då system som designas för att klara av detta bättre klarar av att hantera den flora av information som finns på webben idag.
 
+2. Förbättrad sökbarhet - sökmaskiner förstår dina data bättre än dina webbsidor
+-----------------------------------
 
-Interoperabilitet - utbyta och samköra data
+
+3. Interoperabilitet - lättare att utbyta och samköra data
 -------------------------------------------
 Interoperabilitet betyder i grunden att när två parter utbyter information så ska mottagarens agerande (i relation till informationen) stämma överens med avsändarens intention. Detta kräver någon form av överenskommelser i förväg kring hur informationen ska överföras och tolkas. Sådana överenskommelser kan vara specifika för två parter, eller etablerade i ett vidare sammanhang, tex i form av en standard.
 
@@ -58,12 +70,12 @@ Om man man har en given mottagare kan man hävda att det enklaste är att i för
 * Kunskap om relevanta datauttryck finns redan hos specialiserade aktörer
 * Krävd kompetens är i större omfattning generell än specifik
 
-### Flera olika delvis okända mottagare
+### Flera olika och delvis okända mottagare
 När mottagarna ökar i antal och ibland också är okända är det behändigt att kunna luta sig mot standarder i så stor uttsträckning som möjligt. Notera att olika mottagare ofta behöver olika information och kan därmed ignorera delar av datan som inte är relevanta för dem. Det kan också innebära att specialiserade aktörer redan förstår och har stöd för de delar av datan som de är intresserade av. (Förutsatt att avsändaren har valt att beskriva sin data med hjälp av relevanta och allmänt accepterade byggstenar.)
 
 Alternativet med egna datauttryck är mindre tilltalande då det kräver en mer nogrann och omfattande egen dokumentation för att hålla risken för felaktig användning låg.
 
-Återuppfinn inte hjulet - stå på jättars axlar
+4. Återanvänd datauttryck - mindre jobb för den egna organisationen
 ----------------------------------------------
 Som vi nu konstaterat tillåter länkade data oss både att definiera nya byggstenar, förfina existerande byggstenar och att återanvända redan existerande.
 
@@ -84,13 +96,10 @@ Skapades för att beskriva personer och organisationer online, innehåller nytti
 ### Semantically Interlinked Online Communities (SIOC)
 Introducerade för att beskriva den aktivitet som finns på den sociala webben idag, tex siter, bloggar, forum, online konton, personer osv.
 ### Vocabulary of Interlinked Datasets (VoID)
+Används för att beskriva egenskaper hos ett dataset, tex var det publiceras, av vem, vad det innehåller osv.
 
-
-Kompetent datauttryck
+5. Kompetent datauttryck - inga fyrkantiga lådor i runda hål
 ---------------------
 
-Öka kvalitén med länkar
+6. Öka kvalitén med länkar - positionera dina data och externalisera information
 -----------------------
-
-Kompatibilitet med Google, Bing etc
------------------------------------

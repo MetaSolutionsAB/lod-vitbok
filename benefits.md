@@ -45,7 +45,10 @@ eller ändras på ett sätt som man inte har kontroll över. Dessa antaganden ha
 
 2. Förbättrad sökbarhet - sökmaskiner förstår dina data bättre än dina webbsidor
 -----------------------------------
+På senare tid har det skett ett paradigmskifte i hur moderna sökmaskiner fungerar. Man söker i större utsträckning efter kunskap snarare än efter webbsidor. I Google manifesterar sig detta dels genom att man får förslag på personer, filmer, företag osv. när man skriver in en sökning och dels att man får upp faktarutor relaterat till det man sökt på.
+Grunden för detta är att sökmaskinerna kompletterar sin indexering av webbsidor med en kunskapsbas. Till exempel så introducerade Google sin knowledge graph 2012 och Microsofts introducerade Bings Satori Knowledge Base 2013.
 
+En viktig grund för sådana kunskapsbaser är länkade data, tex så klarar Googles Knowledge Graph av att läsa in länkade data som JSON-LD eller inbäddat som RDFa i webbsidor. Man kompletterar också med existerande kunskapsbaser som alla är länkade data vänliga, tex Freebase, Wikipedia, CIA-factbook osv.
 
 3. Interoperabilitet - lättare att utbyta och samköra data
 -------------------------------------------

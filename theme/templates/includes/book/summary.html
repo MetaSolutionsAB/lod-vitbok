@@ -3,31 +3,13 @@
         <input type="text" placeholder="Sök" class="form-control" />
     </div>
     <ul class="summary">
-        {% if options.links.about !== false && (options.links.about != null || githubId) %}
-        <li>
-            <a href="{{ options.links.about|default(githubHost+githubAuthor) }}" target="blank">Om författarna</a>
-        </li>
-        {% endif %}
-
-        {% if options.links.issues !== false && (options.links.issues != null || githubId) %}
-        <li>
-            <a href="{{ options.links.issues|default(githubHost+githubId+"/issues") }}" target="blank">Synpunkter</a>
-        </li>
-        {% endif %}
-
-        {% if options.links.contribute !== false && (options.links.contribute != null || githubId) %}
-        <li>
-            <a href="{{ options.links.contribute|default(githubHost+githubId+"/edit/master/"+_input) }}" target="blank">Editera och bidra</a>
-        </li>
-        {% endif %}
-
-        {% if options.links.contribute !== false || options.links.issues !== false || options.links.about !== false %}
-        <li class="divider"></li>
-        {% endif %}
 
         <li data-level="0" data-path="index.html">
             <a href="{{ basePath }}/"><i class="fa fa-check"></i> Om vitboken</a>
         </li>
+
+        <li class="divider"></li>
+
         {% for item in summary.chapters %}
             <li {% if item._path == _input %}class="active"{% endif %} data-level="{{ item.level }}" {% if item.path %}data-path="{{ item.path|mdLink }}"{% endif %}>
                 {% if item.path %}
@@ -54,6 +36,28 @@
                 {% endif %}
             </li>
         {% endfor %}
+      
+	{% if options.links.contribute !== false || options.links.issues !== false || options.links.about !== false %}
+        <li class="divider"></li>
+        {% endif %}
+
+        {% if options.links.about !== false && (options.links.about != null || githubId) %}
+        <li>
+            <a href="{{ options.links.about|default(githubHost+githubAuthor) }}" target="blank">Om författarna</a>
+        </li>
+        {% endif %}
+
+        {% if options.links.issues !== false && (options.links.issues != null || githubId) %}
+        <li>
+            <a href="{{ options.links.issues|default(githubHost+githubId+"/issues") }}" target="blank">Synpunkter</a>
+        </li>
+        {% endif %}
+
+        {% if options.links.contribute !== false && (options.links.contribute != null || githubId) %}
+        <li>
+            <a href="{{ options.links.contribute|default(githubHost+githubId+"/edit/master/"+_input) }}" target="blank">Editera och bidra</a>
+        </li>
+        {% endif %}
 
         {% if options.links.gitbook !== false %}
         <li class="divider"></li>

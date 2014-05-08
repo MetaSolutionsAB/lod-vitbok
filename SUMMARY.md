@@ -1,8 +1,8 @@
-# LOD Vitbok
+# Vitbok Länkade Öppna Data
 
-* [Introduktion](index.md)
-* [Fördelar](benefits.md)
-* [Svenska förhållanden](sweden.md)
-* [Kom igång](start.md)
-* [Teknikplattformar](technology.md)
+* [Introduktion](introduktion.md)
+* [Fördelar](fordelar.md)
+* [Svenska förhållanden](sverige.md)
+* [Kom igång](komigang.md)
+* [Teknikplattformar](teknikplattformar.md)
 * [Vanliga frågor](faq.md)

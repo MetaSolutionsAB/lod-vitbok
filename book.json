@@ -1,0 +1,22 @@
+{
+    "github": "MetaSolutionsAB",
+    "githubHost": "https://github.com/",
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "serif"
+        }
+    },
+    "theme": "./theme",
+    "links": {
+        "home": null,
+        "about": false,
+        "issues": null,
+        "contribute": null,
+        "sharing": {
+            "google": null,
+            "facebook": null,
+            "twitter": null
+        }
+    }
+}

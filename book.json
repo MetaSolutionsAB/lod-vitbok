@@ -18,5 +18,9 @@
             "facebook": null,
             "twitter": null
         }
-    }
+    },
+    "useSideMenu": true,
+    "lineBreaks": "gfm",
+    "additionalFooterText": "Allt material av MetaSolutions AB &nbsp;",
+    "anchorCharacter": "#"
 }

@@ -5,6 +5,10 @@ Det här projektet är en vitbok som utvecklats inom det VINNOVA finansierade pr
 
 Se [projektets webbsida](http://lankadedata.se) för mer information.
 
+## Författare
+
+Vitboken är skriven av Matthias Palmér och Hannes Ebner från [MetaSolutions AB](http://metasolutions.se).
+
 ## Format
 Vitboken är skriven i Markdown och utnyttjar [GitBook](http://www.gitbook.io/) för att ge en snygg presentation.
 

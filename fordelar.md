@@ -3,8 +3,7 @@
 Utan tvekan är webben en oerhört framgångsrik och hittils oöverträffad konstruktion när det gäller
 att ge oss människor tillgång till stora mängder information snabbt och enkelt.
 
-Men den webb vi ser idag är nästan uteslutande en vy genererad utifrån underliggande informationsmängder, dvs data i olika former. Dessa data hanteras av olika system (som databaser) och förvandlas
-till webbsidor och webbapplikationer oftast millisekunder innan du ser resultatet i din browser.
+Den webb vi ser idag är nästan uteslutande en vy genererad utifrån underliggande informationsmängder, dvs data i olika former. Dessa data hanteras av olika system (som databaser) och förvandlas till webbsidor och webbapplikationer oftast millisekunder innan du ser resultatet i din browser.
 
 Vilka vyer/tjänster som skapas och görs tillgängliga för dig bestäms oftast av den organisation
 som ansvarar för datan och faktorer som ekonomi, tid, kompetens och förväntad användning spelar stor roll för de prioriteringar som görs.
@@ -14,17 +13,17 @@ En naturlig slutsats blir att det finns stor potential i att göra underliggande
 Men hur ska man exponera data? Vilka format ska man använda och vilka principer ska man följa? Vi listar här några av de viktigaste fördelarna man får av att just använda sig av länkade data:
 <br>
 <table>
-<tr><td>[1.](#1) </td><td>Data blir en del av webben</td><td>skicka med data i webbsidor</td></tr>
-<tr><td>[2.](#2) </td><td>Förbättrad sökbarhet</td><td>sökmaskiner förstår dina data bättre än dina webbsidor</td></tr>
-<tr><td>[3.](#3) </td><td>Interoperabilitet</td><td>lättare att utbyta och samköra data</td></tr>
-<tr><td>[4.](#4) </td><td>Återanvändbara datauttryck</td><td>mindre jobb för den egna organisationen</td></tr>
-<tr><td>[5.](#5) </td><td>Kompetenta datauttryck</td><td>inga fyrkantiga lådor i runda hål</td></tr>
-<tr><td>[6.](#6) </td><td>Ökad datakvalité via länkar</td><td>positionera dina data och externalisera information</td></tr>
+<tr><td>[1. Data blir en del av webben](#1)</td><td>skicka med data i webbsidor</td></tr>
+<tr><td>[2. Förbättrad sökbarhet](#2)</td><td>sökmaskiner förstår dina data bättre än dina webbsidor</td></tr>
+<tr><td>[3. Interoperabilitet](#3)</td><td>lättare att utbyta och samköra data</td></tr>
+<tr><td>[4. Återanvändbara datauttryck](#4)</td><td>mindre jobb för den egna organisationen</td></tr>
+<tr><td>[5. Kompetenta datauttryck](#5)</td><td>inga fyrkantiga lådor i runda hål</td></tr>
+<tr><td>[6. Ökad datakvalité via länkar](#6)</td><td>positionera dina data och externalisera information</td></tr>
 </table>
 
 Att dessa fördelar följer från valet av länkade data är inte helt självklart, nedan följer en fördjupning och analys för den intresserade.
 
-## <a name="1">1.</a> Data blir en del av webben - skicka med data i webbsidor
+## <a name="1"></a>1. Data blir en del av webben - skicka med data i webbsidor
 
 Först och främst så kan länkade data skickas med inne i vanliga webbsidor. Med hjälp av W3C rekommendationen *RDFa* kan man ge semantik till olika delar av en webbsida utöver vad som ingår i standarden för HTML. Till exempel så finns det stöd i HTML för att tala om att något är en rubrik, en paragraf osv. Men om man vill uttrycka att ett block av information representerar en person och vad som är förnamn och efternamn så räcker inte HTML. Istället får man använda sig av länkade data i form av en lämplig vokabulär, till exempel Friend Of A Friend (FOAF). Man annoterar då HTML uttrycket med RDFa för att förtydliga att blocket motsvarar en `foaf:Person`, vilka delar som motsvar `foaf:givenName` och `foaf:familyName`. Så här kan det se ut (foaf = http://xmlns.com/foaf/0.1/):
 
@@ -42,14 +41,14 @@ Visserligen kan man hävda att även andra sätt att representera data går att 
 En annan viktig princip som delas mellan webben och länkade data är antagandet om den öppna världen. Detta antagande innebär att man måste hantera att länkar bryts, att information saknas, inte kan nås
 eller ändras på ett sätt som man inte har kontroll över. Dessa antaganden har visat sig fundamentala för att storskaliga och de-centraliserade informationssystem ska kunna växa dynamiskt. Det bör noteras att trots att antagandet om den öppna världen låter negativt så är det en styrka då system som designas för att klara av detta bättre klarar av att hantera den flora av information som finns på webben idag.
 
-## <a name="2">2.</a> Förbättrad sökbarhet - sökmaskiner förstår dina data bättre än dina webbsidor
+## <a name="2"></a>2. Förbättrad sökbarhet - sökmaskiner förstår dina data bättre än dina webbsidor
 
 På senare tid har det skett ett paradigmskifte i hur moderna sökmaskiner fungerar. Man söker i större utsträckning efter kunskap snarare än efter webbsidor. I Google manifesterar sig detta dels genom att man får förslag på personer, filmer, företag osv. när man skriver in en sökning och dels att man får upp faktarutor relaterat till det man sökt på.
 Grunden för detta är att sökmaskinerna kompletterar sin indexering av webbsidor med en kunskapsbas. Till exempel så introducerade Google sin knowledge graph 2012 och Microsofts introducerade Bings Satori Knowledge Base 2013.
 
 En viktig grund för sådana kunskapsbaser är länkade data, tex så klarar Googles Knowledge Graph av att läsa in länkade data som JSON-LD eller inbäddat som RDFa i webbsidor. Man kompletterar också med existerande kunskapsbaser som alla är länkade data vänliga, tex Freebase, Wikipedia, CIA-factbook osv.
 
-## <a name="3">3.</a> Interoperabilitet - lättare att utbyta och samköra data
+## <a name="3"></a>3. Interoperabilitet - lättare att utbyta och samköra data
 
 Interoperabilitet betyder i grunden att när två parter utbyter information så ska mottagarens agerande (i relation till informationen) stämma överens med avsändarens intention. Detta kräver någon form av överenskommelser i förväg kring hur informationen ska överföras och tolkas. Sådana överenskommelser kan vara specifika för två parter, eller etablerade i ett vidare sammanhang, tex i form av en standard.
 
@@ -77,7 +76,7 @@ När mottagarna ökar i antal och ibland också är okända är det behändigt a
 
 Alternativet med egna datauttryck är mindre tilltalande då det kräver en mer nogrann och omfattande egen dokumentation för att hålla risken för felaktig användning låg.
 
-## <a name="4">4.</a> Återanvänd datauttryck - mindre jobb för den egna organisationen
+## <a name="4"></a>4. Återanvänd datauttryck - mindre jobb för den egna organisationen
 
 Som vi nu konstaterat tillåter länkade data oss både att definiera nya byggstenar, förfina existerande byggstenar och att återanvända redan existerande.
 
@@ -104,7 +103,7 @@ Det finns idag en vid flora av byggstenar (terminologier, vokabulärer) och att 
     <td>Används för att beskriva egenskaper hos ett dataset, tex var det publiceras, av vem, vad det innehåller osv.</td></tr>
 </table>
 
-## <a name="5">5.</a> Kompetent datauttryck - inga fyrkantiga lådor i runda hål
+## <a name="5"></a>5. Kompetent datauttryck - inga fyrkantiga lådor i runda hål
 Länkade data bygger på att man använder det gemensamma språket RDF för alla olika datauttryck. RDF tillåter att man strukturerar sin data som grafer, som träd, som attribut-värde par, som listor osv. Men då RDF i grunden baseras på en grafmodell så kallar vi för enkelhets skull alltid ett data uttryck i RDF för en *RDF graf* oberoende av vilken datastruktur som uttryckts i en viss situation. RDF har också stöd för en mängd olika primitiva datatyper som heltal, flyttal, datum osv.
 
 I stort kan man säg att så länge din data har en struktur av något slag som inte är ren binärdata så kan RDF användas för att fånga upp den strukturen.
@@ -121,8 +120,7 @@ Att RDF är ett språk medför att det finns en grundläggande och ganska enkel 
 * persisteras i databaser (triplestores) utan krav på databas scheman (schemaless i NoSQL termer)
 * bearbetas maskinellt med avseende på förutbestämd semantik (inferens)
 
-
-## <a name="6">6.</a> Öka kvalitén med länkar - positionera dina data och externalisera information
+## <a name="6"></a>6. Öka kvaliteten med länkar - positionera dina data och externalisera information
 
 Det är viktigt för en aktör att hitta lämpliga avgränsningar för vilken data som ska inkluderas och underhållas. Ofta är det ekonomi, verksamhet och kompetens som bidrar till att sätta gränser. Andra aktörer som hanterar liknande data gör troligtvis andra avgränsningar då de har andra behov.
 
@@ -133,5 +131,3 @@ Ett bra sätt att åstadkomma detta - då det inte alltid går att hitta globala
 Ur detta exempel inser vi att effektiv använda länkar kan leda till att öka dataspecialisering då varje aktör kan fokusera på att underhålla den data som den kan bäst och förlita sig på andra aktörer för resten. 
 
 Det är ofta så att länkar till andra datakällor också ökar förtroendet för data. Dels genom att länkar skapar ett större sammanhang som bekräftar att man hittat rätt data. Dessutom visar existensen av länkar att man ansträngt sig för att placera in sin data i ett större sammanhang och minimera redundans. Detta gör det mindre sannolikt att någon annan redan har eller kommer ta fram en bättre datakälla som gör den aktuella datakällan överflödig.
-
-

@@ -2,7 +2,7 @@
 
 ## LD på 1 minut
 
-Länkade data handlar om komplettera den existerande webben av dokument med en *webb av data*.
+Länkade data handlar om att komplettera den existerande webben av dokument med en *webb av data*.
 Följande tre principer är mer konkreta i hur det går till:
 
 * enhetlig informationsmodell - data som påståenden om ting (andvänd *RDF*)
@@ -16,7 +16,8 @@ Dessa principer innebär:
 * data blir bättre tillgänglig på webben och i sökmotorer
 * tekniker för kunskapshantering blir lättare att använda
 
-## Webben och Länkade data
+## Webben och länkade data
+
 Webben av idag har stor spridning och är i många fall det gemensamma kitt som binder samman aktörer över kulturella och språkliga gränser. Webben används ofta till både spridning och inhämtning av information samt till att bygga mer avancerade webbapplikationer. Trots denna vida användning är webben i grunden tämligen enkel och dess tekniska beståndsdelar innefattar i huvudsak:
 
 * URI - ett enhetligt sätt att addressera olika informationsresurser (ofta webbsidor)
@@ -37,11 +38,11 @@ Bilden nedan visar en jämförelse mellan webben och länkade data:
 
 ![HTML och Länkade Data jämförelse](bilder/web-vs-ld.png)
 
-## LD - stjärnmodellen
+## Stjärnmodellen
 
 I samband med öppna data och länkade öppna data använder man ofta en femstjärnig skala för att markera hur tillgänglig datan är:
 
-<span style="visibility:hidden">★★★★</span><span style="color: rgb(236, 216, 36)">★</span> gör din information tillgänglig på Webben under en öppen licens<br>
+<span style="visibility:hidden">★★★★</span><span style="color: rgb(236, 216, 36)">★</span> gör din information tillgänglig på webben under en öppen licens<br>
 <span style="visibility:hidden">★★★★★</span> (även svårbearbetade format som skannade dokument är ok)<br>
 <span style="visibility:hidden">★★★</span><span style="color: rgb(236, 216, 36)">★★</span> gör informationen tillgänglig som strukturerad data<br>
 <span style="visibility:hidden">★★★★★</span> (t. ex., Excel format istället för en bild av en tabell)<br>
@@ -54,6 +55,7 @@ I samband med öppna data och länkade öppna data använder man ofta en femstj�
 Nedan beskrivs fördelar med stjärnnivåerna, notera att fördelar ackumuleras ju fler stjärnor man når.
 
 ### <span style="color: rgb(236, 216, 36)">★</span> En stjärna - data tillgängligt digitalt
+
 Om du lägger ut din data så att den är digitalt tillgänglig och det är tydligt att folk får använda datan
 (i form av en licens) så får du alltid en stjärna.
 Till exempel, om man redan har information tillgänglig på vanliga webbsidor och kompletterar hur informationen
@@ -63,11 +65,13 @@ Det är ett stort steg att gå från att behöva explicit begära data från en 
 finns tillgänglig digitalt.
 
 ### <span style="color: rgb(236, 216, 36)">★★</span> Två stjärnor - öka datakvalitén
-Att dela ut ett format där  data är tillgängligt på ett maskinprocessbart sätt utan att man behöver
+
+Att dela ut ett format där data är tillgängligt på ett maskinprocessbart sätt utan att man behöver
 använda någon form av riskfylld extraheringsprocess gör att andra kan förlita sig på datan i större utsträckning.
 Insatsen för att använda datan i andra sammanhang har sjunkit betydligt och två stjärnor är säkrade.
 
 ### <span style="color: rgb(236, 216, 36)">★★★</span> Tre stjärnor - öppna data
+
 Med tre stjärnor minskar man behovet av investeringar i proprietär teknologi hos de som vidareutnyttjar datan.
 Då man förlitar sig på öppna format som antingen är väldigt enkla (t ex CSV formatet) eller väl dokumenterade
 skapar man förutsättningar för mer långsiktig hållbar data.
@@ -75,6 +79,7 @@ Man minskar även risken för felaktig bearbetning av information när propriet�
 mjukvara (särskilt när fullständig dokumentation om formatet saknas).
 
 ### <span style="color: rgb(236, 216, 36)">★★★★</span> Fyra stjärnor - enhetligt informationsuttryck och tydlig semantik
+
 Med den fjärde stjärnan uppnås flera saker:
 
 * Genom att man delat upp datan i ting som har globala identifierare, URI:er, möjliggör man för andra att
@@ -90,6 +95,7 @@ mjukvarubibliotek och tjänster som kan användas för att skapa, validera, lagr
 kombinera, redigera och utforska datan med existerande frågespråk.
 
 ### <span style="color: rgb(236, 216, 36)">★★★★★</span> Fem stjärnor - länkade öppna data
+
 Den femte stjärnan ger flera ytterligare fördelar:
 
 * Förtydliga din data genom att länka till väletablerade och väl uttänkta termer/begrepp
@@ -103,20 +109,19 @@ på samma sätt som referenser i artiklar visar på att informationen är föran
 * Länkar ut ökar din datas synlighet då det blir en del av det större länkade data molnet vilket i ett
 längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form av länkar in.
 
-LD - en global rörelse
-----------------------
-Länkade Data introducerades av Webbens grundare sir Tim Berners-Lee 2006 i en inflytelserik [linked data design note](http://www.w3.org/DesignIssues/LinkedData.html).
+# Länkade data - en global rörelse
+
+Länkade data introducerades av Webbens grundare sir Tim Berners-Lee 2006 i en inflytelserik [Linked Data Design Note](http://www.w3.org/DesignIssues/LinkedData.html).
 Ett sätt att mäta i vilken omfattning länkade data används är att se hur många dataset och hur många påståenden som publicerats
 över tiden. Till exempel så ökade antalet publicerade påståenden från 2 miljarder 2007 till 30 miljarder 2011.
 Antalet dataset har också ökat dramatiskt vilket kan ses i de visualiseringar som gjordes av det så kallade [LOD molnet](http://lod-cloud.net/).
 Tyvär har ingen visualisering gjorts sedan 2011, då såg det ut så här:
 
-![LOD cloud 2011, including 295 datasets](http://lod-cloud.net/versions/2011-09-19/lod-cloud_colored.png)
+![LOD cloud 2011, including 295 datasets](bilder/lod-cloud-2011.png)
 
 “Linking Open Data cloud diagram, by Richard Cyganiak and Anja Jentzsch. http://lod-cloud.net/”
 
-En indikation på att det fortsatt att växa sedan dess kan man få genom att söka fram alla dataset på [datahub.io](http://datahub.io/dataset?tags=lod),
-vid skrivande stund är de 898 stycken. Detta ska jämföras med de 295 som ingick i visualiseringen 2011. Det är också troligt att
+En indikation på att det fortsatt att växa sedan dess kan man få genom att söka fram alla dataset på [datahub.io](http://datahub.io/dataset?tags=lod), vid skrivande stund är de 898 stycken. Detta ska jämföras med de 295 som ingick i visualiseringen 2011. Det är också troligt att
 det finns ett stort mörkertal med dataset som antingen inte registrerats alls eller registrerats i nationella register
 som inte alltid aggregeras i datahub.io.
 

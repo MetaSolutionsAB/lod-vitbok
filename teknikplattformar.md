@@ -14,7 +14,9 @@ Om möjligt och lämpligt så består beskrivningen av varje teknisk plattform a
 ### Callimachus Enterprise
 
 Callimachus Enterprise är en applikationsserver för länkade data. Mjukvaran har stöd för hantering och skapande av länkade data och kommer med en utvecklingsmiljö.
-Företaget [http://3roundstones.com](3RoundStones) erbjuder kommersiell support och står även för den aktiva utvecklingen av plattformen som i huvudsak är Open Source. Callimachus erbjuds även som molntjänst.
+
+Företaget [3RoundStones](http://3roundstones.com) erbjuder kommersiell support och står även för den aktiva utvecklingen av plattformen som i huvudsak är Open Source. Callimachus erbjuds även som molntjänst.
+
 Exempel på områden som Callimachus tillämpas inom är myndigheter, utgivare/förlag, vård och forskning.
 
 Länk: [http://3roundstones.com/products/managed-services-for-commercial/](http://3roundstones.com/products/managed-services-for-commercial/)
@@ -22,7 +24,9 @@ Länk: [http://3roundstones.com/products/managed-services-for-commercial/](http:
 ### EntryScape
 
 EntryScape är en samarbetsplattform driven av länkade data. Plattformen har stöd för att fritt konfigurera eller återanvända formulär för att skapa och hantera interoperabla metadata.
-Företaget [http://metasolutions.se](MetaSolutions) erbjuder kommersiell support och driver utvecklingen av EntryScape som är Open Source. EntryScape erbjuds även som molntjänst.
+
+Företaget [MetaSolutions](http://metasolutions.se) erbjuder kommersiell support och driver utvecklingen av EntryScape som är Open Source. EntryScape erbjuds även som molntjänst.
+
 EntryScape används idag inom forskning, undervisning, vård och även helt öppet utan särskilt fokusområde.
 
 Länk: [http://entryscape.com](http://entryscape.com)
@@ -35,8 +39,7 @@ Länk: [http://graphityhq.com](http://graphityhq.com)
 
 ### Open Anzo
 
-Open Anzo är en RDF databas med en tjänsteorienterad semantisk middleware plattform.
-Plattformen är Open Source, men det finns inget företag som erbjuder kommersiell support. Aktiviteten i utvecklingscommunityn har legat nere sedan 2011 därmed bedömer vi det som osannolikt att det skulle gå att få support i dagsläget.
+Open Anzo är en RDF databas med en tjänsteorienterad semantisk middleware plattform. Plattformen är Open Source, men det finns inget företag som erbjuder kommersiell support. Aktiviteten i utvecklingscommunityn har legat nere sedan 2011 därmed bedömer vi det som osannolikt att det skulle gå att få support i dagsläget.
 
 Länk: [http://www.openanzo.org](http://www.openanzo.org)
 
@@ -55,7 +58,8 @@ EntryScape är Open Source men erbjuds även som molntjänst med SLA. Se "EntryS
 ### Semantic SharePoint
 
 Semantic SP är en integration av PoolParty (se nedan) med Microsoft SharePoint. Semantic SharePoint fokuserar på kontrollerade vokabulär och textanalys för att extrahera semantisk information ur ostrukturerade data (text).
-Företaget Semantic Web Company erbjuder licenser och hostning samt kommersiell support till plattformen som är proprietär.
+
+Företaget [Semantic Web Company](http://www.semantic-web.at) erbjuder licenser och hostning samt kommersiell support till plattformen som är proprietär.
 
 Länk: [http://www.semantic-sharepoint.com](http://www.semantic-sharepoint.com)
 

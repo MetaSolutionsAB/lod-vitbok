@@ -1,7 +1,7 @@
 # Vitbok Länkade Öppna Data
 
 Det här projektet är en vitbok som utvecklats inom det VINNOVA finansierade projektet
-*kompetensförstärkning kring länkade öppna data - dialog webbinarier och vitbok*.
+*Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.
 
 Se [projektets webbsida](http://lankadedata.se) för mer information.
 

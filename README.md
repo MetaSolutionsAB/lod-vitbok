@@ -1,4 +1,4 @@
-# Vitbok Länkade Öppna Data
+# Vitbok Länkade Öppna Data - UTKAST
 
 Det här projektet är en vitbok som utvecklats inom det VINNOVA finansierade projektet
 *Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.

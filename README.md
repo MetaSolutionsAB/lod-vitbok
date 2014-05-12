@@ -1,8 +1,13 @@
-# LOD Vitbok
+# Vitbok Länkade Öppna Data
+
 Det här projektet är en vitbok som utvecklats inom det VINNOVA finansierade projektet
-*kompetensförstärkning kring länkade öppna data - dialog webbinarier och vitbok*.
+*Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.
 
 Se [projektets webbsida](http://lankadedata.se) för mer information.
+
+## Författare
+
+Vitboken är skriven av Matthias Palmér och Hannes Ebner från [MetaSolutions AB](http://metasolutions.se).
 
 ## Format
 Vitboken är skriven i Markdown och utnyttjar [GitBook](http://www.gitbook.io/) för att ge en snygg presentation.

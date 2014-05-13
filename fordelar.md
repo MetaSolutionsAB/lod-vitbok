@@ -103,7 +103,7 @@ Det finns idag en vid flora av byggstenar (terminologier, vokabulärer) och att 
     <td>Används för att beskriva egenskaper hos ett dataset, tex var det publiceras, av vem, vad det innehåller osv.</td></tr>
 </table>
 
-## <a name="5"></a>5. Kompetent datauttryck - inga fyrkantiga lådor i runda hål
+## <a name="5"></a>5. Kompetenta datauttryck - inga fyrkantiga lådor i runda hål
 Länkade data bygger på att man använder det gemensamma språket RDF för alla olika datauttryck. RDF tillåter att man strukturerar sin data som grafer, som träd, som attribut-värde par, som listor osv. Men då RDF i grunden baseras på en grafmodell så kallar vi för enkelhets skull alltid ett data uttryck i RDF för en *RDF graf* oberoende av vilken datastruktur som uttryckts i en viss situation. RDF har också stöd för en mängd olika primitiva datatyper som heltal, flyttal, datum osv.
 
 I stort kan man säg att så länge din data har en struktur av något slag som inte är ren binärdata så kan RDF användas för att fånga upp den strukturen.

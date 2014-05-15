@@ -54,7 +54,7 @@ Interoperabilitet betyder i grunden att när två parter utbyter information så
 
 En situation som ofta uppstår när man ska använda en given standard är att den bara täcker in en del av de behov man har. En naturlig reaktion är då att komplettera med byggstenar från andra standarder och eventuellt skapa nya konstruktioner för att nå bättre täckning av behoven. 
 
-Det är i sådana situationer som Länkade data visar sin styrka genom att tillhandahålla en gemensam bas och en mängd mer eller mindre standardiserade byggstenar som kan kombineras på olika sätt. Basen består av ett gemensamt språk (RDF tillsammans med RDFS och OWL) som tillåter att man definierar byggstenar i form av klasser, egenskaper, vokabulärer osv.
+Det är i sådana situationer som Länkade data visar sin styrka genom att tillhandahålla en gemensam bas och en mängd mer eller mindre standardiserade byggstenar som kan kombineras på olika sätt. Basen består av ett gemensamt språk (RDF tillsammans med [RDFS](http://www.w3.org/TR/rdf-schema/), [SKOS](http://www.w3.org/TR/skos-reference/) och [OWL](http://www.w3.org/TR/owl2-overview/)) som tillåter att man definierar byggstenar i form av klasser, egenskaper, vokabulärer osv.
 
 Givet att länkade data tillåter oss att sätta samman vårat datauttryck utifrån en mängd byggstenar, vad får det för konsekvenser? Låt oss tänka på två olika former av data utbyte:
 

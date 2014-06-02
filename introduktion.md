@@ -1,4 +1,26 @@
 # Introduktion till länkade data (LD)
+1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext. 
+I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument. 
+16 år senare lanserar Tim Berners-Lee *Länkade Data* som ett sätt att skapa en *web av data* i en 
+[design issue](http://www.w3.org/DesignIssues/LinkedData.html). 
+Skillnaden mot den vanliga webben är att länkade data handlar om att länka samman ting och beskrivningar om ting snarare än dokument.  
+
+På sista tiden har också intresset för det som kallas *öppna data* växt kraftigt, vilket innebär att man gör sin data
+tillgängliga för att förenkla användning, såväl väntad som oväntad. I praktiken innebär det att data görs tillgänglig via 
+webben i någon form då det är det dominanerade mediet.
+
+Det är intressant att notera att syftet med öppna data är vällovliga, men saknar den potential som länkad data innefattar. Lite slagkraftigt kan man formulera det så här:
+
+    Öppna data är som webben utan enhetligt format eller länkar.
+
+Man kan också se det som att länkade öppna data är en utvidgning till öppna data:
+ 
+    Länkade öppna data är öppna data med enhetligt format (RDF) och länkar.  
+ 
+Den nogranne har här säkert noterat att det ovan smygit sig in ett öppna i länkade data. 
+Skillnaden handlar bara i vilken omfattning datan är åtkomlig för en större publik. 
+Men det finns fördelar att använda länkade data även om den inte är allmänt tillgänglig (öppen), 
+därför kommer vi oftast att tala om länkade data snarare än länkade öppna data. 
 
 ## LD på 1 minut
 

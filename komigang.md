@@ -13,7 +13,7 @@ Experimentera med vilka properties, klasser, datatyper och länkar som känns br
 ### URI design
 ### Val av vokabulärer
 
-## Lösningskategorier
+## Exponera länkade data - lösningskategorier
 
 Vi har identifierat två huvudsakliga lösningskategorier med tillsammans fem underkategorier som på olika sätt klarar av att exponera länkade data från ett givet dataset. För att kunna ge en tydlig översikt av skillnaderna mellan de olika lösningskategorierna använder vi följande benämningar:
 

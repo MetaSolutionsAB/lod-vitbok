@@ -9,6 +9,12 @@ Se [projektets webbsida](http://lankadedata.se) för mer information.
 
 Vitboken är skriven av Matthias Palmér och Hannes Ebner från [MetaSolutions AB](http://metasolutions.se).
 
+## Författarnas tack
+
+Stort tack till följande personer som har bidragit till vitboken på ett eller annat sätt (listan är sorterad alfabetiskt):
+
+*Johanna Berg, Erik Borälv, Rong Chen, Klas Eckerberg, Thomas Kvist, Börje Lewin, Niklas Lindström, Rikard Lövström, Robin Mångs, Hans Mehlin, Johanna Nilsson, Marcus Smith, Henrik Summanen, Solgerd Tanzilli*
+
 ## Format
 Vitboken är skriven i Markdown och utnyttjar [GitBook](http://www.gitbook.io/) för att ge en snygg presentation.
 

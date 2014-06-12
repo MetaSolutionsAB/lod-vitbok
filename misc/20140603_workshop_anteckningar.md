@@ -21,7 +21,35 @@ Deltagare: Johanna Berg, Erik Borälv, Rong Chen, Klas Eckerberg, Thomas Kvist, 
 
 ## Grupp 2
 
-TODO
+* För in semantik tidigare, bland stjärnorna.
+* ”Vikten av återanvändning” som ett eget underkapitel till kapitel 1.
+* Komplettera 1 min inledningen med en *varför* och en *hur*, också på 1 min.
+* Kanske lite mer Dramaturgi, t ex  "Anna vill göra en mobilapp som visar..."
+* Eget exempel / use-cases kapitel, det kan tex ha några av följande inslag:
+    * Nobelmedia 
+    * Brandkårsmyndigheter
+    * offentlig sektor 2035
+    * RAE exempel
+    * Många olika små dataset med lite IT-stöd, alternativt dåligt eller ej dokumenterat
+
+* Länklista till högkvalitativa resurser
+* Kort inledning till LD och RDF med bild och citat från Tim.
+
+### Hur konkret ska komma igång informationen vara? 
+* Snabbstart – inspiration
+* Kanske titta på en existerande tjänst
+* Fundera över lämpliga datakällor som kan vara av intresse
+* Rita upp dina data - exempel på en whiteboard – gärna med länkar till andra datakällor - verksamhetsproblem
+* Vad skulle vi kunna göra om annan data fanns som länkade data
+* personer som bör vara med i ett LD projekt
+* Snabbstart – tekniskt
+
+### Frågor som ni vill se besvarade i sista kapitlet.
+* Integration med CMS? Lämplig CMS.
+* Ska vi samla ihop länkade data eller lämna i källan
+* Tappar vi inte kvalitetskontroll med länkar
+* Men våra data är inte tillräckligt bra kvalite, kan vi släppa ut dem i det tillståndet de är nu?
+
 
 ## Grupp 3
 

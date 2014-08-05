@@ -1,5 +1,7 @@
 # Vanliga frågor
 
+//TODO Hannes, issue 3 (En förteckning över alla frågor)
+
 ## Hur förhåller sig RDF till XML?
 
 XML är ett flexibelt dataformat som klarar av att uttrycka i stort sett vad som helst. Man kan jämföra XML med linjerat papper, det ger ett visst stöd och förenklar maskinell hantering i jämförelse med att skriva direkt på olinjerat papper. XML används idag för att representera allt från böcker till affärstransaktioner.
@@ -51,3 +53,15 @@ I huvudsak finns tre möjliga lösningar att prövas i ordning kring källor som
 1. Noga undersöka vad licensen säger, troligtvis är det möjligt att publicera delar av en källa i anslutning till att den används. Eventuellt kan man komma undan genom att inte tillåta renodlad sökning eller bulk nedladdning av källan utan bara indirekt åtkomst till delar.
 2. Begränsa åtkomst till vissa källor som länkade data baserat på vem som är användaren.
 3. Rekommendera byta till en annan datakälla.
+
+## Men våra data är inte tillräckligt bra kvalite, kan vi släppa ut dem i det tillståndet de är nu?
+//TODO Matthias issue 20
+
+## Tappar vi inte kvalitetskontroll med länkar?
+//TODO Matthias issue 19
+
+## Ska vi samla ihop länkade data eller lämna i källan?
+//TODO Hannes issue 18
+
+## Hur integrera med CMS?
+//TODO Matthias issue 17

@@ -1,4 +1,5 @@
 # Introduktion till länkade data (LD)
+//TODO Matthias issue 15
 1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext. 
 I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument. 
 16 år senare lanserar Tim Berners-Lee *Länkade Data* som ett sätt att skapa en *web av data* i en 
@@ -23,6 +24,8 @@ Men det finns fördelar att använda länkade data även om den inte är allmän
 därför kommer vi oftast att tala om länkade data snarare än länkade öppna data. 
 
 ## LD på 1 minut
+//TODO Matthias issue 12
+//Nedan är vad och varför, lägg till hur och dela upp i rubriker, typ: Vad är Länkade Data. Varför ska jag publicera Länkade Data...
 
 Länkade data handlar om att komplettera den existerande webben av dokument med en *webb av data*.
 Följande tre principer är mer konkreta i hur det går till:
@@ -131,7 +134,10 @@ på samma sätt som referenser i artiklar visar på att informationen är föran
 * Länkar ut ökar din datas synlighet då det blir en del av det större länkade data molnet vilket i ett
 längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form av länkar in.
 
-# Länkade data - en global rörelse
+## Vikten av återanvändning
+//TODO Hannes issue 11
+
+## Länkade data - en global rörelse
 
 Länkade data introducerades av Webbens grundare sir Tim Berners-Lee 2006 i en inflytelserik [Linked Data Design Note](http://www.w3.org/DesignIssues/LinkedData.html).
 Ett sätt att mäta i vilken omfattning länkade data används är att se hur många dataset och hur många påståenden som publicerats

@@ -8,8 +8,18 @@ Lägg upp lite turtle filer i en webbkatalog.
 Experimentera med vilka properties, klasser, datatyper och länkar som känns bra.
 
 
-## Design av Länkade data
+## Best Practices
+//TODO Hannes issue 25
 
+// ATT kolla på (från DCAT-AP): Concerning licence vocabularies, implementers are encouraged to use widely
+recognised licences such as Creative Commons licences 64 , and in particular the CC
+Zero Public Domain Dedication 65 , the Open Data Commons Public Domain
+Dedication and License (PDDL) 66 , the ISA Open Metadata Licence 67 , the European
+Union Public Licence (EUPL) 68 or an open government licence such as the UK Open
+Government Licence 69.
+
+### Licens
+### Design av Länkade data
 ### URI design
 ### Val av vokabulärer
 

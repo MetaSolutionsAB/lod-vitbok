@@ -5,6 +5,9 @@ Det här projektet är en vitbok som utvecklats inom det VINNOVA finansierade pr
 
 Se [projektets webbsida](http://lankadedata.se) för mer information.
 
+## Målgrupp och Målsättning
+//TODO Hannes issue 26
+
 ## Författare
 
 Vitboken är skriven av Matthias Palmér och Hannes Ebner från [MetaSolutions AB](http://metasolutions.se).

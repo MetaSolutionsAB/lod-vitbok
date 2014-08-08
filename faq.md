@@ -71,7 +71,10 @@ I huvudsak finns tre möjliga lösningar att prövas i ordning kring källor som
 //TODO Matthias issue 19
 
 ## <a name="samla-lankar"></a>Ska vi samla ihop länkade data eller lämna i källan?
-//TODO Hannes issue 18
+
+Att duplicera information ska i största allmänhet undvikas, men ibland är det nödvändigt för att uppnå god användbarhet i de tjänster eller applikationer som bygger på denna information. Datakällor kan ibland vara offline eller ha dålig prestanda och ibland vill man själv ha kontroll över tillgängligheten. Kan en applikation inte byggas så att den klarar av att fungera med otillgängliga datakällor, så kan det vara angeläget att duplicera data i sin egna infrastruktur med regelbundna uppdateringar. Detta förutsätter att det är tekniskt hållbart (dvs datamängden går att hantera), samt att datakällans licensebestämmelser tillåter en sådan användning.
+
+[Caching servern LDCache](http://entrystore.org/ldcache/) har utvecklats av MetaSolutions för att hämta in och cacha viktiga länkade (öppna) data. Detta ger bättre kontroll över en datakällas prestanda och tillgänglighet. LDCache är ett Open Source projekt.
 
 ## <a name="cms-integration"></a>Hur integrera med CMS?
 //TODO Matthias issue 17

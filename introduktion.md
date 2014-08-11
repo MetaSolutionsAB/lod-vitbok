@@ -135,7 +135,9 @@ på samma sätt som referenser i artiklar visar på att informationen är föran
 längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form av länkar in.
 
 ## Vikten av återanvändning
-//TODO Hannes issue 11
+
+Återanvänding av existerande termer är en viktig aspekt vid publicering av länkade data. Att återanvända väletablerade termer ökar sannolikheten att applikationer kan konsumera publicerade länkade data utan att det krävs särskilda anpassningar för olika datamängder. Det finns alltid situationer där befintliga termer inte exakt matchar behovet. I sådana fall är det rekommenderat att skapa en ny term som länkar tillbaka till det som förfinas (s.k. "refinements") eller är relaterat.
+Utan återanvänding eller länkar mellan relaterade termer förlorar man en av de mest kraftfulla egenskaper av länkade data och man löper risk att det publiceras datamängder som är begränsad interoperabla.
 
 ## Länkade data - en global rörelse
 
@@ -146,8 +148,7 @@ Antalet dataset har också ökat dramatiskt vilket kan ses i de visualiseringar 
 Tyvär har ingen visualisering gjorts sedan 2011, då såg det ut så här:
 
 ![LOD cloud 2011, including 295 datasets](bilder/lod-cloud-2011.png)
-
-“Linking Open Data cloud diagram, by Richard Cyganiak and Anja Jentzsch. http://lod-cloud.net/”
+_Linking Open Data cloud diagram, by Richard Cyganiak and Anja Jentzsch. [http://lod-cloud.net/](http://lod-cloud.net)_
 
 En indikation på att det fortsatt att växa sedan dess kan man få genom att söka fram alla dataset på [datahub.io](http://datahub.io/dataset?tags=lod), vid skrivande stund är de 898 stycken. Detta ska jämföras med de 295 som ingick i visualiseringen 2011. Det är också troligt att
 det finns ett stort mörkertal med dataset som antingen inte registrerats alls eller registrerats i nationella register

@@ -7,21 +7,20 @@ Val av dataset => hänvisa till e-delegationen och SKL
 Lägg upp lite turtle filer i en webbkatalog.
 Experimentera med vilka properties, klasser, datatyper och länkar som känns bra.
 
-
 ## Best Practices
-//TODO Hannes issue 25
 
-// ATT kolla på (från DCAT-AP): Concerning licence vocabularies, implementers are encouraged to use widely
-recognised licences such as Creative Commons licences 64 , and in particular the CC
-Zero Public Domain Dedication 65 , the Open Data Commons Public Domain
-Dedication and License (PDDL) 66 , the ISA Open Metadata Licence 67 , the European
-Union Public Licence (EUPL) 68 or an open government licence such as the UK Open
-Government Licence 69.
+Det finns best practices med väletablerade angreppssätt för skapning av URIer och val av vokabulärer som bör återanvändas så långt som möjligt. En detaljerad redogörelse av best practices ligger utanför vitbokens ramar, men det finns gott om literatur som detaljerat beskriver hur man kan gå tillväga. Avsnittet ["Externa källor"](externt.html) innehåller en lista med relevant literatur som även täcker best practices.
 
-### Licens
-### Design av Länkade data
-### URI design
-### Val av vokabulärer
+## Licens
+
+Det är viktigt att förse datamängden med en licens som gör det tydligt vad man får göra med datamängden. Det är allmännt rekommenderat att återanvända väletablerade licenser som är anpassade för öppna data. Exempel på licenser som fungerar bra med länkade öppna data är:
+
+* [Creative Commons Zero Public Domain Dedication (CC0)](http://creativecommons.org/publicdomain/zero/1.0/)
+* [Open Data Commons Public Domain Dedication (PDDL)](http://opendatacommons.org/licenses/pddl/)
+* [European Union Public License (EUPL)](https://joinup.ec.europa.eu/software/page/eupl)
+* [ISA Open Metadata Licence](https://joinup.ec.europa.eu/category/licence/isa-open-metadata-licence-v11)
+
+Det underlättar (eller gör det ens möjligt) att återanvända datamängden när den publiceras tillsammans med en tydlig och godtagbar öppen licens.
 
 ## Exponera länkade data - lösningskategorier
 

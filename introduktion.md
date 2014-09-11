@@ -1,6 +1,4 @@
 # Introduktion till länkade data (LD)
-//TODO Matthias issue 15
-
 1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext. 
 I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument. 
 2006, 16 år senare, lanserar Tim Berners-Lee *Länkade Data*, förkortat *LD*, som ett sätt att skapa en *web av data* i en 
@@ -19,27 +17,49 @@ _The next web, by Tim Berners Lee at [TED2009](http://www.ted.com/talks/tim_bern
 På sista tiden har intresset för det som kallas *öppna data* växt kraftigt. Öppna data innebär att man gör data
 tillgängliga över internet för att förenkla användning, såväl väntad som oväntad. Att göra sina data tillgängliga som öppna data är ett bra första steg, men saknar den potential som länkad data har. Något förenklat kan man formulera skillnaden så här:
  
-    Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.  
+    Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.
  
 Oftast är även länkade data tillgängligt öppet och benämns då *länkade öppna data*. På engelska används akronymen *LOD* för den engelska benämningen *Linked Open Data*. I denna vitbok håller vi dock fast vid benämningen länkade data för att markera att det finns fördelar oavsätt om datan är allmänt tillgänglig (öppen) eller inte.
 
-## LD på 1 minut
-//TODO Matthias issue 12
-//Nedan är vad och varför, lägg till hur och dela upp i rubriker, typ: Vad är Länkade Data. Varför ska jag publicera Länkade Data...
+## 1 minut: Vad är Länkade Data
 
 Länkade data handlar om att komplettera den existerande webben av dokument med en *webb av data*.
-Följande tre principer är mer konkreta i hur det går till:
+Det första vi behöver förstå är att länkade data handlar om *påståenden* om *ting*, där ting kan vara personer, platser, mediciner, historiska händelser, bilder, filmer, textdokument osv. Konkret räcker det att följa tre principer:
 
-* enhetlig informationsmodell - data som påståenden om ting (andvänd *RDF*)
-* addresserbarhet - varje ting har en webbaddress där dess påståenden kan hämtas (använd *URI:er* och *HTTP*)
-* länka ihop - förbind ting med varandra genom *relationer* av olika slag
+* addresserbarhet - ge varje ting en *URI* (en webbadress) som gör att påståenden kan hämtas via *HTTP*
+* enhetlig informationsmodell - används språket *RDF* för att uttrycka påståenden om ting
+* länka ihop - förbind ting med varandra genom *relationer* av olika slag, gärna mellan olika datakällor
 
-Dessa principer innebär:
+## 1 minut: Varför ska jag publicera Länkade Data
+Att använda länkade data ger många fördelar, bland annat:
 
 * lättare att förstå och återanvända varandras data
-* specialisera data genom att identifiera och länka till data som redan finns och fokusera på specifika och unika mervärden
-* data blir bättre tillgänglig på webben och i sökmotorer
-* tekniker för kunskapshantering blir lättare att använda
+* minska duplicering och fokusera på det egna datats specifika och unika mervärden 
+<br>(genom att länka till andras data)
+* din data blir bättre tillgänglig på webben och i sökmotorer
+* etablerade tekniker för maskinell bearbetning möjliggörs <br>
+(då användning av länkade data innebär att semantiken hos datat klargörs)
+
+## 1 minut: Hur publicerar jag LD
+
+Identifiera vilka ting du har och ge dem webbadresser, tex: `http://data.min-domän.se/produkt/15`
+
+Skapa lite påståenden om dina ting och lägg upp dem på respektive webbadress. Återanvända gärna etablerade vokabulärer, i exemplet nedan används [Dublin Core Terms (förkortat dct)](http://dublincore.org/documents/dcmi-terms/). Exempelet använder [turtle syntaxen](http://www.w3.org/TR/turtle/) då den är tämligen enkel att läsa:
+
+    PREFIX ex: <http://data.min-domän.se/produkt>
+    PREFIX dct: <http://purl.org/dc/terms/>
+    
+    ex:15  dct:title "Produkt 15";
+           dct:description "Produkt nummer 15 erbjuder en fantastisk...";
+           dct:created "2014-09-09".
+ 
+Lägg sen gärna till påståenden i form av relationer (länkar) både mellan dina egna ting och till externa ting.
+
+    ex:16 dct:title "Produkt 16";
+          dct:partOf ex:15;
+          dct:relation <http://dbpedia.org/page/Bread>.
+          
+Klart!, länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern komptens kring informationsmodellen osv.
 
 ## Webben och länkade data
 
@@ -137,7 +157,7 @@ längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form a
 ## Vikten av återanvändning
 
 Återanvänding av existerande termer är en viktig aspekt vid publicering av länkade data. Att återanvända väletablerade termer ökar sannolikheten att applikationer kan konsumera publicerade länkade data utan att det krävs särskilda anpassningar för olika datamängder. Det finns alltid situationer där befintliga termer inte exakt matchar behovet. I sådana fall är det rekommenderat att skapa en ny term som länkar tillbaka till det som förfinas (s.k. "refinements") eller är relaterat.
-Utan återanvänding eller länkar mellan relaterade termer förlorar man en av de mest kraftfulla egenskaper av länkade data och man löper risk att det publiceras datamängder som är begränsad interoperabla.
+Utan återanvänding eller länkar mellan relaterade termer förlorar man en av de mest kraftfulla egenskaper av länkade data och man löper risk att det publiceras datamängder som har högst begränsad interoperabilitet med andra data.
 
 ## Länkade data - en global rörelse
 

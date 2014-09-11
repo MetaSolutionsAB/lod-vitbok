@@ -1,27 +1,27 @@
 # Introduktion till länkade data (LD)
 //TODO Matthias issue 15
+
 1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext. 
 I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument. 
-16 år senare lanserar Tim Berners-Lee *Länkade Data* som ett sätt att skapa en *web av data* i en 
+2006, 16 år senare, lanserar Tim Berners-Lee *Länkade Data*, förkortat *LD*, som ett sätt att skapa en *web av data* i en 
 [design issue](http://www.w3.org/DesignIssues/LinkedData.html). 
-Skillnaden mot den vanliga webben är att länkade data handlar om att länka samman ting och beskrivningar om ting snarare än dokument.  
+Skillnaden mot den vanliga webben är att länkade data handlar om att länka samman *ting* och dess *beskrivningar* snarare än dokument.
 
-På sista tiden har också intresset för det som kallas *öppna data* växt kraftigt, vilket innebär att man gör sin data
-tillgängliga för att förenkla användning, såväl väntad som oväntad. I praktiken innebär det att data görs tillgänglig via 
-webben i någon form då det är det dominanerade mediet.
+<a href="http://www.ted.com/talks/tim_berners_lee_on_the_next_web"><img align="right" src="bilder/Tim_Berners-Lee_TED2009.jpg" style="margin: 0px 5px 0px 35px"></a>
 
-Det är intressant att notera att syftet med öppna data är vällovliga, men saknar den potential som länkad data innefattar. Lite slagkraftigt kan man formulera det så här:
 
-    Öppna data är som webben utan enhetligt format eller länkar.
+> Interestingly, data is relationships. This person was born in Berlin; Berlin is in Germany. And when it has relationships, whenever it expresses a relationship then the other thing that it's related to is given one of those names that starts HTTP. So, I can go ahead and look that thing up. So I look up a person -- I can look up then the city where they were born; then I can look up the region it's in, and the town it's in, and the population of it, and so on. So I can browse this stuff.
 
-Man kan också se det som att länkade öppna data är en utvidgning till öppna data:
+> So that's it, really. That is linked data.
+
+_The next web, by Tim Berners Lee at [TED2009](http://www.ted.com/talks/tim_berners_lee_on_the_next_web)._
+
+På sista tiden har intresset för det som kallas *öppna data* växt kraftigt. Öppna data innebär att man gör data
+tillgängliga över internet för att förenkla användning, såväl väntad som oväntad. Att göra sina data tillgängliga som öppna data är ett bra första steg, men saknar den potential som länkad data har. Något förenklat kan man formulera skillnaden så här:
  
-    Länkade öppna data är öppna data med enhetligt format (RDF) och länkar.  
+    Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.  
  
-Den nogranne har här säkert noterat att det ovan smygit sig in ett öppna i länkade data. 
-Skillnaden handlar bara i vilken omfattning datan är åtkomlig för en större publik. 
-Men det finns fördelar att använda länkade data även om den inte är allmänt tillgänglig (öppen), 
-därför kommer vi oftast att tala om länkade data snarare än länkade öppna data. 
+Oftast är även länkade data tillgängligt öppet och benämns då *länkade öppna data*. På engelska används akronymen *LOD* för den engelska benämningen *Linked Open Data*. I denna vitbok håller vi dock fast vid benämningen länkade data för att markera att det finns fördelar oavsätt om datan är allmänt tillgänglig (öppen) eller inte.
 
 ## LD på 1 minut
 //TODO Matthias issue 12

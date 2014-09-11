@@ -70,7 +70,11 @@ Det kan finnas hinder på grund av lagar och regleringar som måste beaktas. Til
 Notera: att göra sina data tillgängliga som länkade data innebär inte med automatik att de måste vara öppet tillgängliga. 
 
 ## <a name="kvalitetskontroll"></a>Tappar vi inte kvalitetskontroll med länkar?
-//TODO Matthias issue 19
+Det är naturligt att kvaliten varierar mellan datakällor då ansvariga organisationer lägger olika vikt vid sina data. Dessutom är det stor skillnad mellan datakällor som skapas på frivillig basis (tex crowdsourcing) och de som ges ut av organisationer med avlönade experter. 
+
+Brist på kvalite kan yttra sig både genom att datakällor periodvis är otillgängliga eller på brist i konsekvens i vilka påståenden som är uttryckta per ting. Periodvis otillgängliga datakällor går att kompensera för genom smart cachning, men brist på konsekvens är svårare.
+
+En uppenbar lösning är helt enkelt att låta bli att länka till datakällor med för dålig kvalite. Ett annat mer tilltalande alternativt är att välja att länka med relationer som är medvetet lösare i sin karaktär, tex `rdfs:seeAlso` istället `owl:sameAs` som får mer långtgående konsekvenser i form av maskinell bearbetning. Det är också stor skillnad mellan att länka till ting i andras datakällor och att återanvända klasser, egenskaper, eller begrepp vilket i allmänhet ställer högre krav på kvalite.
 
 ## <a name="samla-lankar"></a>Ska vi samla ihop länkade data eller lämna i källan?
 

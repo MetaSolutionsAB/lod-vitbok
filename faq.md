@@ -7,7 +7,7 @@
 5. [Hur konverterbar är RDF?](#konverterbar)
 6. [Vad är de viktigaste skillnaderna mellan RDF och en relationsdatabas? Nackdelar? Fördelar? Kostnader?](#rdbms-vs-rdf)
 7. [Hur hanterar man data som kräver licens för åtkomst?](#licens)
-8. [Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillståndet de är nu?](#kvalitet)
+8. [Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillstånd de är nu?](#kvalitet)
 9. [Tappar vi inte kvalitetskontroll med länkar?](#kvalitetskontroll)
 10. [Ska vi samla ihop länkade data eller lämna i källan?](#samla-lankar)
 11. [Hur integrera med CMS?](#cms-integration)
@@ -64,8 +64,10 @@ I huvudsak finns tre möjliga lösningar att prövas i ordning kring källor som
 2. Begränsa åtkomst till vissa källor som länkade data baserat på vem som är användaren.
 3. Rekommendera byta till en annan datakälla.
 
-## <a name="kvalitet"></a>Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillståndet de är nu?
-//TODO Matthias issue 20
+## <a name="kvalitet"></a>Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillstånd de är nu?
+Det kan finnas hinder på grund av lagar och regleringar som måste beaktas. Till exempel personuppgiftslagen (PUL) och copyrightskydd, läs mer om detta på e-delegationens vägledning kring [vidareutnyttjande av information](http://www.vidareutnyttjande.se/). Ur ett kvalitetsperspektiv är det svårare att säga något generellt. Dock är det ofta bättre att komma igång med att släppa en del data och få återkoppling från andra än att på egen kammare försöka förutse alla problem. Det vill säga, ett iterativt arbetsätt är ofta att föredra även för publicering av länkade data.
+
+Notera: att göra sina data tillgängliga som länkade data innebär inte med automatik att de måste vara öppet tillgängliga. 
 
 ## <a name="kvalitetskontroll"></a>Tappar vi inte kvalitetskontroll med länkar?
 //TODO Matthias issue 19

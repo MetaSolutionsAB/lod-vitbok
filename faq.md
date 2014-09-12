@@ -83,4 +83,15 @@ Att duplicera information ska i största allmänhet undvikas, men ibland är det
 [Caching servern LDCache](http://entrystore.org/ldcache/) har utvecklats av MetaSolutions för att hämta in och cacha viktiga länkade (öppna) data. Detta ger bättre kontroll över en datakällas prestanda och tillgänglighet. LDCache är ett Open Source projekt.
 
 ## <a name="cms-integration"></a>Hur integrera med CMS?
-//TODO Matthias issue 17
+Det finns flera olika sätt att integrera länkade data i en CMS. En möjlighet är att låta CMS plattformen prata direkt med LD plattformen, tex via specifika API:er eller direkt på databas nivån. Men i många fall kan en sådan integration vara krånglig, särskilt om plattformarna är skrivna i olika programmeringsspråk. Ett bättre alternativ är att utnyttja att länkade data i sig är ett slags API som exponeras över HTTP. 
+
+Idag erbjuder de flesta stora CMS:er ett kontrollerat sätt att utöka sin funktionalitet, typiskt genom att utveckla pluginner eller moduler. Beroende på CMS:en kan sådan ny funktionaltet införas enbart på serversidan eller också via javascript i browsern. Båda alternativen fungerar väl med integration med länkade data, gärna via färdiga bibliotek som hanterar parsning och bearbetning av länkade data uttryck.
+
+Ibland kan också länkade data plattformar erbjuda färdiga gränsnittskomponenter, tex för att lista, söka eller presentera enskilda resurser. Det är möjligt att sådana komponenter kan inkorporeras med en mindre insats (fixa enhetligt utseende via teman eller ren css) på samma sätt som man bäddar in tex youtube klipp. 
+
+Vi summerar de olika integrationsmöjligheterna (där alla med fördel genomförs via någon form av plugin eller modul i respektive CMS):
+
+1. CMS backend pratar med LD backend - ofta krångligt, undvik
+2. CMS backend hämtar LD över HTTP - fungerar alltid
+3. CMS frontend hämtar LD över HTTP - fungerar alltid
+4. CMS frontend bäddar in färdiga LD frontend komponenter - bara om stöd finns i LD plattformen

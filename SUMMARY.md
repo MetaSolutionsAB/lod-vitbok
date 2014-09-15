@@ -6,4 +6,4 @@
 * [Kom igång](komigang.md)
 * [Teknikplattformar](teknikplattformar.md)
 * [Vanliga frågor](faq.md)
-* [Relaterad information](externt.md)
+* [Relaterad information](related.md)

@@ -10,7 +10,7 @@
 8. [Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillstånd de är nu?](#kvalitet)
 9. [Tappar vi inte kvalitetskontroll med länkar?](#kvalitetskontroll)
 10. [Ska vi samla ihop länkade data eller lämna i källan?](#samla-lankar)
-11. [Hur integrera med CMS?](#cms-integration)
+11. [Hur integrerar man bäst med en CMS?](#cms-integration)
 
 ## <a name="rdf-och-xml"></a>Hur förhåller sig RDF till XML?
 
@@ -82,7 +82,7 @@ Att duplicera information ska i största allmänhet undvikas, men ibland är det
 
 [Caching servern LDCache](http://entrystore.org/ldcache/) har utvecklats av MetaSolutions för att hämta in och cacha viktiga länkade (öppna) data. Detta ger bättre kontroll över en datakällas prestanda och tillgänglighet. LDCache är ett Open Source projekt.
 
-## <a name="cms-integration"></a>Hur integrera med CMS?
+## <a name="cms-integration"></a>Hur integrerar man bäst med en CMS?
 Det finns flera olika sätt att integrera länkade data i en CMS. En möjlighet är att låta CMS plattformen prata direkt med LD plattformen, tex via specifika API:er eller direkt på databas nivån. Men i många fall kan en sådan integration vara krånglig, särskilt om plattformarna är skrivna i olika programmeringsspråk. Ett bättre alternativ är att utnyttja att länkade data i sig är ett slags API som exponeras över HTTP. 
 
 Idag erbjuder de flesta stora CMS:er ett kontrollerat sätt att utöka sin funktionalitet, typiskt genom att utveckla pluginner eller moduler. Beroende på CMS:en kan sådan ny funktionaltet införas enbart på serversidan eller också via javascript i browsern. Båda alternativen fungerar väl med integration med länkade data, gärna via färdiga bibliotek som hanterar parsning och bearbetning av länkade data uttryck.

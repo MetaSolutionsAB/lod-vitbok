@@ -3,10 +3,11 @@
 ## Allmänt om publicering av öppna data i Sverige
 
 ### Öppnadata.se - nationell portal
+
 DCAT-AP
 Eurovoc - en europeisk termbank
 
-### Relevanta svenska lagar och rekommendationer
+### Relevanta svenska initiativ
 
 #### E-delegationens vägledning för vidareutnyttjande
 
@@ -14,7 +15,7 @@ Eurovoc - en europeisk termbank
 
 #### SKL:s ramverk för öppna data
 
-
+[SKL](http://www.skl.se) jobbar på att ta fram ett [nationellt ramverk för öppna data](http://www.skl.se/4.33ccf562145ac94e99870557.html) som ska hjälpa kommuner och landsting i deras kontinuerliga arbete med öppna data.
 
 #### PSI-lagen
 

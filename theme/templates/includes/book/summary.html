@@ -11,6 +11,7 @@
         <li class="divider"></li>
 
         {% for item in summary.chapters %}
+	    {% if item.level > 0 %}
             <li {% if item._path == _input %}class="active"{% endif %} data-level="{{ item.level }}" {% if item.path %}data-path="{{ item.path|mdLink }}"{% endif %}>
                 {% if item.path %}
                 <a href="{{ basePath }}/{{ item.path|mdLink }}">
@@ -35,6 +36,7 @@
                 </ul>
                 {% endif %}
             </li>
+	    {% endif %}
         {% endfor %}
 
         <li class="divider"></li>

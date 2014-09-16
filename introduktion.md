@@ -1,7 +1,8 @@
 # Introduktion till länkade data (LD)
+
 1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext.
 I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument.
-2006, 16 år senare, lanserar Tim Berners-Lee *Länkade Data*, förkortat *LD*, som ett sätt att skapa en *web av data* i en
+2006, 16 år senare, lanserar Tim Berners-Lee *Länkade Data*, förkortat *LD*, som ett sätt att skapa en *webb av data* i en
 [design issue](http://www.w3.org/DesignIssues/LinkedData.html).
 Skillnaden mot den vanliga webben är att länkade data handlar om att länka samman *ting* och dess *beskrivningar* snarare än dokument.
 
@@ -21,7 +22,9 @@ tillgängliga över Internet för att förenkla användning, såväl väntad som
 
 Oftast är även länkade data tillgängligt öppet och benämns då *länkade öppna data*. På engelska används akronymen *LOD* för den engelska benämningen *Linked Open Data*. I denna vitbok håller vi dock fast vid benämningen länkade data för att markera att det finns fördelar oavsätt om datan är allmänt tillgänglig (öppen) eller inte.
 
-## 1 minut: Vad är Länkade Data
+## Introduktion till de viktigaste begreppen på 3 minuter
+
+### Vad är Länkade Data?
 
 Länkade data handlar om att komplettera den existerande webben av dokument med en *webb av data*.
 Det första vi behöver förstå är att länkade data handlar om *påståenden* om *ting*, där ting kan vara personer, platser, mediciner, historiska händelser, bilder, filmer, textdokument osv. Konkret räcker det att följa tre principer:
@@ -30,7 +33,8 @@ Det första vi behöver förstå är att länkade data handlar om *påståenden*
 * enhetlig informationsmodell - används språket *RDF* för att uttrycka påståenden om ting
 * länka ihop - förbind ting med varandra genom *relationer* av olika slag, gärna mellan olika datakällor
 
-## 1 minut: Varför ska jag publicera Länkade Data
+### Varför ska jag publicera Länkade Data?
+
 Att använda länkade data ger många fördelar, bland annat:
 
 * lättare att förstå och återanvända varandras data
@@ -38,7 +42,7 @@ Att använda länkade data ger många fördelar, bland annat:
 * din data blir bättre tillgänglig på webben och i sökmotorer
 * etablerade tekniker för maskinell bearbetning möjliggörs (då användning av länkade data innebär att semantiken hos datat klargörs)
 
-## 1 minut: Hur publicerar jag LD
+### Hur publicerar jag LD?
 
 Identifiera vilka ting du har och ge dem webbadresser, tex: `http://data.min-domän.se/produkt/15`
 
@@ -57,7 +61,7 @@ Lägg sen gärna till påståenden i form av relationer (länkar) både mellan d
           dct:partOf ex:15;
           dct:relation <http://dbpedia.org/page/Bread>.
 
-Klart!, länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern komptens kring informationsmodellen osv.
+Klart! Länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern komptens kring informationsmodellen osv.
 
 ## Webben och länkade data
 
@@ -88,12 +92,12 @@ I samband med öppna data och länkade öppna data använder man ofta en femstj�
 <span style="visibility:hidden">★★★★</span><span style="color: rgb(236, 216, 36)">★</span> gör din information tillgänglig på webben under en öppen licens<br>
 <span style="visibility:hidden">★★★★★</span> (även svårbearbetade format som skannade dokument är ok)<br>
 <span style="visibility:hidden">★★★</span><span style="color: rgb(236, 216, 36)">★★</span> gör informationen tillgänglig som strukturerad data<br>
-<span style="visibility:hidden">★★★★★</span> (t. ex., Excel format istället för en bild av en tabell)<br>
+<span style="visibility:hidden">★★★★★</span> (t. ex., Excel-format istället för en bild av en tabell)<br>
 <span style="visibility:hidden">★★</span><span style="color: rgb(236, 216, 36)">★★★</span> använd icke-proprietära format<br>
 <span style="visibility:hidden">★★★★★</span> (t. ex., CSV istället för Excel)<br>
 <span style="visibility:hidden">★</span><span style="color: rgb(236, 216, 36)">★★★★</span> använd URI:er för att identifiera ting,<br>
 <span style="visibility:hidden">★★★★★</span> och RDF för att uttrycka påståenden om dem<br>
-<span style="color: rgb(236, 216, 36)">★★★★★</span> länka dina data till andras data, det ger sammanhang
+<span style="color: rgb(236, 216, 36)">★★★★★</span> länka din data till andras data, det ger sammanhang
 
 Nedan beskrivs fördelar med stjärnnivåerna, notera att fördelar ackumuleras ju fler stjärnor man når.
 
@@ -107,7 +111,7 @@ får vidareanvändas är första stjärnan säkrad.
 Det är ett stort steg att gå från att behöva explicit begära data från en organisation till att informationen
 finns tillgänglig digitalt.
 
-### <span style="color: rgb(236, 216, 36)">★★</span> Två stjärnor - öka datakvalitén
+### <span style="color: rgb(236, 216, 36)">★★</span> Två stjärnor - öka datakvalitéten
 
 Att dela ut ett format där data är tillgängligt på ett maskinprocessbart sätt utan att man behöver
 använda någon form av riskfylld extraheringsprocess gör att andra kan förlita sig på datan i större utsträckning.
@@ -116,7 +120,7 @@ Insatsen för att använda datan i andra sammanhang har sjunkit betydligt och tv
 ### <span style="color: rgb(236, 216, 36)">★★★</span> Tre stjärnor - öppna data
 
 Med tre stjärnor minskar man behovet av investeringar i proprietär teknologi hos de som vidareutnyttjar datan.
-Då man förlitar sig på öppna format som antingen är väldigt enkla (t ex CSV formatet) eller väl dokumenterade
+Då man förlitar sig på öppna format som antingen är väldigt enkla (t. ex. CSV-formatet) eller väl dokumenterade
 skapar man förutsättningar för mer långsiktig hållbar data.
 Man minskar även risken för felaktig bearbetning av information när proprietära format hanteras av tredje parts
 mjukvara (särskilt när fullständig dokumentation om formatet saknas).
@@ -128,7 +132,7 @@ Med den fjärde stjärnan uppnås flera saker:
 * Genom att man delat upp datan i ting som har globala identifierare, URI:er, möjliggör man för andra att
 referera till den egna datan på ett sätt som är standardiserat och effektivt.
 * Dataintegration med andra parter förenklas då det datauttryck man väljer inte är bundet till det egna datalagret.
-Istället beskriver man sin data med hjälp av existerande termer, ofta anpassar och kombinera man en eller
+Istället beskriver man sin data med hjälp av existerande termer, ofta anpassar och kombinerar man en eller
 flera existerande informationsmodeller efter egna behov. Detta innebär att när den egna datan ska vidareutnyttjas
 kan andra parter redan ha kännedom eller till och med utvecklat stöd för att förstå delar av informationsmodellen.
 * Den informationsmodell man utvecklat är med stor sannolikhet mer genomtänkt då den är en
@@ -145,7 +149,7 @@ Den femte stjärnan ger flera ytterligare fördelar:
 istället för att skapa egna eller skriva fritext.
 * Använd data/begrepp/termer från andra datakällor direkt när behov uppstår utan att först behöva fokusera
 på tekniska aspekter av dataintegration som import, konvertering och drift/underhåll.
-* Effektiv använd länkning kan leda till att öka dataspecialisering då du kan fokusera på att underhålla de
+* Effektivt använd länkning kan leda till att öka dataspecialisering då du kan fokusera på att underhålla de
 delar av datan som är unik för din organisation och mindre med information som redan finns i andra datakällor.
 * Länkar till andra datakällor ökar förtroendet för att din data är genomtänkt på ungefär
 på samma sätt som referenser i artiklar visar på att informationen är förankrad i ett större sammanhang.
@@ -155,15 +159,15 @@ längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form a
 ## Vikten av återanvändning
 
 Återanvänding av existerande termer är en viktig aspekt vid publicering av länkade data. Att återanvända väletablerade termer ökar sannolikheten att applikationer kan konsumera publicerade länkade data utan att det krävs särskilda anpassningar för olika datamängder. Det finns alltid situationer där befintliga termer inte exakt matchar behovet. I sådana fall är det rekommenderat att skapa en ny term som länkar tillbaka till det som förfinas (s.k. "refinements") eller är relaterat.
-Utan återanvänding eller länkar mellan relaterade termer förlorar man en av de mest kraftfulla egenskaper av länkade data och man löper risk att det publiceras datamängder som har högst begränsad interoperabilitet med andra data.
+Utan återanvändning eller länkar mellan relaterade termer förlorar man en av de mest kraftfulla egenskaperna av länkade data och man löper risk att det publiceras datamängder som har högst begränsad interoperabilitet med andra data.
 
 ## Länkade data - en global rörelse
 
 Länkade data introducerades av Webbens grundare sir Tim Berners-Lee 2006 i en inflytelserik [Linked Data Design Note](http://www.w3.org/DesignIssues/LinkedData.html).
 Ett sätt att mäta i vilken omfattning länkade data används är att se hur många dataset och hur många påståenden som publicerats
 över tiden. Till exempel så ökade antalet publicerade påståenden från 2 miljarder 2007 till 30 miljarder 2011.
-Antalet dataset har också ökat dramatiskt vilket kan ses i de visualiseringar som gjordes av det så kallade [LOD molnet](http://lod-cloud.net/).
-Tyvär har ingen visualisering gjorts sedan 2011, då såg det ut så här:
+Antalet dataset har också ökat dramatiskt vilket kan ses i de visualiseringar som gjordes av det så kallade [LOD-molnet](http://lod-cloud.net/).
+Tyvär har ingen visualisering gjorts sedan 2011, då det såg ut så här:
 
 ![LOD cloud 2011, including 295 datasets](bilder/lod-cloud-2011.png)
 _Linking Open Data cloud diagram, by Richard Cyganiak and Anja Jentzsch. [http://lod-cloud.net/](http://lod-cloud.net)_

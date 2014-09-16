@@ -30,12 +30,6 @@ TODO
 
 ## Länkade data i Sverige
 
-### Projekt "Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok"
-
-Webbsidan av projektet som även ligger bakom denna vitbok. Innehåller länkar till inspelade webbinarier med huvudsakligen svenska aktörer som berättar hur de använder länkade data i sin organisation.
-
-* [http://lankadedata.se](http://lankadedata.se)
-
 ### Konferenser och meetups
 
 Konferensserien _Länkade data i Sverige_ med meetup-karaktär har sedan 2012 anordnats varje år för att främja erfarenhetsutbytet kring aktiviteter med fokus på länkade data.
@@ -51,6 +45,12 @@ I Malmö ... TODO
 ### Facebook-grupp "Semantiska webben i Sverige"
 
 
+
+### Projekt "Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok"
+
+Webbsidan av projektet som även ligger bakom denna vitbok. Innehåller länkar till inspelade webbinarier med huvudsakligen svenska aktörer som berättar hur de använder länkade data i sin organisation.
+
+* [http://lankadedata.se](http://lankadedata.se)
 
 ### Projekt "Länkade öppna data i Sverige - Portal och nationell statistik"
 

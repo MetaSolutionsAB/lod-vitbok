@@ -8,9 +8,13 @@ Eurovoc - en europeisk termbank
 
 ### Relevanta svenska lagar och rekommendationer
 
-1. PSI lagen
-2. E-delegationens rekommendation
-3. SKLs rekommendation
+#### PSI lagen
+
+#### E-delegationens rekommendation
+
+[E-delegationen](http://www.edelegationen.se/) har tagit fram en [vägledning för vidareutnyttjande av offentlig information](http://www.vidareutnyttjande.se/), som bygger på en checklista för att komma igång med att skapa och publicera öppna data. Vägledningen innehåller även rekommendationer för hur en myndighet kan göra information tillgänglig på olika sätt.
+
+#### SKLs rekommendation
 
 ## Länkade data i Sverige
 
@@ -18,13 +22,13 @@ Eurovoc - en europeisk termbank
 
 Webbsidan av projektet som även ligger bakom denna vitbok. Innehåller länkar till inspelade webbinarier med huvudsakligen svenska aktörer som berättar hur de använder länkade data i sin organisation.
 
-[http://lankadedata.se](http://lankadedata.se)
+* [http://lankadedata.se](http://lankadedata.se)
 
 ## Länkade data i Sverige
 
 Har producerats som en del av ett Vinnova-finansierat forskningsprojekt: Länkade öppna data i Sverige - Portal och nationell statistik
 
-[http://www.linked-data.se/](http://www.linked-data.se/)
+* [http://www.linked-data.se/](http://www.linked-data.se/)
 
 ### Länkade data i Sverige - meetups
 
@@ -42,13 +46,13 @@ Originalbeskrivning: _"This book gives an overview of the principles of Linked D
 
 Denna bok ger en ganska komplett introduktion till länkade data, samt behandlar designmönster och en rad recept för att publicera och konsumera länkade data.
 
-[http://linkeddatabook.com/editions/1.0/](http://linkeddatabook.com/editions/1.0/)
+* [http://linkeddatabook.com/editions/1.0/](http://linkeddatabook.com/editions/1.0/)
 
 ### Linked Open Data: The Essentials. A Quick Start Guide for Decision Makers
 
 En introduktion till länkade data utan att prata för mycket om teknik. Målgrupp är beslutsfattare.
 
-[http://www.semantic-web.at/LOD-TheEssentials.pdf](http://www.semantic-web.at/LOD-TheEssentials.pdf)
+* [http://www.semantic-web.at/LOD-TheEssentials.pdf](http://www.semantic-web.at/LOD-TheEssentials.pdf)
 
 ### Linked Data Patterns - A pattern catalogue for modelling, publishing, and consuming Linked Data
 

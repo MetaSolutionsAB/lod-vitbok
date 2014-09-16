@@ -70,18 +70,14 @@ Denna bok ger en ganska komplett introduktion till länkade data, samt behandlar
 
 ### Linked Open Data: The Essentials. A Quick Start Guide for Decision Makers
 
-En introduktion till länkade data utan att prata för mycket om teknik. Målgrupp är beslutsfattare.
-
-* [http://www.semantic-web.at/LOD-TheEssentials.pdf](http://www.semantic-web.at/LOD-TheEssentials.pdf)
+Boken [_Linked Open Data: The Essentials_](http://www.semantic-web.at/LOD-TheEssentials.pdf) ger en introduktion till länkade data utan att prata för mycket om teknik. Målgrupp är beslutsfattare.
 
 ### Linked Data Patterns - A pattern catalogue for modelling, publishing, and consuming Linked Data
 
-Ett uppslagsverk med mönster för att modellera, publicera och konsumera länkade data.
-
-[http://patterns.dataincubator.org/book/](http://patterns.dataincubator.org/book/)
+Boken [_Linked Data Patterns_](http://patterns.dataincubator.org/book/) ät ett uppslagsverk med mönster för att modellera, publicera och konsumera länkade data.
 
 ### Linked Data - Design Issues
 
 Tim Berners-Lees samlade tankar kring Linked Data som design issue av webb arkitektur. Ett av de första dokumenten som beskriver idén bakom länkade data.
 
-[http://www.w3.org/DesignIssues/LinkedData.html](http://www.w3.org/DesignIssues/LinkedData.html)
+* [http://www.w3.org/DesignIssues/LinkedData.html](http://www.w3.org/DesignIssues/LinkedData.html)

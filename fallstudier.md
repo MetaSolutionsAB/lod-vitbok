@@ -23,11 +23,11 @@ Det är enkelt att se hur kraven ovan löses naturligt med länkade data:
 
 (*) Principerna bakom webbens arkitektur, som kallas REST, medför bland annat att det finns standardiserade sätt att cacha data. Detta ska jämföras med tjänstebaserade arkitekturer (SOA), som innebär att man introducerar flaskhalsar och en ökad komplexitet, och som innebär att det är betydligt svårare att hantera skalbarhet och redundans.
 
-TODO: Kolla meningen! Varför just länkade data är en bra lösning för att kunna sammanställa information från olika är ett intressant problem som är värt att utvecklas en aning.
+Varför just länkade data är en bra lösning för att kunna sammanställa information från olika källor är en intressant frågeställning som utvecklas nedan.
 
 ### Länkade data är bra på att hantera en stor mängd olika och oväntade sammanställningar
 
-Om man vet i förväg vilka typ av kris som man förväntar sig kan man i lugn och ro inventera vilken information som behövs. Sedan får man se till att automatisera processen att hämta, formatera om, matcha identifierare, översätta relevanta vokabulärer och slutligen kombinera informationen på det sätt som efterfrågas. Man kan se det som att varje sammanställning av information blir en ny och separat vy på TODO:över? informationen.
+Om man vet i förväg vilka typ av kris som man förväntar sig kan man i lugn och ro inventera vilken information som behövs. Sedan får man se till att automatisera processen att hämta, formatera om, matcha identifierare, översätta relevanta vokabulärer och slutligen kombinera informationen på det sätt som efterfrågas. Man kan se det som att varje sammanställning av information blir en ny och separat vy över informationen.
 
 Det finns dock tre huvudsakliga problem med detta angreppsätt:
 1. Om mängden av olika potentiella kriser är stor så kan det innebära mycket jobb. 

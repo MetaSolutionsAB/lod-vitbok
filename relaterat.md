@@ -44,7 +44,7 @@ I Malmö ... TODO
 
 ### Facebook-grupp "Semantiska webben i Sverige"
 
-
+Den svenska Facebook-gruppen [_Semantiska webben i Sverige_](https://www.facebook.com/groups/sswig/) är en knutpunkt för intresserade personer som diskuterar och utbyter erfarenheter kring länkade data och den semantiska webben.
 
 ### Projekt "Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok"
 

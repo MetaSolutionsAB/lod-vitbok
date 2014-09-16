@@ -8,10 +8,6 @@ Eurovoc - en europeisk termbank
 
 ### Relevanta svenska lagar och rekommendationer
 
-#### PSI lagen
-
-
-
 #### E-delegationens vägledning för vidareutnyttjande
 
 [E-delegationen](http://www.edelegationen.se/) har tagit fram en [vägledning för vidareutnyttjande av offentlig information](http://www.vidareutnyttjande.se/), som bygger på en checklista för att komma igång med att skapa och publicera öppna data. Vägledningen innehåller även rekommendationer för hur en myndighet kan göra information tillgänglig på olika sätt.
@@ -19,6 +15,10 @@ Eurovoc - en europeisk termbank
 #### SKL:s ramverk för öppna data
 
 
+
+#### PSI-lagen
+
+[Lag (2010:566) om vidareutnyttjande av handlingar från den offentliga förvaltningen](https://lagen.nu/2010:566) (PSI-lagen) är en grundpelare för arbetet med att tillgängliggöra offentlig information.
 
 ## Länkade data i Sverige
 

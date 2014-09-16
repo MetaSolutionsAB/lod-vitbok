@@ -40,7 +40,7 @@ Agendor och presentationer av tidigare konferenser är tillgängliga via följan
 * [2013 Linköping](http://www.eventbrite.com/e/lankade-data-i-sverige-tickets-5370170324)
 * [2014 Malmö](http://www.eventbrite.com/e/lankade-data-i-sverige-2014-tickets-10482512477)
 
-I Malmö ... TODO
+Inom [_Linked Data in Business_](http://www.meetup.com/Linked-Data-in-Business/) anordnas oregelbundna meetups i Malmö.
 
 ### Facebook-grupp "Semantiska webben i Sverige"
 

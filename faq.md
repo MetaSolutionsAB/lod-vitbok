@@ -16,7 +16,7 @@
 
 XML är ett flexibelt dataformat som klarar av att uttrycka i stort sett vad som helst. Man kan jämföra XML med linjerat papper, det ger ett visst stöd och förenklar maskinell hantering i jämförelse med att skriva direkt på olinjerat papper. XML används idag för att representera allt från böcker till affärstransaktioner.
 
-RDF å andra sidan är en datamodell som används för att uttrycka påståenden om ting. RDF kan uttryckas med hjälp av XML, som JSON, eller något annat format (en del format är skapade från grunden för att passa RDF istället för att utgå från XML eller andra "linjerat papper").  
+RDF å andra sidan är en datamodell som används för att uttrycka påståenden om ting. RDF kan uttryckas med hjälp av XML, som JSON, eller något annat format (en del format är skapade från grunden för att passa RDF istället för att utgå från XML eller andra "linjerat papper").
 Det finns dock en likhet mellan RDF och XML som kan vara förvirrande. Båda språken är designade för att kunna hantera vilken information som helst. Skillnaden är att RDF kommer med en minimal informationsmodell (grammatik) och en semantik (tolkning) som ger stöd för att uttrycka information på ett enhetligt sätt. I RDF handlar allt om påståenden om ting och relationer mellan ting på ett sätt som bäst beskrivs som en graf av noder och typade bågar mellan noder. I XML är grunden istället en hierarki av data, men det finns ingen semantik (tolkning) av vad det innebär att ordna data i en sådan hierarki.
 
 ## <a name="rdf-kontra-xml"></a>Vad är för- och nackdelar av RDF kontra XML?
@@ -45,13 +45,13 @@ RDF och länkade öppna data lösningar är per definition tillgängliga då man
 
 ## <a name="konverterbar"></a>Hur konverterbar är RDF?
 
-Först låt oss konstatera att då RDF är en datamodell har det flera uttryck och format, till exempel kan man uttrycka RDF i XML, i JSON-LD och inbäddat i HTML som RDFa. Att översätta mellan dessa är enkelt och stöds av nästan alla RDF bibliotek idag.  
-En mer intressant frågeställning är hur enkelt det är att konvertera från ett RDF uttryck till något annat format som inte har något alls att göra med RDF. Som alltid med RDF är svaret att det beror på vilken information man har uttryckt i RDF. Om man uttryckt information om personer i RDF kan man med fördel översätta till vCard, om det handlar om vokabulärer kan kanske Claml vara lämpligt. Det finns dock ingen allmän mekanism för att göra dessa konverteringar utan det måste utvecklas för varje situation. Det är också värt att notera att om RDF vokabulären inte är helt kompatibel med målformatet så är det högst sannolikt att viss information går förlorad i samband med konverteringen. Brist på stringens i definitionen av semantiken för målformatet är en vanlig orsak till att konverteringar kan vara svåra att skriva på ett sätt som inte är beroende av sammanhanget.  
+Först låt oss konstatera att då RDF är en datamodell har det flera uttryck och format, till exempel kan man uttrycka RDF i XML, i JSON-LD och inbäddat i HTML som RDFa. Att översätta mellan dessa är enkelt och stöds av nästan alla RDF bibliotek idag.
+En mer intressant frågeställning är hur enkelt det är att konvertera från ett RDF uttryck till något annat format som inte har något alls att göra med RDF. Som alltid med RDF är svaret att det beror på vilken information man har uttryckt i RDF. Om man uttryckt information om personer i RDF kan man med fördel översätta till vCard, om det handlar om vokabulärer kan kanske Claml vara lämpligt. Det finns dock ingen allmän mekanism för att göra dessa konverteringar utan det måste utvecklas för varje situation. Det är också värt att notera att om RDF vokabulären inte är helt kompatibel med målformatet så är det högst sannolikt att viss information går förlorad i samband med konverteringen. Brist på stringens i definitionen av semantiken för målformatet är en vanlig orsak till att konverteringar kan vara svåra att skriva på ett sätt som inte är beroende av sammanhanget.
 Ofta finns det dock ramverk som man kan använda för att bygga konverteringen på, tex för tabulär data kan man använda [OpenRefine](http://openrefine.org) eller [TARQL](https://github.com/cygri/tarql), för relationsdatabaser kan man använda [D2R](http://d2rq.org/d2r-server) osv. W3C har upprättat en rekommendation för [R2RML](http://www.w3.org/TR/2012/REC-r2rml-20120927/), ett standardiserat språk för att mappa data i befintliga relationsdatabaser till en RDF graf; språket stöds t.ex. av det ovannämnda D2R, bl.a.
 
 ## <a name="rdbms-vs-rdf"></a>Vad är de viktigaste skillnaderna mellan RDF och en relationsdatabas? Nackdelar? Fördelar? Kostnader? Utbyggbarhet vid stora informationmängder?
 
-En traditionell relationsdatabas kräver att man etablerar ett databaschema som definierar vilka tabeller, kolumner och relationer mellan dessa som ska finnas. Detta fungerar väl när datan man hanterar är relativt uniform och den underliggande informationsmodellen inte ändras alltför ofta. En naturlig konsekvens är att relationsdatabaser inte kan hantera nya data som det inte har explicit förberetts för. En databaslösning som inte kräver ett fördefinierat databaschema är mer flexibel, men kan samtidigt blir mer svåröverskådlig. 
+En traditionell relationsdatabas kräver att man etablerar ett databaschema som definierar vilka tabeller, kolumner och relationer mellan dessa som ska finnas. Detta fungerar väl när datan man hanterar är relativt uniform och den underliggande informationsmodellen inte ändras alltför ofta. En naturlig konsekvens är att relationsdatabaser inte kan hantera nya data som det inte har explicit förberetts för. En databaslösning som inte kräver ett fördefinierat databaschema är mer flexibel, men kan samtidigt blir mer svåröverskådlig.
 
 De flesta RDF databaser fungerar utan schema och kan därmed hantera vilken information som helst så länge den kan uttryckas som påståenden om resurser identifierade med URI:er, dvs så länge man följer RDFs abstrakta syntax.
 
@@ -67,10 +67,10 @@ I huvudsak finns tre möjliga lösningar att prövas i ordning kring källor som
 ## <a name="kvalitet"></a>Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillstånd de är nu?
 Det kan finnas hinder på grund av lagar och regleringar som måste beaktas. Till exempel personuppgiftslagen (PUL) och copyrightskydd, läs mer om detta på e-delegationens vägledning kring [vidareutnyttjande av information](http://www.vidareutnyttjande.se/). Ur ett kvalitetsperspektiv är det svårare att säga något generellt. Dock är det ofta bättre att komma igång med att släppa en del data och få återkoppling från andra än att på egen kammare försöka förutse alla problem. Det vill säga, ett iterativt arbetsätt är ofta att föredra även för publicering av länkade data.
 
-Notera: att göra sina data tillgängliga som länkade data innebär inte med automatik att de måste vara öppet tillgängliga. 
+Notera: att göra sina data tillgängliga som länkade data innebär inte med automatik att de måste vara öppet tillgängliga.
 
 ## <a name="kvalitetskontroll"></a>Tappar vi inte kvalitetskontroll med länkar?
-Det är naturligt att kvaliten varierar mellan datakällor då ansvariga organisationer lägger olika vikt vid sina data. Dessutom är det stor skillnad mellan datakällor som skapas på frivillig basis (tex crowdsourcing) och de som ges ut av organisationer med avlönade experter. 
+Det är naturligt att kvaliten varierar mellan datakällor då ansvariga organisationer lägger olika vikt vid sina data. Dessutom är det stor skillnad mellan datakällor som skapas på frivillig basis (tex crowdsourcing) och de som ges ut av organisationer med avlönade experter.
 
 Brist på kvalite kan yttra sig både genom att datakällor periodvis är otillgängliga eller på brist i konsekvens i vilka påståenden som är uttryckta per ting. Periodvis otillgängliga datakällor går att kompensera för genom smart cachning, men brist på konsekvens är svårare.
 
@@ -83,11 +83,11 @@ Att duplicera information ska i största allmänhet undvikas, men ibland är det
 [Caching servern LDCache](http://entrystore.org/ldcache/) har utvecklats av MetaSolutions för att hämta in och cacha viktiga länkade (öppna) data. Detta ger bättre kontroll över en datakällas prestanda och tillgänglighet. LDCache är ett Open Source projekt.
 
 ## <a name="cms-integration"></a>Hur integrerar man bäst med en CMS?
-Det finns flera olika sätt att integrera länkade data i en CMS. En möjlighet är att låta CMS plattformen prata direkt med LD plattformen, tex via specifika API:er eller direkt på databas nivån. Men i många fall kan en sådan integration vara krånglig, särskilt om plattformarna är skrivna i olika programmeringsspråk. Ett bättre alternativ är att utnyttja att länkade data i sig är ett slags API som exponeras över HTTP. 
+Det finns flera olika sätt att integrera länkade data i en CMS. En möjlighet är att låta CMS plattformen prata direkt med LD plattformen, tex via specifika API:er eller direkt på databas nivån. Men i många fall kan en sådan integration vara krånglig, särskilt om plattformarna är skrivna i olika programmeringsspråk. Ett bättre alternativ är att utnyttja att länkade data i sig är ett slags API som exponeras över HTTP.
 
 Idag erbjuder de flesta stora CMS:er ett kontrollerat sätt att utöka sin funktionalitet, typiskt genom att utveckla pluginner eller moduler. Beroende på CMS:en kan sådan ny funktionaltet införas enbart på serversidan eller också via javascript i browsern. Båda alternativen fungerar väl med integration med länkade data, gärna via färdiga bibliotek som hanterar parsning och bearbetning av länkade data uttryck.
 
-Ibland kan också länkade data plattformar erbjuda färdiga gränsnittskomponenter, tex för att lista, söka eller presentera enskilda resurser. Det är möjligt att sådana komponenter kan inkorporeras med en mindre insats (fixa enhetligt utseende via teman eller ren css) på samma sätt som man bäddar in tex youtube klipp. 
+Ibland kan också länkade data plattformar erbjuda färdiga gränsnittskomponenter, tex för att lista, söka eller presentera enskilda resurser. Det är möjligt att sådana komponenter kan inkorporeras med en mindre insats (fixa enhetligt utseende via teman eller ren css) på samma sätt som man bäddar in tex youtube klipp.
 
 Vi summerar de olika integrationsmöjligheterna (där alla med fördel genomförs via någon form av plugin eller modul i respektive CMS):
 

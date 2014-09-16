@@ -1,8 +1,10 @@
 # Att komma igång med länkade data
 
-Val av dataset => hänvisa till e-delegationen och SKL
+TODO Val av dataset => hänvisa till e-delegationen och SKL
 
 ## Snabbstart
+
+TODO bättre formulering
 
 Lägg upp lite turtle filer i en webbkatalog.
 Experimentera med vilka properties, klasser, datatyper och länkar som känns bra.
@@ -44,7 +46,7 @@ Vi har identifierat två huvudsakliga lösningskategorier med tillsammans fem un
 </tbody>
 </table>
 
-Vi beskriver först de två huvudsakliga lösningskategorierna och i kapitlet efter görs en kort analys av de fem underkategorierna. 
+Vi beskriver först de två huvudsakliga lösningskategorierna och i kapitlet efter görs en kort analys av de fem underkategorierna.
 
 ### Utnyttja befintlig plattform
 
@@ -76,7 +78,7 @@ Syftet här är att utvidga en existerande plattform med stöd för länkade dat
 
 *Syntaktisk lösning* - denna lösning innebär att man i ett existerande presentationslager som hittills levererat html lägger till en mall som istället producerar RDF i något format.
 
-*Semantisk lösning* - denna lösning innebär att man skriver kod som översätter mellan en intern representation av datamodellen och informationsmodellen i RDF genom att jobba mot ett RDF API, typiskt tillhandahållet via ett RDF bibliotek. 
+*Semantisk lösning* - denna lösning innebär att man skriver kod som översätter mellan en intern representation av datamodellen och informationsmodellen i RDF genom att jobba mot ett RDF API, typiskt tillhandahållet via ett RDF bibliotek.
 Nackdelen med den syntaktiska lösningen är att man skapar en mappning till en syntax, inte till RDF som språk. Den semantiska lösningen jobbar istället mot RDF som språk och gör det enklare att uppfylla de tekniska kraven 2, 4 och 6. Båda lösningarna innebär en betydande mängd hårdkodning där man binder sig till den interna representationen av informationsmodellen.
 
 ### 2. Lager ovanpå plattformen
@@ -106,3 +108,5 @@ En allmän reflektion är att omfattning av konsekvenserna ovan beror på hur st
 Denna lösningskategori skiljer sig från lösningskategorin ovan genom att den nya plattform som man väljer körs som molntjänst istället för i den egna infrastrukturen. Detta innebär vissa fördelar som att drift och underhåll förenklas och att det inte ställs några ytterligare krav på teknisk kompetens inom organisationen. Samtidigt medför det några nackdelar som att eventuella behov av integration med existerande system blir svårare att realisera samt att en molnlösning innebär en återkommande extern kostnad. De övriga konsekvenerna listade ovan, behov av datakonvertering och behov av ny användarkompetens är desamma.
 
 ## Jämförelse mellan lösningskategorier
+
+TODO

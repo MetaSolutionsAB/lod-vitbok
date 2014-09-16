@@ -54,9 +54,7 @@ Webbsidan av projektet som även ligger bakom denna vitbok. Innehåller länkar 
 
 ### Projekt "Länkade öppna data i Sverige - Portal och nationell statistik"
 
-Har producerats som en del av ett VINNOVA-finansierat forskningsprojekt: Länkade öppna data i Sverige - Portal och nationell statistik.
-
-* [http://www.linked-data.se/](http://www.linked-data.se/)
+Det VINNOVA-finansierade projektet [Länkade öppna data i Sverige - Portal och nationell statistik](http://www.vinnova.se/sv/Resultat/Projekt/Effekta/2012-00741/Lankade-oppna-data-i-Sverige---Portal-och-nationell-statistik/) har tagit fram informationsmaterial kring länkade data och [publicerat i form av en portal](http://www.linked-data.se/).
 
 ## Länkade data internationellt
 

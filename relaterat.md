@@ -48,9 +48,14 @@ Den svenska Facebook-gruppen [_Semantiska webben i Sverige_](https://www.faceboo
 
 ### Projekt "Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok"
 
-Webbsidan av projektet som även ligger bakom denna vitbok. Innehåller länkar till inspelade webbinarier med huvudsakligen svenska aktörer som berättar hur de använder länkade data i sin organisation.
+Projektet [_Kompetensförstärkning kring länkade öppna data_](http://lankadedata.se) ligger bakom denna vitbok. Förutom att ta fram vitboken anordnade projektet även webbinarier med svenska aktörer som berättar hur de använder länkade data i sin organisation.
 
-* [http://lankadedata.se](http://lankadedata.se)
+Alla webbinarier är inspelade och tillgängliga via följande länkar:
+
+* [Webbinarium _Länkade data i läkemedelsforskningen_](http://metasolutions.se/2014/03/webbinarium-med-kerstin-forsberg-om-lankade-data-i-lakemedelsforskningen/)
+* [Webbinarium _Riksantikvarieämbetets erfarenheter kring länkade öppna data_](http://metasolutions.se/2014/03/webbinarium-med-henrik-summanen-om-riksantikvarieambetets-erfarenheter-kring-lankade-oppna-data/)
+* [Webbinarium _Kungliga bibliotekets arbete med länkade data_](http://metasolutions.se/2014/04/webbinarium-med-niklas-lindstrom-om-att-uppgradera-ett-nationalbibliotek-till-lankad-data/)
+* [Webbinarium _Länkade nobelpris – att producera och konsumera länkade öppna data_](http://metasolutions.se/2014/05/webbinarium-om-lankade-data-for-nobelpris/)
 
 ### Projekt "Länkade öppna data i Sverige - Portal och nationell statistik"
 

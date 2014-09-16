@@ -60,11 +60,9 @@ Det VINNOVA-finansierade projektet [Länkade öppna data i Sverige - Portal och 
 
 ### Linked Data: Evolving the Web into a Global Data Space
 
+Boken [_Linked Data: Evolving the Web into a Global Data Space_](http://linkeddatabook.com/editions/1.0/) ger en ganska komplett introduktion till länkade data, samt behandlar designmönster och en rad recept för att publicera och konsumera länkade data.
+
 Originalbeskrivning: _"This book gives an overview of the principles of Linked Data as well as the Web of Data that has emerged through the application of these principles. The book discusses patterns for publishing Linked Data, describes deployed Linked Data applications and examines their architecture."_
-
-Denna bok ger en ganska komplett introduktion till länkade data, samt behandlar designmönster och en rad recept för att publicera och konsumera länkade data.
-
-* [http://linkeddatabook.com/editions/1.0/](http://linkeddatabook.com/editions/1.0/)
 
 ### Linked Open Data: The Essentials. A Quick Start Guide for Decision Makers
 

@@ -37,9 +37,13 @@ Har producerats som en del av ett Vinnova-finansierat forskningsprojekt: Länkad
 
 ### Länkade data i Sverige - meetups
 
-Stockholm - 2012
-Linköping - 2013
-Malmö - 2014
+Konferensen _Länkade data i Sverige_ med meetup-karaktär har sedan 2012 anordnats varje år för att främja erfarenhetsutbytet kring aktiviteter med fokus på länkade data.
+
+Agendor och presentationer av tidigare konferenser är tillgängliga via följande länkar:
+
+* [2012 Stockholm](http://www.eventbrite.com/e/lankad-data-i-sverige-tickets-3161228319)
+* [2013 Linköping](http://www.eventbrite.com/e/lankade-data-i-sverige-tickets-5370170324)
+* [2014 Malmö](http://www.eventbrite.com/e/lankade-data-i-sverige-2014-tickets-10482512477)
 
 ### SW-Facebook gruppen
 

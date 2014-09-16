@@ -2,10 +2,17 @@
 
 ## Allmänt om publicering av öppna data i Sverige
 
+TODO inledningstext
+
 ### Öppnadata.se - nationell portal
 
-DCAT-AP
-Eurovoc - en europeisk termbank
+#### DCAT-AP
+
+TODO
+
+#### Eurovoc - en europeisk termbank
+
+TODO
 
 ### Relevanta svenska initiativ
 
@@ -23,21 +30,15 @@ Eurovoc - en europeisk termbank
 
 ## Länkade data i Sverige
 
-### Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok
+### Projekt "Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok"
 
 Webbsidan av projektet som även ligger bakom denna vitbok. Innehåller länkar till inspelade webbinarier med huvudsakligen svenska aktörer som berättar hur de använder länkade data i sin organisation.
 
 * [http://lankadedata.se](http://lankadedata.se)
 
-## Länkade data i Sverige
+### Konferenser och meetups
 
-Har producerats som en del av ett Vinnova-finansierat forskningsprojekt: Länkade öppna data i Sverige - Portal och nationell statistik
-
-* [http://www.linked-data.se/](http://www.linked-data.se/)
-
-### Länkade data i Sverige - meetups
-
-Konferensen _Länkade data i Sverige_ med meetup-karaktär har sedan 2012 anordnats varje år för att främja erfarenhetsutbytet kring aktiviteter med fokus på länkade data.
+Konferensserien _Länkade data i Sverige_ med meetup-karaktär har sedan 2012 anordnats varje år för att främja erfarenhetsutbytet kring aktiviteter med fokus på länkade data.
 
 Agendor och presentationer av tidigare konferenser är tillgängliga via följande länkar:
 
@@ -45,7 +46,17 @@ Agendor och presentationer av tidigare konferenser är tillgängliga via följan
 * [2013 Linköping](http://www.eventbrite.com/e/lankade-data-i-sverige-tickets-5370170324)
 * [2014 Malmö](http://www.eventbrite.com/e/lankade-data-i-sverige-2014-tickets-10482512477)
 
-### SW-Facebook gruppen
+I Malmö ... TODO
+
+### Facebook-grupp "Semantiska webben i Sverige"
+
+
+
+### Projekt "Länkade öppna data i Sverige - Portal och nationell statistik"
+
+Har producerats som en del av ett VINNOVA-finansierat forskningsprojekt: Länkade öppna data i Sverige - Portal och nationell statistik.
+
+* [http://www.linked-data.se/](http://www.linked-data.se/)
 
 ## Länkade data internationellt
 

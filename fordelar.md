@@ -52,7 +52,7 @@ En viktig grund för sådana kunskapsbaser är länkade data, tex så klarar Goo
 
 Interoperabilitet betyder i grunden att när två parter utbyter information så ska mottagarens agerande (i relation till informationen) stämma överens med avsändarens intention. Detta kräver någon form av överenskommelser i förväg kring hur informationen ska överföras och tolkas. Sådana överenskommelser kan vara specifika för två parter, eller etablerade i ett vidare sammanhang, tex i form av en standard.
 
-En situation som ofta uppstår när man ska använda en given standard är att den bara täcker in en del av de behov man har. En naturlig reaktion är då att komplettera med byggstenar från andra standarder och eventuellt skapa nya konstruktioner för att nå bättre täckning av behoven. 
+En situation som ofta uppstår när man ska använda en given standard är att den bara täcker in en del av de behov man har. En naturlig reaktion är då att komplettera med byggstenar från andra standarder och eventuellt skapa nya konstruktioner för att nå bättre täckning av behoven.
 
 Det är i sådana situationer som Länkade data visar sin styrka genom att tillhandahålla en gemensam bas och en mängd mer eller mindre standardiserade byggstenar som kan kombineras på olika sätt. Basen består av ett gemensamt språk (RDF tillsammans med [RDFS](http://www.w3.org/TR/rdf-schema/), [SKOS](http://www.w3.org/TR/skos-reference/) och [OWL](http://www.w3.org/TR/owl2-overview/)) som tillåter att man definierar byggstenar i form av klasser, egenskaper, vokabulärer osv.
 
@@ -126,8 +126,8 @@ Det är viktigt för en aktör att hitta lämpliga avgränsningar för vilken da
 
 För att ta ett exempel kan data om staden Stockholm se olika ut om det är SJ, SMHI eller Historiska museet som tillhandahåller den. Samtidigt kan vi tänka oss att en turist kan dra nytta av att få information om Stockholm från dessa tre källor presenterade tillsammans.
 
-Ett bra sätt att åstadkomma detta - då det inte alltid går att hitta globala identifierare - är att skapa relationer mellan de olika datauttrycken med hjälp av länkar. En speciell form av länk (owl:sameAs) uttrycker att det det är samma ting (staden Stockholm) som har fått olika identifierare (URI:er). Men länkar kan också utnyttjas till att förbinda olika ting, t. ex. att staden Stockholm ligger i landet Sverige eller att där har bott historiskt intressanta personer som August Strindberg. 
+Ett bra sätt att åstadkomma detta - då det inte alltid går att hitta globala identifierare - är att skapa relationer mellan de olika datauttrycken med hjälp av länkar. En speciell form av länk (owl:sameAs) uttrycker att det det är samma ting (staden Stockholm) som har fått olika identifierare (URI:er). Men länkar kan också utnyttjas till att förbinda olika ting, t. ex. att staden Stockholm ligger i landet Sverige eller att där har bott historiskt intressanta personer som August Strindberg.
 
-Ur detta exempel inser vi att effektiv använda länkar kan leda till att öka dataspecialisering då varje aktör kan fokusera på att underhålla den data som den kan bäst och förlita sig på andra aktörer för resten. 
+Ur detta exempel inser vi att effektiv använda länkar kan leda till att öka dataspecialisering då varje aktör kan fokusera på att underhålla den data som den kan bäst och förlita sig på andra aktörer för resten.
 
 Det är ofta så att länkar till andra datakällor också ökar förtroendet för data. Dels genom att länkar skapar ett större sammanhang som bekräftar att man hittat rätt data. Dessutom visar existensen av länkar att man ansträngt sig för att placera in sin data i ett större sammanhang och minimera redundans. Detta gör det mindre sannolikt att någon annan redan har eller kommer ta fram en bättre datakälla som gör den aktuella datakällan överflödig.

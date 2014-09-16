@@ -1,8 +1,8 @@
 # Introduktion till länkade data (LD)
-1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext. 
-I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument. 
-2006, 16 år senare, lanserar Tim Berners-Lee *Länkade Data*, förkortat *LD*, som ett sätt att skapa en *web av data* i en 
-[design issue](http://www.w3.org/DesignIssues/LinkedData.html). 
+1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext.
+I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument.
+2006, 16 år senare, lanserar Tim Berners-Lee *Länkade Data*, förkortat *LD*, som ett sätt att skapa en *web av data* i en
+[design issue](http://www.w3.org/DesignIssues/LinkedData.html).
 Skillnaden mot den vanliga webben är att länkade data handlar om att länka samman *ting* och dess *beskrivningar* snarare än dokument.
 
 <a href="http://www.ted.com/talks/tim_berners_lee_on_the_next_web"><img align="right" src="bilder/Tim_Berners-Lee_TED2009.jpg" style="margin: 0px 5px 0px 35px"></a>
@@ -15,10 +15,10 @@ Skillnaden mot den vanliga webben är att länkade data handlar om att länka sa
 _The next web, by Tim Berners Lee at [TED2009](http://www.ted.com/talks/tim_berners_lee_on_the_next_web)._
 
 På sista tiden har intresset för det som kallas *öppna data* växt kraftigt. Öppna data innebär att man gör data
-tillgängliga över internet för att förenkla användning, såväl väntad som oväntad. Att göra sina data tillgängliga som öppna data är ett bra första steg, men saknar den potential som länkad data har. Något förenklat kan man formulera skillnaden så här:
- 
+tillgängliga över Internet för att förenkla användning, såväl väntad som oväntad. Att göra sina data tillgängliga som öppna data är ett bra första steg, men saknar den potential som länkad data har. Något förenklat kan man formulera skillnaden så här:
+
     Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.
- 
+
 Oftast är även länkade data tillgängligt öppet och benämns då *länkade öppna data*. På engelska används akronymen *LOD* för den engelska benämningen *Linked Open Data*. I denna vitbok håller vi dock fast vid benämningen länkade data för att markera att det finns fördelar oavsätt om datan är allmänt tillgänglig (öppen) eller inte.
 
 ## 1 minut: Vad är Länkade Data
@@ -34,11 +34,9 @@ Det första vi behöver förstå är att länkade data handlar om *påståenden*
 Att använda länkade data ger många fördelar, bland annat:
 
 * lättare att förstå och återanvända varandras data
-* minska duplicering och fokusera på det egna datats specifika och unika mervärden 
-<br>(genom att länka till andras data)
+* minska duplicering och fokusera på de egna datas specifika och unika mervärden (genom att länka till andras data)
 * din data blir bättre tillgänglig på webben och i sökmotorer
-* etablerade tekniker för maskinell bearbetning möjliggörs <br>
-(då användning av länkade data innebär att semantiken hos datat klargörs)
+* etablerade tekniker för maskinell bearbetning möjliggörs (då användning av länkade data innebär att semantiken hos datat klargörs)
 
 ## 1 minut: Hur publicerar jag LD
 
@@ -48,17 +46,17 @@ Skapa lite påståenden om dina ting och lägg upp dem på respektive webbadress
 
     PREFIX ex: <http://data.min-domän.se/produkt>
     PREFIX dct: <http://purl.org/dc/terms/>
-    
+
     ex:15  dct:title "Produkt 15";
            dct:description "Produkt nummer 15 erbjuder en fantastisk...";
            dct:created "2014-09-09".
- 
+
 Lägg sen gärna till påståenden i form av relationer (länkar) både mellan dina egna ting och till externa ting.
 
     ex:16 dct:title "Produkt 16";
           dct:partOf ex:15;
           dct:relation <http://dbpedia.org/page/Bread>.
-          
+
 Klart!, länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern komptens kring informationsmodellen osv.
 
 ## Webben och länkade data

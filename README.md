@@ -9,7 +9,7 @@ Se [projektets webbsida](http://lankadedata.se) för mer information.
 
 Vitbokens främsta målsättning är att skapa ökad kompetens och systematik kring processen för att tillgängliggöra länkade öppna data. Vitboken är skriven med svenska aktörer som målgrupp och kan användas för att underlätta och minimera nödvändiga organisationsinterna informations- och förankringsarbeten.
 
-Boken tar upp tekniska aspekter i begränsad omfattning och är inte tänkt som uppslagsverk för modellering och publicering av länkade öppna data. Se [listan med externa referenser](externt.html) för vidareförande literatur.
+Boken tar upp tekniska aspekter i begränsad omfattning och är inte tänkt som uppslagsverk för modellering och publicering av länkade öppna data. Se [kapitlet om relaterad information](relaterat.html) för vidareförande literatur och andra initiativ.
 
 ## Författare
 

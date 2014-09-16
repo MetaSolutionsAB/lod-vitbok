@@ -1,13 +1,18 @@
 # Fallstudier
+Nedan beskriver vi två fallstudier där länkade data har använts för att ge mervärde och ökad kvalite. Därefter skissar vi ett scenario som visar på hur länkade data skulle kunna lösa breda samverkans problem mellan en stor mängd organisationer.
 
-## Fallstudie 1: Sammarbete för krisberedskap
+## Fallstudie 1: Länkade nobelpris - att förstärka en webbplats med extern information
+
+## Fallstudie 2: K-samsök - öka tillgänglighet och kvalite på vårat kulturarv
+
+## Framtidsstudie 1: Samarbete för krisberedskap
 
 I en krissituation är det viktigt att ha tillgång till så mycket relevant information som möjligt. Det kan innefatta information om geografi, miljö, skyddsområden, brandskydd, sjukvård, fastigheter, demografi, beredskap, vatten och framförallt vad som är status kring olika insatser i den aktuella situation. 
 
-Det innebär att en mängd olika organisationer måste dela med sig av information som de fövaltar, det kan innefatta kommuner, landsting, lantmäteriet, naturvårdsverket, sjöfartsverket, vattenmyndigheterna, samhällets alarmeringstjänst, myndigheten för samhällskydd och beredskap, civilförsvaret och naturligtvis det svenska försvaret, listan går att göra längre och varierar beroende på situation.
+Det innebär att en mängd olika organisationer måste dela med sig av information som de fövaltar, det kan innefatta kommuner, landsting, lantmäteriet, naturvårdsverket, sjöfartsverket, vattenmyndigheterna, samhällets alarmeringstjänst, myndigheten för samhällskydd och beredskap, civilförsvaret och ibland också det svenska försvaret. Listan går att göra längre och varierar beroende på situation.
 
 ### Krav på IT-system
-För IT-system som är inblandade i informationsförsöjning i krissituationer ska kunna ge en effektiv informationshantering finns flera saker att tänka på:
+För IT-system som är inblandade i informationsförsöjning i krissituationer ska kunna ge en effektiv informationshantering finns en mängd saker att tänka på, tre av de viktigaste är:
 
 1. IT-lösningar bör vara pålitliga även när de belastas hårt av olika parter, tex får man betänka att såval experter, media samt intresserade och drabbade medborgare söker information samtidigt. 
 2. Informationen bör vara tillgänglig på ett ställe, det är inte lämpligt att kräva av människor i en krissituation att de ska behöva gå in i flera olika system för att få ut den information de behöver då det är både tidsödande och skapar felskällor.
@@ -36,8 +41,6 @@ Det finns dock tre huvudsakliga problem med detta angreppsätt:
 3. Förändringar i hur informationen uttrycks hos en eller flera datakällor kan kräva att mycket av nedlagt arbete behöver ses över eller göras om.
 
 Med länkade data börjar man i någon mening i andra änden. Man fokuserar på informationen i sig och försöker se hur man kan få den att hänga ihop mellan organisationer. Det innebär att varje organisation bör se på sin information som en del i ett större pussel (en web av data). Varje potentiell sammanställning av information bör därmed motsvaras av en kombination av ett eller flera faktiska samband mellan existerande informationbitar. Och om en sammanställning av någon anledning inte går att genomföra utifrån en mängd länkade data beror det antingen på att nödvändig information faktiskt saknas eller att någon inte har skapat länkar eller återanvänt vokabulärer som man ska när man definierar sina länkade data uttryck.
-
-## Fallstudie 2: Nobel Media - förstärka den egna webbplatsen
 
 
 //TODO Matthias issue 13

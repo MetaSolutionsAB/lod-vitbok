@@ -1,30 +1,23 @@
 # Relaterad information
 
-## Allmänt om publicering av öppna data i Sverige
+## Allmänt om öppna data i Sverige
 
-TODO inledningstext
+Sedan PSI-lagen antogs i Sverige till följd av motsvarande EU-direktiv har utvecklingen mot öppna data i Sverige accelererat. Nedan listar kort några relevanta initiativ som bidragit till utvecklingen sedan dess.
 
 ### Öppnadata.se - nationell portal
+Sedan slutet på 2012 finns enligt ett regeringsuppdrag en nationell portal för öppna data i Sverige. Portalen är att betrakta som en katalog med beskrivningar av olika dataset i Sverige som är tillgängliga för vidareanvändning. Under 2014/2015 kommer portalen att gå över till att skörda dataset beskrivningar i enlighet med standarden [DCAT](http://www.w3.org/TR/vocab-dcat/), mer specifikt en svensk variant av den europeiska profilen [DCAT-AP](https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/dcat-application-profile-data-portals-europe-final). Portalen har inga krav på att öppna data ska publiceras på ett speciellt sätt, tex som länkade data, däremot är DCAT en standard som bygger på principerna bakom länkade data. Det vill säga, dataset beskrivningar ska ske med hjälp av RDF där vissa i förväg specificerade vokabulärer är påbjudna.
 
-#### DCAT-AP
+Som en del i processen att följa PSI-lagen, se nedan, förväntas offentliga aktörer allteftersom öppna upp sina data och beskriva dem så att de blir sökbara från öppnadata.se.
 
-TODO
-
-#### Eurovoc - en europeisk termbank
-
-TODO
-
-### Relevanta svenska initiativ
-
-#### E-delegationens vägledning för vidareutnyttjande
+### E-delegationens vägledning för vidareutnyttjande
 
 [E-delegationen](http://www.edelegationen.se/) har tagit fram en [vägledning för vidareutnyttjande av offentlig information](http://www.vidareutnyttjande.se/), som bygger på en checklista för att komma igång med att skapa och publicera öppna data. Vägledningen innehåller även rekommendationer för hur en myndighet kan göra information tillgänglig på olika sätt.
 
-#### SKL:s ramverk för öppna data
+### SKL:s ramverk för öppna data
 
 [SKL](http://www.skl.se) jobbar på att ta fram ett [nationellt ramverk för öppna data](http://www.skl.se/4.33ccf562145ac94e99870557.html) som ska hjälpa kommuner och landsting i deras kontinuerliga arbete med öppna data.
 
-#### PSI-lagen
+### PSI-lagen
 
 [Lag (2010:566) om vidareutnyttjande av handlingar från den offentliga förvaltningen](https://lagen.nu/2010:566) (PSI-lagen) är en grundpelare för arbetet med att tillgängliggöra offentlig information.
 

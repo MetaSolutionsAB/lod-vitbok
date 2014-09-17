@@ -114,7 +114,7 @@ Denna kategori av lösningar påminner starkt om lager ovanpå plattformen. Skil
 
 För att en lösning ska hamna i denna kategori ska den isolera organisationen från drift och underhåll av den mjukvara som exponerar länkade data. Kompetens för hur det länkade data uttrycket ska se ut och hur den egna datan ska översättas till detta uttryck är dock fortfarande nödvändigt att ha inom den egna organisationen. Sådan kompetens kan etableras hos informatiker inom organisationen, eventuellt med stöd utifrån. Efter initial etablering kan i de flesta fall denna kompetens underhållas internt inom organisationen och även bidra till ett vidare perspektiv på den egna informationsmodellen som ofta är av nytta vid samtal och samarbete med andra organisationer. Denna nytta är komplementär till nyttan av att ha ett länkade data-lager för att faktiskt genomföra en dataintegration med andra organisationer.
 
-### 4. Driftsätta internt
+### 4. Ny plattform internt
 Att flytta relevant data till en plattform som har stöd för länkade data innebär förstås att man måste hantera de konsekvenser som normalt uppstår vid byte av plattform.
 
 *Datakonvertering* - Relevant data måste flyttas och konverteras till ett format som den nya plattformen kan ta emot.
@@ -127,5 +127,5 @@ I något läge måste man också se till att existerande data mappas mot ett utt
 
 En allmän reflektion är att omfattning av konsekvenserna ovan beror på hur stor mängden av relevant data och hur komplicerad den ursprungliga plattformen är. För små mängder data och med endast ett fåtal användare så är konsekvenserna troligtvis ganska små.
 
-### 5. Driftsatt i molnet
+### 5. Ny plattform i molnet
 Denna lösningskategori skiljer sig från lösningskategorin ovan genom att den nya plattform som man väljer körs som molntjänst istället för i den egna infrastrukturen. Detta innebär vissa fördelar som att drift och underhåll förenklas och att det inte ställs några ytterligare krav på teknisk kompetens inom organisationen. Samtidigt medför det några nackdelar som att eventuella behov av integration med existerande system blir svårare att realisera samt att en molnlösning innebär en återkommande kostnad. De övriga konsekvenerna listade ovan, behov av datakonvertering och behov av ny användarkompetens är desamma.

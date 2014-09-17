@@ -1,7 +1,6 @@
-# Vitbok länkade öppna data - UTKAST
+# Vitbok länkade öppna data - utkast 2014-09-17
 
-Det här projektet är en vitbok som utvecklats inom det VINNOVA-finansierade projektet
-*Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.
+Denna vitbok har tagits fram inom det VINNOVA-finansierade projektet *Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.
 
 Se [projektets webbsida](http://metasolutions.se/projects/kompetensforstarkning-kring-lankade-oppna-data/) för mer information.
 

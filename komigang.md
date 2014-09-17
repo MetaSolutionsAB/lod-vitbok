@@ -56,7 +56,7 @@ Om man har en existerande plattform som man är nöjd med är det ofta vettigt a
 3. Organisationen är van vid hanteringen.
 4. Integration med andra underliggande system är klar.
 
-Men det finns saker som kan tala emot användning av en existerande plattform, tex:
+Men det finns saker som kan tala emot användning av en existerande plattform, t.ex.:
 1. Behov av ändrad informationsmodell för att stödja det avsedda länkade data-uttrycket som ofta är mer kvalificerat.
 2. Behov av ett förbättrat och mer lämpligt användargränsnitt för redigering och presentation
 

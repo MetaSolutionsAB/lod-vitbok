@@ -46,7 +46,7 @@ eller ändras på ett sätt som man inte har kontroll över. Dessa antaganden ha
 På senare tid har det skett ett paradigmskifte i hur moderna sökmaskiner fungerar. Man söker i större utsträckning efter kunskap snarare än efter webbsidor. I Google manifesterar sig detta dels genom att man får förslag på personer, filmer, företag osv. när man skriver in en sökning och dels att man får upp faktarutor relaterat till det man sökt på.
 Grunden för detta är att sökmaskinerna kompletterar sin indexering av webbsidor med en kunskapsbas. Till exempel så introducerade Google sin knowledge graph 2012 och Microsoft introducerade Bings Satori Knowledge Base 2013.
 
-En viktig grund för sådana kunskapsbaser är länkade data, t.ex. så klarar Googles Knowledge Graph av att läsa in länkade data som JSON-LD eller inbäddat som RDFa i webbsidor. Man kompletterar också med existerande kunskapsbaser som alla är länkade data-vänliga, tex Freebase, Wikipedia, CIA-factbook osv.
+En viktig grund för sådana kunskapsbaser är länkade data, t.ex. så klarar Googles Knowledge Graph av att läsa in länkade data som JSON-LD eller inbäddat som RDFa i webbsidor. Man kompletterar också med existerande kunskapsbaser som alla är länkade data-vänliga, t.ex. Freebase, Wikipedia, CIA-factbook osv.
 
 ## <a name="3"></a>3. Interoperabilitet - lättare att utbyta och samköra data
 
@@ -62,7 +62,7 @@ Givet att länkade data tillåter oss att sätta samman vårt datauttryck utifr�
 2. Data exponeras för flera olika, delvis okända, mottagare.
 
 ### Given mottagare
-Om man man har en given mottagare kan man hävda att det enklaste är att i förväg komma överens om ett eget datauttryck, tex i XML eller JSON, eller kanske definera en specifik Web Service. Men då tappar man fördelar som har med standardisering att göra:
+Om man man har en given mottagare kan man hävda att det enklaste är att i förväg komma överens om ett eget datauttryck, t.ex. i XML eller JSON, eller kanske definera en specifik Web Service. Men då tappar man fördelar som har med standardisering att göra:
 
 * Någon annan har redan gjort de flesta misstagen och jämnat vägen.
 * Dokumentation existerar redan delvis.
@@ -115,8 +115,8 @@ Att RDF är ett språk medför att det finns en grundläggande och ganska enkel 
 * utan problem slås samman eller delas upp.
 * när som helst kompletteras med nya påståenden.
 * överföras och lagras som dokument.
-* uttryckas i ett format som du är bekväm med (tex XML, JSON eller andra enklare text format).
-* bäddas in i andra format, tex i HTML, PDF, SVG osv.
+* uttryckas i ett format som du är bekväm med (t.ex. XML, JSON eller andra enklare text format).
+* bäddas in i andra format, t.ex. i HTML, PDF, SVG osv.
 * persisteras i databaser (triplestores) utan krav på databas scheman (schemaless i NoSQL termer).
 * bearbetas maskinellt med avseende på förutbestämd semantik (inferens).
 

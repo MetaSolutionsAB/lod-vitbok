@@ -18,7 +18,7 @@ Vitboken är skriven av Matthias Palmér och Hannes Ebner från [MetaSolutions A
 
 Stort tack till följande personer som har bidragit till vitboken på ett eller annat sätt (listan är sorterad alfabetiskt):
 
-*Johanna Berg, Erik Borälv, Rong Chen, Klas Eckerberg, Thomas Kvist, Börje Lewin, Niklas Lindström, Rikard Lövström, Robin Mångs, Hans Mehlin, Johanna Nilsson, Maria Noring, Marcus Smith, Henrik Summanen, Solgerd Tanzilli*
+*Johanna Berg, Erik Borälv, Kajsa Bråting, Rong Chen, Klas Eckerberg, Thomas Kvist, Börje Lewin, Niklas Lindström, Rikard Lövström, Robin Mångs, Hans Mehlin, Johanna Nilsson, Maria Noring, Marcus Smith, Henrik Summanen, Solgerd Tanzilli*
 
 ## Licens
 

@@ -16,7 +16,7 @@ Plattformarna är grupperade under de lösningskategorier som introducerades i k
 3. [Molntjänst ovanpå plattformen](#plattform-moln)
 4. [Ny plattform internt](#byta)
 5. [Ny plattform i molnet](#moln)
-6. [Egen lösning baserat på lämplig triple store](#egen)
+6. [Egen lösning baserad på lämplig triple store](#egen)
 
 ## <a name="utvidga"></a>Utvidga plattformen
 
@@ -36,7 +36,7 @@ Utöver en plattform som kan integreras med t.ex. Microsoft SharePoint är det m
 
 ### PoolParty Semantic Suite
 
-PoolParty är i första hand en thesaurus manager, med features såsom textanalys och harvesting av länkade data. Textanalysen är baserad på "Natural Language Processing", dvs extrahering av semantiska entiteter ur text. PoolParty verkar inte ha stöd för svenska. Textanalysen går att kombinera med thesauri som är framtagna i PoolParty.
+PoolParty är i första hand en thesaurus manager, med features såsom textanalys och harvesting av länkade data. Textanalysen är baserad på "Natural Language Processing", dvs. extrahering av semantiska entiteter ur text. PoolParty verkar inte ha stöd för svenska. Textanalysen går att kombinera med thesauri som är framtagna i PoolParty.
 Företaget Semantic Web Company erbjuder licenser och hostning samt kommersiell support till plattformen som är proprietär.
 PoolParty används inom myndigheter, utgivare/förlag, energi- och finanssektorn.
 
@@ -44,7 +44,7 @@ Länk: [http://www.poolparty.biz](http://www.poolparty.biz)
 
 ### OpenLink Virtuoso med Sponger
 
-OpenLink Virtuoso är en s.k. "universal storage engine", dvs ett backend-system som stöder relationella databaser men också triple stores. Med hjälp av Sponger-modulen kan Virtuoso importera data från många olika källor (dvs "legacy data").
+OpenLink Virtuoso är en s.k. "universal storage engine", dvs. ett backend-system som stöder relationella databaser men också triple stores. Med hjälp av Sponger-modulen kan Virtuoso importera data från många olika källor (dvs. "legacy data").
 Företaget OpenLink utvecklar Virtuoso och erbjuder kommersiell support. Det finns även en Open Source-edition utan support.
 Virtuoso används i många olika projekt som backend, bl a av DBpedia och PoolParty.
 

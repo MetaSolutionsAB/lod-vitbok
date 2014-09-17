@@ -2,13 +2,12 @@
 
 ## Allmänt om öppna data i Sverige
 
-Sedan PSI-lagen antogs i Sverige till följd av motsvarande EU-direktiv har utvecklingen mot öppna data i Sverige accelererat. Nedan listar vi kort några relevanta initiativ som bidragit till utvecklingen sedan dess.
+Sedan PSI-lagen antogs i Sverige till följd av motsvarande EU-direktiv har utvecklingen mot öppna data i Sverige accelererat. Nedan listar kort några relevanta initiativ som bidragit till utvecklingen sedan dess.
 
 ### Öppnadata.se - nationell portal
+Sedan slutet på 2012 finns enligt ett regeringsuppdrag en nationell portal för öppna data i Sverige. Portalen är att betrakta som en katalog med beskrivningar av olika dataset i Sverige som är tillgängliga för vidareanvändning. Under 2014/2015 kommer portalen att gå över till att skörda dataset beskrivningar i enlighet med standarden [DCAT](http://www.w3.org/TR/vocab-dcat/), mer specifikt en svensk variant av den europeiska profilen [DCAT-AP](https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/dcat-application-profile-data-portals-europe-final). Portalen har inga krav på att öppna data ska publiceras på ett speciellt sätt, t.ex. som länkade data, däremot är DCAT en standard som bygger på principerna bakom länkade data. Det vill säga, dataset beskrivningar ska ske med hjälp av RDF där vissa i förväg specificerade vokabulärer är påbjudna.
 
-Sedan slutet på 2012 finns enligt ett regeringsuppdrag en nationell portal för öppna data i Sverige. Portalen är att betrakta som en katalog med beskrivningar av olika dataset i Sverige som är tillgängliga för vidareanvändning. Under 2014/2015 kommer portalen att gå över till att skörda dataset beskrivningar i enlighet med standarden [DCAT](http://www.w3.org/TR/vocab-dcat/), mer specifikt en svensk variant av den europeiska profilen [DCAT-AP](https://joinup.ec.europa.eu/asset/dcat_application_profile/asset_release/dcat-application-profile-data-portals-europe-final). Portalen har inga krav på att öppna data ska publiceras på ett speciellt sätt, tex som länkade data, däremot är DCAT en standard som bygger på principerna bakom länkade data. Det vill säga, dataset beskrivningar ska ske med hjälp av RDF där vissa i förväg specificerade vokabulärer är påbjudna.
-
-Som en del i processen att följa PSI-lagen, se nedan, förväntas offentliga aktörer allteftersom öppna upp sina data och beskriva dem så att de blir sökbara från öppnadata.se.
+Som en del i processen att följa PSI-lagen, se nedan, förväntas offentliga aktörer allteftersom öppna upp sina data och beskriva dessa så att de blir sökbara från öppnadata.se.
 
 ### E-delegationens vägledning för vidareutnyttjande
 
@@ -16,7 +15,7 @@ Som en del i processen att följa PSI-lagen, se nedan, förväntas offentliga ak
 
 ### SKL:s ramverk för öppna data
 
-[SKL](http://www.skl.se) jobbar på att ta fram ett [nationellt ramverk för öppna data](http://www.skl.se/4.33ccf562145ac94e99870557.html) som ska hjälpa kommuner och landsting i deras kontinuerliga arbete med öppna data.
+[SKL](http://www.skl.se) jobbar med att ta fram ett [nationellt ramverk för öppna data](http://www.skl.se/4.33ccf562145ac94e99870557.html) som ska hjälpa kommuner och landsting i deras kontinuerliga arbete med öppna data.
 
 ### PSI-lagen
 
@@ -34,7 +33,7 @@ Agendor och presentationer av tidigare konferenser är tillgängliga via följan
 * [2013 Linköping](http://www.eventbrite.com/e/lankade-data-i-sverige-tickets-5370170324)
 * [2014 Malmö](http://www.eventbrite.com/e/lankade-data-i-sverige-2014-tickets-10482512477)
 
-Under beteckningen [_Linked Data in Business_](http://www.meetup.com/Linked-Data-in-Business/) anordnas återkommande meetups i Malmö.
+Inom [_Linked Data in Business_](http://www.meetup.com/Linked-Data-in-Business/) anordnas oregelbundna meetups i Malmö.
 
 ### Facebook-grupp "Semantiska webben i Sverige"
 

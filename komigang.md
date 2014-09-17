@@ -19,7 +19,7 @@ För en mer metodisk översikt för prioritering av vilken information man ska b
 Det finns många sätt att komma igång med att publicera länkade data. Ett sätt är att lära sig något modelleringsverktyg som [Protégé](http://protege.stanford.edu/) där man kan börja modellera sina datauttryck. Författarnas erfarenhet är dock att det finns en enklare mer praktisk metod som ofta leder till lika bra eller bättre resultat. Särskilt då den inte kräver kompetens i ett avancerat och för de flesta okänt verktyg samt att ett för stort verktygsfokus inte nödvändigtvis främjar samarbete och snabb iteration i början av ett projekt:
 
 1. Skriv ner en lista med de viktigaste tingen du har i din data, t.ex. personer, föremål, händelser, bilder, osv. Komplettera sen listan med viktiga egenskaper som tingen har, t.ex. benämning, personnummer för en person eller registreringsnummer för en bil.
-2. Bestämma hur de olika tingen kan ges egna webbadresser, dvs URI design.
+2. Bestämma hur de olika tingen kan ges egna webbadresser, dvs. URI design.
 3. Samlas kring en whiteboard eller något digitalt ritverktyg. Rita upp era ting och förbind dem med varandra via olika relationer.
 4. Konkretisera egenskaper och relationer genom att återanvända existerande vokabulärer som dcterms, foaf etc. för att hålla nere behovet av att introducera nya specifika termer.
 5. Skriv ner uttrycket för några exempel. Använd förslagsvis formatet [Turtle](http://www.w3.org/TR/turtle/) då det är tämligen lätt att lära sig, skriva och läsa.

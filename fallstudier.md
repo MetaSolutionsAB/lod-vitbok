@@ -28,7 +28,7 @@ Resultatet av de två sista stegen innebar att den första målsättningen uppfy
 ## Fallstudie 2: K-samsök - öka kvalitet och tillgängliget till vårat gemensamma kulturarv
 K-samsök är en aggregator för Sveriges kulturarv som drivs av Riksantikvarieämbetet sedan 2009. Att K-samsök är en aggregator innebär att den samlar och tillgängliggör information från svenska museer och andra minnesinstitutioner. 
 
-TODO
+TODO: Denna fallstudie återstår att beskriva
 
 ## Fiktivt scenario: Samarbete för krisberedskap
 

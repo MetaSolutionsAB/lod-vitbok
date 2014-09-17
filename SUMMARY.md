@@ -1,4 +1,4 @@
-# Vitbok Länkade Öppna Data
+# Vitbok länkade öppna data
 
 * [Introduktion](introduktion.md)
 * [Fördelar](fordelar.md)

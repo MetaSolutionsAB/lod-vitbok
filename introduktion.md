@@ -1,4 +1,6 @@
-# Introduktion till länkade data (LD)
+# Introduktion till länkade data
+
+## Bakgrund
 
 1990 skapade Tim Berners-Lee grunden för World Wide Web genom att kombinera principerna bakom internet med hypertext.
 I korthet introducerade han principer för att identifiera (URL:er), publicera (HTML) och hämta (HTTP) dokument.
@@ -18,11 +20,11 @@ _The next web, by Tim Berners Lee at [TED2009](http://www.ted.com/talks/tim_bern
 På sista tiden har intresset för det som kallas *öppna data* växt kraftigt. Öppna data innebär att man gör data
 tillgängliga över Internet för att förenkla användning, såväl väntad som oväntad. Att göra sina data tillgängliga som öppna data är ett bra första steg, men saknar den potential som länkad data har. Något förenklat kan man formulera skillnaden så här:
 
-    Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.
+> Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.
 
 Oftast är även länkade data tillgängligt öppet och benämns då *länkade öppna data*. På engelska används akronymen *LOD* för den engelska benämningen *Linked Open Data*. I denna vitbok håller vi dock fast vid benämningen länkade data för att markera att det finns fördelar oavsätt om datan är allmänt tillgänglig (öppen) eller inte.
 
-## Introduktion till de viktigaste begreppen på 3 minuter
+## Introduktion till de viktigaste begreppen på 5 minuter
 
 ### Vad är Länkade Data?
 
@@ -55,13 +57,13 @@ Skapa lite påståenden om dina ting och lägg upp dem på respektive webbadress
            dct:description "Produkt nummer 15 erbjuder en fantastisk...";
            dct:created "2014-09-09".
 
-Lägg sen gärna till påståenden i form av relationer (länkar) både mellan dina egna ting och till externa ting.
+Lägg sedan gärna till påståenden i form av relationer (länkar) både mellan dina egna ting och till externa ting.
 
     ex:16 dct:title "Produkt 16";
           dct:partOf ex:15;
           dct:relation <http://dbpedia.org/page/Bread>.
 
-Klart! Länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern komptens kring informationsmodellen osv.
+Klart! Länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern kompetens kring informationsmodellen osv.
 
 ## Webben och länkade data
 

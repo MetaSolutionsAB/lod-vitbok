@@ -1,13 +1,36 @@
 # Att komma igång med länkade data
 
-TODO Val av dataset => hänvisa till e-delegationen och SKL
+I detta kapitel ges praktiska råd för hur man kommer igång med länkade data. Först hur man väljer ut vilken informationsmäng man vill börja med och därefter hur man konkret skapar sin första länkade data. Därefter avhandlas frågor kring best practises och licenser lite kort. 
+
+Kapitlet avslutas med en introduktion och analys av ett antal tekniska lösningskategorier för publicering av länkade data. Vilken lösningskategori man bör välja beror både på de tekniska förutsättningar man har, t.ex. i form av existerande IT-infrastruktur, och vilken kompetens man ser att man har eller vill ha inom den egna organisationen.
+
+## Vilken information ska jag börja med?
+För en del läsare är detta självklart då orsaken att man läser denna vitbok är att man planerar att exponera ett given informationsmängd som länkade data. Men om du som läsare snarare representerar en organisation som funderar eller har beslutat att publicera länkade data kan det vara bra att få lite förslag hur man prioriterar.
+I E-delegationens [vägledning för vidarutnyttjande av offentlig information](http://www.edelegationen.se/Documents/Vagledningar%20mm/V%C3%A4gledning-f%C3%B6r-vidareutnyttjande-av-offentlig-information.pdf) listas i kapitel 4.4.1 ett antal frågor man ska ställa sig vid prioritering av vad som ska exponeras. Frågorna är skrivna i huvudsak för offentliga aktörer men är relevanta även för andra organisationer och företag. Fritt översatt är frågorna:
+
+1. Efterfrågas information av andra aktörer?
+2. Används informationen redan av den egna organisationen i kommunikation utåt?
+3. Vilka demokratiska och ekonomiska värden kan en exponering av information bidra till?
+4. Hur mycket arbete innebär det att exponera informationen, krävs manuell granskning för en framgångsrik exponering?
+
+För en mer metodisk översikt för prioritering av vilken information man ska börja med se SKLs [ramverk för öppna data](http://www.skl.se/naringslivarbetedigitalisering/digitalisering/oppnadata/stodvagledning/ramverkoppnadata/ramverketforoppnadata.1184.html) speciellt de delar som handlar om nyttor och kostnader.
 
 ## Snabbstart
+Det finns många sätt att komma igång med publicera länkade data. Ett sätt är att lära sig något modeleringsverktyg som [Protégé](http://protege.stanford.edu/) där man kan börja modellera sina datauttryck. Författarnas erfarenhet är dock att det finns en enklare mer praktisk metod som ofta leder till lika bra eller bättre resultat. Särskilt då den inte kräver kompetens i ett avancerat och för de flesta okänt verktyg samt att ett för stort verktygsfokus inte nödvändigtvis främjar sammarbete och snabb iteration i början på ett projekt:
 
-TODO bättre formulering
+1. Skriv ner en lista med de viktigaste tingen du har i din data, tex personer, föremål, händelser, bilder, osv. Komplettera sen listan med viktiga egenskaper som tingen har, tex benämning, personnummer för en person eller registreringsnummer för en bil.
+2. Bestämma hur de olika tingen kan ges egna webbadresser, dvs URI design.
+3. Samlas kring en whiteboard eller något digitalt ritverktyg. Rita upp era ting och förbind dem med varandra via olika relationer.
+4. Konkretisera egenskaper och relationer genom att återanvända existerande vokabulärer som dcterms, foaf etc. för att hålla nere behovet av att introducera nya specifika termer.
+5. Skriv ner uttrycket för några exempel. Använd förslagsvis formatet [Turtle](http://www.w3.org/TR/turtle/) då det är tämligen lätt att lära sig, skriva och läsa.
+6. Lägg upp exempelfilerna på en webbserver i en katalogstruktur som motsvarar hur URI:erna för tingen ska se ut.
 
-Lägg upp lite turtle filer i en webbkatalog.
-Experimentera med vilka properties, klasser, datatyper och länkar som känns bra.
+Efter detta har ni faktiskt redan producerat ett exempel med länkade data, på samma sätt som man kan producera statiska webbsidor genom att skriva dem för hand. Vad som återstår är att utveckla den tekniska lösning som ska generera länkade data utifrån underliggande system. 
+
+**Notera:** Det faktum att ni redan från början har tagit fram riktiga exempel på länkade data innebär att tre olika aktiviteter kan ske parallellt:
+1. Dokumentation av länkade data uttrycket och eventuell formalisering i RDFS / OWL.
+2. Utveckling av en teknisk lösning för publicering av dina länkade data.
+3. Utveckling av andra system som ska interagera med dina länkade data.
 
 ## Best Practices
 
@@ -70,7 +93,7 @@ I vissa situationer är det bättre att byta till en ny plattform, t.ex. om en e
 
 ## Kort analys av lösningskategorier
 
-Nedan listas först de tre olika lösningskategorier där man på olika sätt lägger till stöd för länkade data utan att byta plattform. Därefter följer de två lösningsgategorier där en ny plattform introduceras. För att förenkla resonemangen en aning så ignorerar vi eventuella behov att integrera med andra underliggande system i de två sista lösningskategorierna.
+Nedan analyseras de fem lösningskategorierna. För att förenkla resonemangen en aning så ignorerar vi eventuella behov att integrera med andra underliggande system i de två sista lösningskategorierna.
 
 
 ### 1. Utvidga plattformen
@@ -106,7 +129,3 @@ En allmän reflektion är att omfattning av konsekvenserna ovan beror på hur st
 
 ### 5. Driftsatt i molnet
 Denna lösningskategori skiljer sig från lösningskategorin ovan genom att den nya plattform som man väljer körs som molntjänst istället för i den egna infrastrukturen. Detta innebär vissa fördelar som att drift och underhåll förenklas och att det inte ställs några ytterligare krav på teknisk kompetens inom organisationen. Samtidigt medför det några nackdelar som att eventuella behov av integration med existerande system blir svårare att realisera samt att en molnlösning innebär en återkommande kostnad. De övriga konsekvenerna listade ovan, behov av datakonvertering och behov av ny användarkompetens är desamma.
-
-## Jämförelse mellan lösningskategorier
-
-TODO

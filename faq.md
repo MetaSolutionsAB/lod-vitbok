@@ -6,7 +6,7 @@
 4. [Vilken förvaltningsbörda medför RDF och länkade data?](#forvaltningsborda)
 5. [Hur konverterbar är RDF?](#konverterbar)
 6. [Vilka är de viktigaste skillnaderna mellan RDF och en relationsdatabas? Nackdelar? Fördelar? Kostnader?](#rdbms-vs-rdf)
-7. [Hur hanterar man data som kräver licens för åtkomst?](#licens)
+7. [Hur hanterar man data som kräver licens för åtkomst?](#data-med-licens)
 8. [Men våra data är inte av tillräckligt bra kvalitet, kan vi släppa ut dem i det tillstånd de är nu?](#kvalitet)
 9. [Tappar vi inte kvalitetskontroll med länkar?](#kvalitetskontroll)
 10. [Ska vi samla ihop länkade data eller lämna i källan?](#samla-lankar)
@@ -55,7 +55,7 @@ En traditionell relationsdatabas kräver att man etablerar ett databasschema som
 
 De flesta RDF databaser fungerar utan schema och kan därmed hantera vilken information som helst så länge den kan uttryckas som påståenden om resurser identifierade med URI:er, dvs. så länge man följer RDFs abstrakta syntax.
 
-## <a name="licens"></a>Hur hanterar man data som kräver licens för åtkomst?
+## <a name="data-med-licens"></a>Hur hanterar man data som kräver licens för åtkomst?
 
 Det är först viktigt att notera att frågeställningen om hur man kan använda källor vid publicering av länkade öppna data är att jämställa med annan form av webbpublicering.
 I huvudsak finns tre möjliga lösningar att prövas i ordning kring källor som har specifika restriktiva licenser.

@@ -46,11 +46,10 @@
         <h1>Innehåll</h1>
         <ol>
             <li>
-                <a href="#README.md">
-                    <h2>Om vitboken</h2>
-                </a>
+                <h2><a href="#README.md">Om vitboken</a></h2>
             </li>
             {% for item in summary.chapters %}
+		{% if item.level > 0 %}
                 <li>
                     <h2><span>{{ item.level }}.</span> <a href="#{{ item.path }}">{{ item.title }}</a></h2>
                     {% if item.articles.length > 0 %}
@@ -63,20 +62,20 @@
                     </ol>
                     {% endif %}
                 </li>
+		{% endif %}
             {% endfor %}
         </ol>
     </section>
 
     {# Pages content #}
-    <section>
-        <article id="README.md">
-        {{ articleContent(pages["README.md"].content) }}
-        </article>
-    </section>
     {% for item in summary.chapters %}
         <section>
             <article id="{{ item.path }}" class="new-chapter">
+	    {% if item.level == 0 %}
+		<h1>Om vitboken</h1>
+	    {% else %}
                 <h1>{{ item.title }}</h1>
+	    {% endif %}
             </article>
 
             {% if pages[item.path] %}

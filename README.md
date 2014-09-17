@@ -3,7 +3,7 @@
 Det här projektet är en vitbok som utvecklats inom det VINNOVA-finansierade projektet
 *Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.
 
-Se [projektets webbsida](http://lankadedata.se) för mer information.
+Se [projektets webbsida](http://metasolutions.se/projects/kompetensforstarkning-kring-lankade-oppna-data/) för mer information.
 
 ## Målgrupp och målsättning
 

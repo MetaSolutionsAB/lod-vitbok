@@ -1,5 +1,5 @@
 # Fallstudier
-Nedan beskriver vi två fallstudier, länkade nobelpris och K-samsök, där länkade data har införts för att ge mervärde och ökad kvalite. Därefter diskuterar vi ett konstruerat scenario för att visa på hur länkade data har potentialen att lösa breda samverkans problem mellan en stor mängd organisationer.
+Nedan beskriver vi två fallstudier, länkade nobelpris och K-samsök, där länkade data har införts för att ge mervärde och ökad kvalitet. Därefter diskuterar vi ett fiktivt scenario för att visa på hur länkade data har potentialen att lösa breda samverkansproblem mellan en stor mängd organisationer.
 
 ## Fallstudie 1: Länkade nobelpris - att förstärka en webbplats med extern information
 Nobel Media AB är en relativt liten organisation som bland annat förvaltar nobelprize.org, den officiella webbplatsen om nobelpris och nobelpristagare. Webbplatsen innehåller både lättillgänglig och fördjupande information i form av fakta, texter och bilder som går ända tillbaka till de första nobelprisen år 1901. För de senare åren finns också en hel del filmmaterial att ta del av.
@@ -13,7 +13,7 @@ Under 2013 initierades ett projekt att skapa länkade nobelpris där de viktigas
 2. Kvalitetsäkra den egna informationen
 3. Ge andra tillgång till den underliggande informationen som förvaltas av nobelprize.org
 
-### Arbete och resultatet av att införa Länkade Nobelpris
+### Arbete och resultat av att införa länkade nobelpris
 En nödvändigt första steg innefattade att skapa länkade data uttryck kring nobelprisen. På grund av att den existerande databasen var väl organiserad blev arbetsinsatsen någorlunda okomplicerad. Som en del av arbetet identifierades lämpliga vokabulärer att återanvända. Det slutliga valet blev en kombination av DCTerms, FOAF och DBpedia ontology samt en komplementär vokabulär som utvecklades specifikt för länkade nobelpris. I denna process upptäcktes några smärre brister i kvalite i den existerande databasen som dock lätt kunde åtgärdas. Ett trevligt resultat är att utöver det existerande databasschemat finns nu också en väldokumenterad informationsmodell för nobelprize.org. Det vill säga, målsättningarna 2 och 3 uppnåddes med detta arbete.
 
 I nästa steg skapades relationer (länkar) till andra datakällor. En semi-automatiskt angreppsätt valdes vilket innebar att en mindre mängd relationer skapades med automatik (några hundra) som därefter manuellt veriferades att de var korrekta. Dessa relationer var viktiga i sig men gav också effekten att nya relationer kunde etableras automatiskt genom att ställa frågor via SPARQL mot de datakällor det redan fanns länkar till. Effekten av detta är att de flesta nobelpristagare idag har relationer till DBpedia, Freebase, OpenLibrary, Yago, VIAF
@@ -25,9 +25,12 @@ I ett sista steg lades en länkade data browser till som ett komplement till de 
 
 Resultatet av de två sista stegen innebar att den första målsättningen nåddes.
 
-## Fallstudie 2: K-samsök - öka kvalite och tillgängliget till vårat gemensamma kulturarv
+## Fallstudie 2: K-samsök - öka kvalitet och tillgängliget till vårat gemensamma kulturarv
+K-samsök är en aggregator för Sveriges kulturarv som drivs av Riksantikvarieämbetet sedan 2009. Att K-samsök är en aggregator innebär att den samlar och tillgängliggör information från svenska museer och andra minnesinstitutioner. 
 
-## Framtidsstudie 1: Samarbete för krisberedskap
+TODO
+
+## Fiktivt scenario: Samarbete för krisberedskap
 
 I en krissituation är det viktigt att ha tillgång till så mycket relevant information som möjligt. Det kan innefatta information om geografi, miljö, skyddsområden, brandskydd, sjukvård, fastigheter, demografi, beredskap, vatten och framförallt vad som är status kring olika insatser i den aktuella situationen. 
 
@@ -62,5 +65,3 @@ Det finns dock tre huvudsakliga problem med detta angreppsätt:
 3. Förändringar i hur informationen uttrycks hos en eller flera datakällor kan kräva att mycket av nedlagt arbete behöver ses över eller göras om.
 
 Med länkade data börjar man i någon mening i andra änden. Man fokuserar på informationen i sig och försöker se hur man kan få den att hänga ihop mellan organisationer. Det innebär att varje organisation bör se på sin information som en del i ett större pussel (en webb av data). Varje potentiell sammanställning av information bör därmed motsvaras av en kombination av ett eller flera faktiska samband mellan existerande informationbitar. Om en sammanställning av någon anledning inte går att genomföra utifrån en mängd länkade data beror det antingen på att nödvändig information faktiskt saknas, att någon inte har skapat länkar eller återanvänt vokabulärer som man ska när man definierar sina länkade data-uttryck.
-
-//TODO Matthias issue 13

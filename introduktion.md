@@ -154,7 +154,7 @@ delar av datan som är unik för din organisation och mindre med information som
 * Länkar till andra datakällor ökar förtroendet för att din data är genomtänkt på ungefär
 på samma sätt som referenser i artiklar visar på att informationen är förankrad i ett större sammanhang.
 * Länkar ut ökar din datas synlighet då det blir en del av det större länkade data molnet vilket i ett
-längre perspektiv kan leda till återanvändning i nya sammanhang, dvs i form av länkar in.
+längre perspektiv kan leda till återanvändning i nya sammanhang, dvs. i form av länkar in.
 
 ## Vikten av återanvändning
 

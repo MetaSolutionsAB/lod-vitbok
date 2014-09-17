@@ -3,7 +3,7 @@
 Utan tvekan är webben en oerhört framgångsrik och hittills oöverträffad konstruktion när det gäller
 att ge oss människor tillgång till stora mängder information snabbt och enkelt.
 
-Den webb vi ser idag är nästan uteslutande en vy genererad utifrån underliggande informationsmängder, dvs data i olika former. Dessa data hanteras av olika system (som databaser) och förvandlas till webbsidor och webbapplikationer oftast millisekunder innan du ser resultatet i din browser.
+Den webb vi ser idag är nästan uteslutande en vy genererad utifrån underliggande informationsmängder, dvs. data i olika former. Dessa data hanteras av olika system (som databaser) och förvandlas till webbsidor och webbapplikationer oftast millisekunder innan du ser resultatet i din browser.
 
 Vilka vyer/tjänster som skapas och görs tillgängliga för dig bestäms oftast av den organisation
 som ansvarar för datan och faktorer som ekonomi, tid, kompetens och förväntad användning spelar stor roll för de prioriteringar som görs.
@@ -108,7 +108,7 @@ Länkade data bygger på att man använder det gemensamma språket RDF för alla
 
 I stort kan man säg att så länge din data har en struktur av något slag som inte är ren binärdata så kan RDF användas för att fånga upp den strukturen.
 
-Notera att RDF är ett språk och inte en syntax vilket innebär att RDF kan uttryckas i en mängd olika format. Detta är en betydande skillnad mot XML som är en syntax (dock en utvidgbar sådan), dvs det finns bara ett format  för XML (det välkända text baserade formatet med en trädstruktur av element).
+Notera att RDF är ett språk och inte en syntax vilket innebär att RDF kan uttryckas i en mängd olika format. Detta är en betydande skillnad mot XML som är en syntax (dock en utvidgbar sådan), dvs. att det finns bara ett format  för XML (det välkända text baserade formatet med en trädstruktur av element).
 
 Att RDF är ett språk medför att det finns en grundläggande och ganska enkel semantik inbyggd. Denna semantik innebär väsentligen att *alla RDF-uttryck i sin grund består av påståenden om resurser*. En konsekvens av detta är att RDF har en del trevliga egenskaper, RDF grafer kan:
 

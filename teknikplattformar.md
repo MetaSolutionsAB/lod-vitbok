@@ -36,7 +36,7 @@ Utöver en plattform som kan integreras med t.ex. Microsoft SharePoint är det m
 
 ### PoolParty Semantic Suite
 
-PoolParty är i första hand en thesaurus manager, med features såsom textanalys och harvesting av länkade data. Textanalysen är baserat på "Natural Language Processing", dvs. extrahering av semantiska entiteter ur text. PoolParty verkar inte ha stöd för svenska. Textanalysen går att kombinera med thesauri som är framtagna i PoolParty.
+PoolParty är i första hand en thesaurus manager, med features såsom textanalys och harvesting av länkade data. Textanalysen är baserad på "Natural Language Processing", dvs extrahering av semantiska entiteter ur text. PoolParty verkar inte ha stöd för svenska. Textanalysen går att kombinera med thesauri som är framtagna i PoolParty.
 Företaget Semantic Web Company erbjuder licenser och hostning samt kommersiell support till plattformen som är proprietär.
 PoolParty används inom myndigheter, utgivare/förlag, energi- och finanssektorn.
 
@@ -44,9 +44,9 @@ Länk: [http://www.poolparty.biz](http://www.poolparty.biz)
 
 ### OpenLink Virtuoso med Sponger
 
-OpenLink Virtuoso är en s.k. "universal storage engine", dvs. ett backend-system som stödjer relationella databaser men också triple stores. Med hjälp av Sponger-modulen kan Virtuoso importera data från många olika källor (dvs. "legacy data").
+OpenLink Virtuoso är en s.k. "universal storage engine", dvs ett backend-system som stöder relationella databaser men också triple stores. Med hjälp av Sponger-modulen kan Virtuoso importera data från många olika källor (dvs "legacy data").
 Företaget OpenLink utvecklar Virtuoso och erbjuder kommersiell support. Det finns även en Open Source-edition utan support.
-Virtuoso används i många olika projekt som backend, bl.a. av DBpedia och PoolParty.
+Virtuoso används i många olika projekt som backend, bl a av DBpedia och PoolParty.
 
 Länk: [http://virtuoso.openlinksw.com](http://virtuoso.openlinksw.com)
 
@@ -59,7 +59,7 @@ Länk: [http://www.fluidops.com](http://www.fluidops.com)
 
 ### Redlink
 
-Redlink är en plattform för semantisk berikning och länkade data som bygger på ett flertal Open Source projekt (Apache Solr, Marmotta och Stanbol). Produkten är inte särskilt väldefinierat ännu eftersom företaget Redlink, som erbjuder kommersiell support, befinner sig i uppstartsfasen.
+Redlink är en plattform för semantisk berikning och länkade data som bygger på ett flertal Open Source projekt (Apache Solr, Marmotta och Stanbol). Produkten är inte särskilt väldefinierad eftersom företaget Redlink, som erbjuder kommersiell support, befinner sig i uppstartsfasen.
 
 Länk: [http://redlink.co](http://redlink.co)
 
@@ -88,7 +88,7 @@ Länk: [http://dydra.com](http://dydra.com)
 
 ### LODify
 
-LODify är en molntjänst som underlättar att publicera länkade öppna data. LODify stödjer automatisk omvandling av existerande datakällor, men även manuell datapublicering, t.ex. för att komplettera och kvalitetssäkra data. LODifys importmoduler klarar av att importera data i olika format och från olika källor.
+LODify är en molntjänst som underlättar att publicera länkade öppna data. LODify stöder automatisk omvandling av existerande datakällor, men även manuell datapublicering, t.ex. för att komplettera och kvalitetssäkra data. LODifys importmoduler klarar av att importera data i olika format och från olika källor.
 Företaget MetaSolutions utvecklar LODify och erbjuder kommersiell support. LODify är Open Source.
 
 Länk: [http://lodify.com](http://lodify.com)
@@ -108,7 +108,7 @@ Callimachus Enterprise är en applikationsserver för länkade data. Mjukvaran h
 
 Företaget [3RoundStones](http://3roundstones.com) erbjuder kommersiell support och står även för den aktiva utvecklingen av plattformen som i huvudsak är Open Source. Callimachus erbjuds även som molntjänst.
 
-Exempel på områden som Callimachus tillämpas inom är myndigheter, utgivare/förlag, vård och forskning.
+Exempel på områden där Callimachus används är inom myndigheter, utgivare/förlag, vård och forskning.
 
 Länk: [http://3roundstones.com/products/managed-services-for-commercial/](http://3roundstones.com/products/managed-services-for-commercial/)
 
@@ -130,7 +130,7 @@ Länk: [http://graphityhq.com](http://graphityhq.com)
 
 ### Open Anzo
 
-Open Anzo är en RDF databas med en tjänsteorienterad semantisk middleware plattform. Plattformen är Open Source, men det finns inget företag som erbjuder kommersiell support. Aktiviteten i utvecklingscommunityn har legat nere sedan 2011 därmed bedömer vi det som osannolikt att det skulle gå att få support i dagsläget.
+Open Anzo är en RDF databas med en tjänsteorienterad semantisk middleware plattform. Plattformen är Open Source, men det finns inget företag som erbjuder kommersiell support. Aktiviteten i utvecklingscommunityn har legat nere sedan 2011. Därmed bedömer vi det som osannolikt att det skulle gå att få support i dagsläget.
 
 Länk: [http://www.openanzo.org](http://www.openanzo.org)
 
@@ -144,9 +144,9 @@ Callimachus är Open Source men erbjuds även som "hosted" lösning. Se "Callima
 
 EntryScape är Open Source men erbjuds även som molntjänst med SLA. Se "EntryScape" ovan för en beskrivning.
 
-## <a name="egen"></a>Egen lösning baserat på lämplig triple store
+## <a name="egen"></a>Egen lösning baserad på lämplig triple store
 
-Om ingen existerande lösning ska återanvändas så finns möjligheten att bygga en egen lösning som bygger på ett backend-system för att spara RDF-data, ett s.k. triple store. De flesta triple stores är tillgängliga under en Open Source licens och har stöd för full stöd för alla relevanta W3C-standarder och är därmed utbytbara. Precis som med relationella databaser ligger skillnaden mellan triple stores i tekniska detaljer. Man kan skilja mellan triple stores med och utan kommersiell support.
+Om ingen existerande lösning ska återanvändas så finns möjligheten att bygga en egen lösning som bygger på ett backend-system för att spara RDF-data, ett s.k. triple store. De flesta triple stores är tillgängliga under en Open Source licens och har fullt stöd för alla relevanta W3C-standarder och är därmed i praktiken utbytbara. Precis som med relationella databaser ligger skillnaden mellan triple stores i tekniska detaljer. Man kan skilja mellan triple stores med och utan kommersiell support.
 
 Etablerade triples stores med kommersiell support är:
 

@@ -1,12 +1,12 @@
 # Att komma igång med länkade data
 
-I detta kapitel ges praktiska råd för hur man kommer igång med länkade data. Först hur man väljer ut vilken informationsmäng man vill börja med och därefter hur man konkret skapar sin första länkade data. Därefter avhandlas frågor kring best practises och licenser lite kort. 
+I detta kapitel ges praktiska råd för hur man kommer igång med länkade data. Först hur man väljer ut vilken informationsmängd man vill börja med och därefter hur man konkret skapar sin första länkade data. Sedan diskuteras i korthet frågor kring best practises och licenser. 
 
-Kapitlet avslutas med en introduktion och analys av ett antal tekniska lösningskategorier för publicering av länkade data. Vilken lösningskategori man bör välja beror både på de tekniska förutsättningar man har, t.ex. i form av existerande IT-infrastruktur, och vilken kompetens man ser att man har eller vill ha inom den egna organisationen.
+Kapitlet avslutas med en introduktion och analys av ett antal tekniska lösningskategorier för publicering av länkade data. Vilken lösningskategori man bör välja beror både på tekniska förutsättningar, t.ex. existerande IT-infrastruktur, och vilken kompetens man har eller vill ha inom den egna organisationen.
 
 ## Vilken information ska jag börja med?
-För en del läsare är detta självklart då orsaken att man läser denna vitbok är att man planerar att exponera ett given informationsmängd som länkade data. Men om du som läsare snarare representerar en organisation som funderar eller har beslutat att publicera länkade data kan det vara bra att få lite förslag hur man prioriterar.
-I E-delegationens [vägledning för vidarutnyttjande av offentlig information](http://www.edelegationen.se/Documents/Vagledningar%20mm/V%C3%A4gledning-f%C3%B6r-vidareutnyttjande-av-offentlig-information.pdf) listas i kapitel 4.4.1 ett antal frågor man ska ställa sig vid prioritering av vad som ska exponeras. Frågorna är skrivna i huvudsak för offentliga aktörer men är relevanta även för andra organisationer och företag. Fritt översatt är frågorna:
+För en del läsare är detta självklart då orsaken till att man läser denna vitbok är att man planerar att exponera en given informationsmängd som länkade data. Men om du som läsare representerar en organisation som funderar eller har beslutat att publicera länkade data kan det vara bra att få förslag till hur man prioriterar.
+I E-delegationens [vägledning för vidarutnyttjande av offentlig information](http://www.edelegationen.se/Documents/Vagledningar%20mm/V%C3%A4gledning-f%C3%B6r-vidareutnyttjande-av-offentlig-information.pdf) listas i kapitel 4.4.1 ett antal frågor man ska ställa sig vid prioritering av vad som ska exponeras. Frågorna är i huvudsak skrivna för offentliga aktörer men är relevanta även för andra organisationer och företag. Fritt översatt är frågorna:
 
 1. Efterfrågas information av andra aktörer?
 2. Används informationen redan av den egna organisationen i kommunikation utåt?
@@ -16,9 +16,9 @@ I E-delegationens [vägledning för vidarutnyttjande av offentlig information](h
 För en mer metodisk översikt för prioritering av vilken information man ska börja med se SKLs [ramverk för öppna data](http://www.skl.se/naringslivarbetedigitalisering/digitalisering/oppnadata/stodvagledning/ramverkoppnadata/ramverketforoppnadata.1184.html) speciellt de delar som handlar om nyttor och kostnader.
 
 ## Snabbstart
-Det finns många sätt att komma igång med publicera länkade data. Ett sätt är att lära sig något modeleringsverktyg som [Protégé](http://protege.stanford.edu/) där man kan börja modellera sina datauttryck. Författarnas erfarenhet är dock att det finns en enklare mer praktisk metod som ofta leder till lika bra eller bättre resultat. Särskilt då den inte kräver kompetens i ett avancerat och för de flesta okänt verktyg samt att ett för stort verktygsfokus inte nödvändigtvis främjar sammarbete och snabb iteration i början på ett projekt:
+Det finns många sätt att komma igång med att publicera länkade data. Ett sätt är att lära sig något modelleringsverktyg som [Protégé](http://protege.stanford.edu/) där man kan börja modellera sina datauttryck. Författarnas erfarenhet är dock att det finns en enklare mer praktisk metod som ofta leder till lika bra eller bättre resultat. Särskilt då den inte kräver kompetens i ett avancerat och för de flesta okänt verktyg samt att ett för stort verktygsfokus inte nödvändigtvis främjar samarbete och snabb iteration i början av ett projekt:
 
-1. Skriv ner en lista med de viktigaste tingen du har i din data, tex personer, föremål, händelser, bilder, osv. Komplettera sen listan med viktiga egenskaper som tingen har, tex benämning, personnummer för en person eller registreringsnummer för en bil.
+1. Skriv ner en lista med de viktigaste tingen du har i din data, t.ex. personer, föremål, händelser, bilder, osv. Komplettera sen listan med viktiga egenskaper som tingen har, t.ex. benämning, personnummer för en person eller registreringsnummer för en bil.
 2. Bestämma hur de olika tingen kan ges egna webbadresser, dvs URI design.
 3. Samlas kring en whiteboard eller något digitalt ritverktyg. Rita upp era ting och förbind dem med varandra via olika relationer.
 4. Konkretisera egenskaper och relationer genom att återanvända existerande vokabulärer som dcterms, foaf etc. för att hålla nere behovet av att introducera nya specifika termer.

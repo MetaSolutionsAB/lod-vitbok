@@ -1,8 +1,8 @@
-# Exempel
+# Scenarier
 
-Nedan beskriver vi två fallstudier, länkade nobelpris och K-samsök, där länkade data har införts för att ge mervärde och ökad kvalitet. Därefter diskuterar vi ett fiktivt scenario för att visa på hur länkade data har potentialen att lösa breda samverkansproblem mellan en stor mängd organisationer.
+Nedan går vi igenom två scenarier. Först berättar vi om länkade nobelpris där länkade data har införts för att ge mervärde och ökad kvalitet åt webbplatsen nobelprize.org. Därefter diskuterar vi ett fiktivt scenario för att visa på hur länkade data har potentialen att lösa breda samverkansproblem mellan en stor mängd organisationer.
 
-## Fallstudie: Länkade nobelpris - att förstärka en webbplats med extern information
+## Länkade nobelpris - att förstärka en webbplats med extern information
 Nobel Media AB är en relativt liten organisation som bland annat förvaltar nobelprize.org, den officiella webbplatsen om nobelpris och nobelpristagare. Webbplatsen innehåller både lättillgänglig och fördjupande information i form av fakta, texter och bilder som går ända tillbaka till de första nobelprisen år 1901. För de senare åren finns också en hel del filmmaterial att ta del av.
 
 Nobel Media lägger ner mycket tid och engagemang på att förmedla information kring nobelprisen, men det är i stort sett omöjligt att ge en komplett bild av sammanhanget. Varje nobelpris är resultaten av en eller flera forskares hängivna arbete under många år, till viss del synligjort genom artiklar i journaler och andra former av publikationer. Men mycket av denna berikande information finns också tillgänglig i andra datakällor. Startpunkten för arbetet med länkade nobelpris är alltså observationen att dessa datakällor, åtminstone de som är öppet tillgängliga, har potentialen att komplettera den information som nobelprize.org själv underhåller.

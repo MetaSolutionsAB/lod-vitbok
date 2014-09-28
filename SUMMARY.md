@@ -4,6 +4,6 @@
 * [Fördelar](fordelar.md)
 * [Kom igång](komigang.md)
 * [Teknikplattformar](teknikplattformar.md)
-* [Exempel](exempel.md)
+* [Scenarier](scenarier.md)
 * [Vanliga frågor](faq.md)
 * [Relaterad information](relaterat.md)

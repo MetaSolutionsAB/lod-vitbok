@@ -1,4 +1,4 @@
-# Vitbok länkade öppna data - utkast 2014-09-17
+# Vitbok länkade öppna data
 
 Denna vitbok har tagits fram inom det VINNOVA-finansierade projektet *Kompetensförstärkning kring länkade öppna data - dialog, webbinarier och vitbok*.
 

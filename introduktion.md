@@ -20,11 +20,11 @@ _The next web, by Tim Berners Lee at [TED2009](http://www.ted.com/talks/tim_bern
 På sista tiden har intresset för det som kallas *öppna data* växt kraftigt. Öppna data innebär att man gör data
 tillgängliga över Internet för att förenkla användning, såväl väntad som oväntad. Att göra sina data tillgängliga som öppna data är ett bra första steg, men saknar den potential som länkad data har. Något förenklat kan man formulera skillnaden så här:
 
-> Länkade data tillför länkar och ett enhetligt format (RDF) som båda saknas hos öppna data.
+> Länkade data tillför länkar och ett enhetligt format (RDF) som saknas hos öppna data.
 
 Oftast är även länkade data tillgängligt öppet och benämns då *länkade öppna data*. På engelska används akronymen *LOD* för den engelska benämningen *Linked Open Data*. I denna vitbok håller vi dock fast vid benämningen länkade data för att markera att det finns fördelar oavsätt om datan är allmänt tillgänglig (öppen) eller inte.
 
-## Introduktion till de viktigaste begreppen på 5 minuter
+## De viktigaste begreppen på 5 minuter
 
 ### Vad är Länkade Data?
 
@@ -44,7 +44,7 @@ Att använda länkade data ger många fördelar, bland annat:
 * din data blir bättre tillgänglig på webben och i sökmotorer
 * etablerade tekniker för maskinell bearbetning möjliggörs (då användning av länkade data innebär att semantiken hos datat klargörs)
 
-### Hur publicerar jag LD?
+### Hur publicerar jag Länkade Data?
 
 Identifiera vilka ting du har och ge dem webbadresser, tex: `http://data.min-domän.se/produkt/15`
 

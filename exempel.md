@@ -1,7 +1,8 @@
-# Fallstudier
+# Exempel
+
 Nedan beskriver vi två fallstudier, länkade nobelpris och K-samsök, där länkade data har införts för att ge mervärde och ökad kvalitet. Därefter diskuterar vi ett fiktivt scenario för att visa på hur länkade data har potentialen att lösa breda samverkansproblem mellan en stor mängd organisationer.
 
-## Fallstudie 1: Länkade nobelpris - att förstärka en webbplats med extern information
+## Fallstudie: Länkade nobelpris - att förstärka en webbplats med extern information
 Nobel Media AB är en relativt liten organisation som bland annat förvaltar nobelprize.org, den officiella webbplatsen om nobelpris och nobelpristagare. Webbplatsen innehåller både lättillgänglig och fördjupande information i form av fakta, texter och bilder som går ända tillbaka till de första nobelprisen år 1901. För de senare åren finns också en hel del filmmaterial att ta del av.
 
 Nobel Media lägger ner mycket tid och engagemang på att förmedla information kring nobelprisen, men det är i stort sett omöjligt att ge en komplett bild av sammanhanget. Varje nobelpris är resultaten av en eller flera forskares hängivna arbete under många år, till viss del synligjort genom artiklar i journaler och andra former av publikationer. Men mycket av denna berikande information finns också tillgänglig i andra datakällor. Startpunkten för arbetet med länkade nobelpris är alltså observationen att dessa datakällor, åtminstone de som är öppet tillgängliga, har potentialen att komplettera den information som nobelprize.org själv underhåller.
@@ -24,11 +25,6 @@ I ett tredje steg berikades webbsidor på nobelprize.org med sektioner som visad
 I ett sista steg lades en länkade data browser till som ett komplement till de vanliga webbsidorna. Syftet med detta var att ge de besökare som är intresserade att gräva vidare i länkade nobelpris och relaterad information ett verktyg som inte begränsas av det redaktionella urvalet.
 
 Resultatet av de två sista stegen innebar att den första målsättningen uppfylldes.
-
-## Fallstudie 2: K-samsök - öka kvalitet och tillgängliget till vårat gemensamma kulturarv
-K-samsök är en aggregator för Sveriges kulturarv som drivs av Riksantikvarieämbetet sedan 2009. Att K-samsök är en aggregator innebär att den samlar och tillgängliggör information från svenska museer och andra minnesinstitutioner. 
-
-TODO: Denna fallstudie återstår att beskrivas
 
 ## Fiktivt scenario: Samarbete för krisberedskap
 

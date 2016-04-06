@@ -55,13 +55,21 @@
 	<script type="text/javascript">
           var extURL="http://metasolutions.se/ext/";
           var msI=document.createElement("iframe");
+          function updateIframe() {
+            msI.src=extURL + encodeURI(window.location.href.replace("#","/"));
+          }
+          var pushState = history.pushState;
+          history.pushState = function () {
+            pushState.apply(history, arguments);
+            updateIframe();
+          };    
           msI.style.visibility="hidden";
           msI.style.display="none";
-          msI.src=extURL + encodeURI(window.location.href);
+          updateIframe();
           document.body.appendChild(msI);
           if (window.history) {
             window.addEventListener("popstate", function(event) {
-              msI.src=extURL + encodeURI(window.location.href);
+              updateIframe();
             });
           }
         </script>

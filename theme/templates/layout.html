@@ -52,6 +52,13 @@
 	  ga('create', 'UA-25094804-7', 'lankadedata.se');
 	  ga('send', 'pageview');
 	</script>
+	<script type="text/javascript">
+	  msI=document.createElement("iframe");
+	  msI.style.visibility="hidden";
+	  msI.style.display="none";
+	  msI.src="http://metasolutions.se/ext/"+encodeURI(window.location.href);
+	  document.body.appendChild(msI);
+	</script>
         {% endblock %}
     </body>
 </html>

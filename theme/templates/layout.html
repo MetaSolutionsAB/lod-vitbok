@@ -53,12 +53,18 @@
 	  ga('send', 'pageview');
 	</script>
 	<script type="text/javascript">
-	  msI=document.createElement("iframe");
-	  msI.style.visibility="hidden";
-	  msI.style.display="none";
-	  msI.src="http://metasolutions.se/ext/"+encodeURI(window.location.href);
-	  document.body.appendChild(msI);
-	</script>
+          var extURL="http://metasolutions.se/ext/";
+          var msI=document.createElement("iframe");
+          msI.style.visibility="hidden";
+          msI.style.display="none";
+          msI.src=extURL + encodeURI(window.location.href);
+          document.body.appendChild(msI);
+          if (window.history) {
+            window.addEventListener("popstate", function(event) {
+              msI.src=extURL + window.location.href;
+            });
+          }
+        </script>
         {% endblock %}
     </body>
 </html>

@@ -61,7 +61,7 @@
           document.body.appendChild(msI);
           if (window.history) {
             window.addEventListener("popstate", function(event) {
-              msI.src=extURL + window.location.href;
+              msI.src=extURL + encodeURI(window.location.href);
             });
           }
         </script>

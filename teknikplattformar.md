@@ -86,12 +86,15 @@ Dydra är en grafdatabas i molnet med stöd för RDF och SPARQL. Plattformen är
 
 Länk: [http://dydra.com](http://dydra.com)
 
-### LODify
+### EntryScape
 
-LODify är en molntjänst som underlättar att publicera länkade öppna data. LODify stöder automatisk omvandling av existerande datakällor, men även manuell datapublicering, t.ex. för att komplettera och kvalitetssäkra data. LODifys importmoduler klarar av att importera data i olika format och från olika källor.
-Företaget MetaSolutions utvecklar LODify och erbjuder kommersiell support. LODify är Open Source.
+EntryScape är en samarbetsplattform driven av länkade data. Plattformen har stöd för att fritt konfigurera eller återanvända entitetsdefinitioner och metadataformulär för att skapa och hantera länkade data.
 
-Länk: [http://lodify.com](http://lodify.com)
+Företaget [MetaSolutions](http://metasolutions.se) erbjuder kommersiell support och driver utvecklingen av EntryScape som är Open Source. EntryScape erbjuds även som molntjänst.
+
+EntryScape används idag inom offentlig sektor, forskning, undervisning, vård och även helt öppet utan särskilt fokusområde.
+
+Länk: [http://entryscape.com](http://entryscape.com)
 
 ### Swirrl PublishMyData
 
@@ -114,13 +117,7 @@ Länk: [http://3roundstones.com/products/managed-services-for-commercial/](http:
 
 ### EntryScape
 
-EntryScape är en samarbetsplattform driven av länkade data. Plattformen har stöd för att fritt konfigurera eller återanvända formulär för att skapa och hantera interoperabla metadata.
-
-Företaget [MetaSolutions](http://metasolutions.se) erbjuder kommersiell support och driver utvecklingen av EntryScape som är Open Source. EntryScape erbjuds även som molntjänst.
-
-EntryScape används idag inom forskning, undervisning, vård och även helt öppet utan särskilt fokusområde.
-
-Länk: [http://entryscape.com](http://entryscape.com)
+EntryScape är Open Source men erbjuds även som molntjänst med SLA. Se "EntryScape" ovan för en beskrivning.
 
 ### Graphity
 

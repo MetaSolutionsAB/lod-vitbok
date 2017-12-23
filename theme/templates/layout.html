@@ -33,27 +33,12 @@
 
         <link rel="shortcut icon" href="{{ staticBase }}/images/favicon.ico" type="image/x-icon">
 
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-	<script>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-	  "palette": {
-	    "popup": {
-	      "background": "#eaf7f7",
-	      "text": "#5c7291"
-	    },
-	    "button": {
-	      "background": "#56cbdb",
-	      "text": "#ffffff"
-	    }
-	  },
-	  "content": {
-	    "dismiss": "OK",
-	    "href": "https://entryscape.com/privacy"
-	  }
-	})});
+	<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+	<script type="text/javascript">
+	    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"OK","learnMore":"More info","link":"https://entryscape.com/privacy","theme":"light-bottom"};
 	</script>
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+
         {% endblock %}
     </head>
     <body>

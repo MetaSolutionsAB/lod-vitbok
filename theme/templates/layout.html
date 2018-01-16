@@ -59,26 +59,18 @@
 	  ga('create', 'UA-25094804-7', 'lankadedata.se');
 	  ga('send', 'pageview');
 	</script>
-	<script type="text/javascript">
-          var extURL="https://entryscape.com/ext/";
-          var msI=document.createElement("iframe");
-          function updateIframe() {
-            msI.src=extURL + encodeURI(window.location.href.replace("#","/"));
-          }
-          var pushState = history.pushState;
-          history.pushState = function () {
-            pushState.apply(history, arguments);
-            updateIframe();
-          };    
-          msI.style.visibility="hidden";
-          msI.style.display="none";
-          updateIframe();
-          document.body.appendChild(msI);
-          if (window.history) {
-            window.addEventListener("popstate", function(event) {
-              updateIframe();
-            });
-          }
+        <script type="text/javascript">
+          var _ss = _ss || [];
+          _ss.push(['_setDomain', 'https://koi-3QN9XXOFAU.marketingautomation.services/net']);
+          _ss.push(['_setAccount', 'KOI-3UB5QW65R6']);
+          _ss.push(['_trackPageView']);
+          (function() {
+            var ss = document.createElement('script');
+            ss.type = 'text/javascript'; ss.async = true;
+            ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3QN9XXOFAU.marketingautomation.services/client/ss.js?ver=1.1.1';
+            var scr = document.getElementsByTagName('script')[0];
+            scr.parentNode.insertBefore(ss, scr);
+          })();
         </script>
         {% endblock %}
     </body>

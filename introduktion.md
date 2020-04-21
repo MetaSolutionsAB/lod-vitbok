@@ -48,7 +48,7 @@ Att använda länkade data ger många fördelar, bland annat:
 
 Identifiera vilka ting du har och ge dem webbadresser, tex: `http://data.min-domän.se/produkt/15`
 
-Skapa lite påståenden om dina ting och lägg upp dem på respektive webbadress. Återanvända gärna etablerade vokabulärer, i exemplet nedan används [Dublin Core Terms (förkortat dct)](http://dublincore.org/documents/dcmi-terms/). Exempelet använder [turtle syntaxen](http://www.w3.org/TR/turtle/) då den är tämligen enkel att läsa:
+Skapa lite påståenden om dina ting och lägg upp dem på respektive webbadress. Återanvänd gärna etablerade vokabulärer, i exemplet nedan används [Dublin Core Terms (förkortat dct)](http://dublincore.org/documents/dcmi-terms/). Exemplet använder syntaxen [turtle](http://www.w3.org/TR/turtle/) då den är tämligen enkel att läsa:
 
     PREFIX ex: <http://data.min-domän.se/produkt>
     PREFIX dct: <http://purl.org/dc/terms/>
@@ -63,7 +63,7 @@ Lägg sedan gärna till påståenden i form av relationer (länkar) både mellan
           dct:partOf ex:15;
           dct:relation <http://dbpedia.org/page/Bread>.
 
-Klart! Länkade data är inte svårare än så. Dock tillkomer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern kompetens kring informationsmodellen osv.
+Klart! Länkade data är inte svårare än så. Dock tillkommer som alltid frågor kring underhåll, integration med existerande tekniska plattformar, intern kompetens kring informationsmodellen osv.
 
 ## Webben och länkade data
 
@@ -166,7 +166,7 @@ Utan återanvändning eller länkar mellan relaterade termer förlorar man en av
 ## Länkade data - en global rörelse
 
 Länkade data introducerades av Webbens grundare sir Tim Berners-Lee 2006 i en inflytelserik [Linked Data Design Note](http://www.w3.org/DesignIssues/LinkedData.html).
-Ett sätt att mäta i vilken omfattning länkade data används är att se hur många dataset och hur många påståenden som publicerats
+Ett sätt att mäta i vilken omfattning länkade data används är att se hur många datamängder och hur många påståenden som publicerats
 över tiden. Till exempel så ökade antalet publicerade påståenden från 2 miljarder 2007 till 30 miljarder 2011.
 Antalet dataset har också ökat dramatiskt vilket kan ses i de visualiseringar som gjordes av det så kallade [LOD-molnet](http://lod-cloud.net/).
 Tyvär har ingen visualisering gjorts sedan 2011, då det såg ut så här:
@@ -174,8 +174,7 @@ Tyvär har ingen visualisering gjorts sedan 2011, då det såg ut så här:
 ![LOD cloud 2011, including 295 datasets](bilder/lod-cloud-2011.png)
 _Linking Open Data cloud diagram, by Richard Cyganiak and Anja Jentzsch. [http://lod-cloud.net/](http://lod-cloud.net)_
 
-En indikation på att det fortsatt att växa sedan dess kan man få genom att söka fram alla dataset på [datahub.io](http://datahub.io/dataset?tags=lod), vid skrivande stund är de 898 stycken. Detta ska jämföras med de 295 som ingick i visualiseringen 2011. Det är också troligt att
-det finns ett stort mörkertal med dataset som antingen inte registrerats alls eller registrerats i nationella register
+En indikation på att det fortsatt att växa sedan dess kan man få genom att söka fram alla dataset på [datahub.io](http://datahub.io/dataset?tags=lod), vid skrivande stund är de 898 stycken. Detta ska jämföras med de 295 som ingick i visualiseringen 2011. Det är också troligt att det finns ett stort mörkertal med dataset som antingen inte registrerats alls eller registrerats i nationella register
 som inte alltid aggregeras i datahub.io.
 
-Innehållsmässigt spänner dataseten över de flesta områden till exempel, myndighetsdata, biomedicin, media, geografisk information osv.
+Innehållsmässigt spänner datamängderna över de flesta områden till exempel, myndighetsdata, biomedicin, media, geografisk information osv.

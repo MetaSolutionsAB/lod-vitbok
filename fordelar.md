@@ -3,7 +3,7 @@
 Utan tvekan är webben en oerhört framgångsrik och hittills oöverträffad konstruktion när det gäller
 att ge oss människor tillgång till stora mängder information snabbt och enkelt.
 
-Den webb vi ser idag är nästan uteslutande en vy genererad utifrån underliggande informationsmängder, dvs. data i olika former. Dessa data hanteras av olika system (som databaser) och förvandlas till webbsidor och webbapplikationer oftast millisekunder innan du ser resultatet i din browser.
+Den webb vi ser idag är nästan uteslutande en vy genererad utifrån underliggande informationsmängder, dvs. data i olika former. Dessa data hanteras av olika system (som databaser) och förvandlas till webbsidor och webbapplikationer oftast millisekunder innan du ser resultatet i din webbläsare.
 
 Vilka vyer/tjänster som skapas och görs tillgängliga för dig bestäms oftast av den organisation
 som ansvarar för datan och faktorer som ekonomi, tid, kompetens och förväntad användning spelar stor roll för de prioriteringar som görs.
@@ -34,7 +34,7 @@ Först och främst så kan länkade data skickas med inne i vanliga webbsidor. M
       </div>
     </body>
 
-Utöver RDFa bygger länkade data på samma principer som webben, det vill säga användning av URIer. Access till data sker direkt via HTTP samt användning av länkar för att binda samman data. Det innebär att de tekniker som ofta används på webben för att ge stöd åt webbsidor och webbapplikationer också kan använda länkade data. Till exempel innnebär det att länkade data går att hämta via javascript-anrop (Ajax) samt att det går att välja format som är enkla att hantera i en webbrowser (t.ex. JSON).
+Utöver RDFa bygger länkade data på samma principer som webben, det vill säga användning av URIer. Access till data sker direkt via HTTP samt användning av länkar för att binda samman data. Det innebär att de tekniker som ofta används på webben för att ge stöd åt webbsidor och webbapplikationer också kan använda länkade data. Till exempel innnebär det att länkade data går att hämta via javascript-anrop (Ajax) samt att det går att välja format som är enkla att hantera i en webbläsare (t.ex. JSON).
 
 Visserligen kan man hävda att även andra sätt att representera data går att utnyttja i samband med webben. Men när man studerar vad som är framgångsrikt på webben idag så ser man att enkelhet och integration med andra webbteknologier är starkt premierat. Relevanta exempel är hur JSON ökar i popularitet över XML- och REST-baserade tjänster i förhållande till Web Services. (Länkade data är i grunden baserat på REST och det finns flera lämpliga JSON-format som man kan välja mellan.)
 
